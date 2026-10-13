@@ -1,0 +1,22 @@
+/*
+ * Optional Zoro Slider user overrides.
+ * Load this file after zoroslider.min.css or replace it with your own project file.
+ * Prefer targeting a specific slider id to avoid changing every slider instance.
+ */
+
+/*
+#homepage-hero {
+	--zoro-slider-control-bg: rgba(0, 0, 0, 0.55);
+	--zoro-slider-control-color: #fff;
+	--zoro-slider-dot-color: rgba(255, 255, 255, 0.45);
+	--zoro-slider-dot-active-color: #ffb000;
+	--zoro-slider-number-color: rgba(0, 0, 0, 0.65);
+	--zoro-slider-number-active-color: #ffb000;
+	--zoro-slider-progress-fill: #ffb000;
+	--zoro-slider-radial-progress-fill: #ffb000;
+}
+
+#homepage-hero .zoroslider-controls a {
+	border-radius: 999px;
+}
+*/
