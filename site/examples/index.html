@@ -1,0 +1,878 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Examples | ZoroSlider Demos</title>
+  <meta name="description" content="Public demo layouts for validating ZoroSlider in realistic launch-ready pages.">
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon-16x16.png">
+  <link rel="shortcut icon" href="../assets/images/favicon.ico">
+  <link rel="manifest" href="../assets/images/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abel:wght@400;700&family=Bebas+Neue&family=Inter:wght@400;600;800&family=Montserrat:wght@600;800&family=Oswald:wght@500;700&family=Butcherman&display=swap">
+  <link rel="stylesheet" href="../assets/css/tailwind.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+  <link rel="stylesheet" href="../vendor/zoroslider/css/zoroslider.vendor.min.css">
+  <link rel="stylesheet" href="../vendor/zoroslider/css/zoroslider.core.min.css">
+  <link rel="stylesheet" href="../assets/css/aos.css">
+  <link rel="stylesheet" href="../assets/css/demo.css">
+</head>
+
+
+
+  
+
+
+<body class="min-h-screen bg-slate-100 text-slate-900 antialiased" style="--demo-accent: #7c3aed">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="quicklinks text-slate-200" data-quicklinks aria-hidden="true">
+    <button class="quicklinks-backdrop" type="button" data-quicklinks-close aria-label="Close quicklinks"></button>
+    <aside class="quicklinks-drawer bg-slate-900" aria-label="Shortcut links">
+      <div class="quicklinks-inner">
+      <div class="mb-5 flex items-center justify-between gap-4">
+        <strong class="font-display text-xl font-black" data-quicklinks-title>Quicklinks</strong>
+        <button class="rounded-full border border-white/20 px-4 py-2 text-sm font-black text-white transition hover:bg-white hover:text-slate-900 cursor-pointer" type="button" data-quicklinks-close><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-x"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M18 6l-12 12" /><path d="M6 6l12 12" /></svg></button>
+      </div>
+      <div class="quicklinks-scroll">
+        <div class="quicklinks-panel grid gap-3" data-quicklinks-panel="demos">
+          <a class="quicklinks-index-btn" href="../demos/index.html">Go to Demos Page</a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #ca8a04" href="../demos/auto-1.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="../demos/auto-1-html-bundle_2026-07-14_10.34.40/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Automotive</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Auto 1</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #ca8a04" href="../demos/auto-2.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="../demos/auto-2-html-bundle_2026-07-14_10.34.32/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Automotive</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Auto 2</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="../demos/beauty-1.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="../demos/beauty-1-html-bundle_2026-07-14_10.35.12/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Beauty</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Beauty 1</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="../demos/beauty-2.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="../demos/beauty-2-html-bundle_2026-07-14_10.35.01/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Beauty</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Beauty 2</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="../demos/beauty-3.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="../demos/beauty-3-html-bundle_2026-07-14_10.34.51/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Beauty</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Beauty 3</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #1e40af" href="../demos/charity-1.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="../demos/charity-1-html-bundle_2026-07-14_10.35.45/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Charity</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Charity 1</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #1e40af" href="../demos/charity-2.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="../demos/charity-2-html-bundle_2026-07-14_10.35.35/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Charity</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Charity 2</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #1e40af" href="../demos/charity-3.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="../demos/charity-3-html-bundle_2026-07-14_10.35.23/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Charity</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Charity 3</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #f97316" href="../demos/corporate-1.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="../demos/corporate-1-html-bundle_2026-07-14_10.36.28/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Corporate</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Corporate 1</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #f97316" href="../demos/corporate-2.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="../demos/corporate-2-html-bundle_2026-07-14_10.36.17/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Corporate</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Corporate 2</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #f97316" href="../demos/corporate-3.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="../demos/corporate-3-html-bundle_2026-07-14_10.36.07/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Corporate</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Corporate 3</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #2563eb" href="../demos/travel-1.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="../demos/travel-1-html-bundle_2026-07-14_10.35.57/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Travel</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Travel 1</strong>
+              
+            </span>
+          </a>
+          
+        </div>
+        <div class="quicklinks-panel grid gap-3" data-quicklinks-panel="examples">
+          <a class="quicklinks-index-btn" href="../examples/index.html">Go to Examples Page</a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0f766e" href="../examples/basic-boxed.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/basic-boxed.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Layouts</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Basic Boxed Slider</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0f766e" href="../examples/responsive-default.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/responsive-default.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Layouts</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Responsive Default Layout</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0f766e" href="../examples/fixed-layout.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/fixed-layout.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Layouts</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Fixed Layout</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0f766e" href="../examples/fullwidth-layout.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/fullwidth-layout.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Layouts</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Viewport Full Width</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0f766e" href="../examples/fullwidth-scoped-layout.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/fullwidth-scoped-layout.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Layouts</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Parent Scoped Full Width</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0f766e" href="../examples/fullscreen-layout.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/fullscreen-layout.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Layouts</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Fullscreen Layout</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #2563eb" href="../examples/thumbnail-navigation.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/thumbnail-navigation.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Navigation</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Thumbnail Navigation</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #2563eb" href="../examples/dot-navigation-styles.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/dot-navigation-styles.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Navigation</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Dot Navigation Styles</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #2563eb" href="../examples/number-navigation-tooltip.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/number-navigation-tooltip.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Navigation</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Number Navigation Tooltip</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #8fca2f" href="../examples/control-style-gallery.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/control-style-gallery.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Controls</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Control Style Gallery</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #db2777" href="../examples/progress-indicators.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/progress-indicators.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Progress</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Progress Indicators</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #15803d" href="../examples/kenburns-backgrounds.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/kenburns-backgrounds.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Backgrounds</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Ken Burns Backgrounds</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0891b2" href="../examples/background-video.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/background-video.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Media</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Background Video</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0891b2" href="../examples/media-layers.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/media-layers.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Media</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Audio And Video Layers</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="../examples/carousel-normal.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/carousel-normal.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Carousel</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Carousel Normal</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="../examples/carousel-showcase.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/carousel-showcase.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Carousel</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Carousel Showcase</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="../examples/carousel-gallery3d.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/carousel-gallery3d.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Carousel</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Carousel Gallery3D</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="../examples/carousel-gallery3d-full-screen.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/carousel-gallery3d-full-screen.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Carousel</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Carousel Gallery3D Full Screen</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #ea580c" href="../examples/grid-transitions.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/grid-transitions.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Transitions</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Grid Transitions</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #ea580c" href="../examples/slicebox-transitions.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/slicebox-transitions.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Transitions</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">SliceBox Transitions</strong>
+              
+            </span>
+          </a>
+          
+        </div>
+      </div>
+      </div>
+    </aside>
+  </div>
+  
+  <header class="top-0 z-50 w-full border-b border-black/10 bg-demoPaper/90 px-5 py-4 backdrop-blur-xl" data-demo-site-header>
+    <div class="flex mx-auto w-[min(1180px,100%)] items-center justify-between gap-4 lg:grid lg:grid-cols-[minmax(160px,1fr)_auto_minmax(160px,1fr)]">
+
+      <a class="demo-site-logo no-underline shrink-0" href="../index.html" aria-label="ZoroSlider demos home">
+        <img class="h-7 w-auto lg:h-9" src="../assets/images/zoro-slider-dark-logo.png" alt="ZoroSlider">
+      </a>
+
+      <!-- Desktop nav (unchanged logic, just hidden below lg) -->
+      <nav class="hidden justify-center gap-9 font-black lg:flex" aria-label="Demo navigation">
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] " href="../play.html">Play</a>
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] " href="../transitions/index.html">Transitions</a>
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] " href="../controls/index.html">Controls</a>
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] " href="../dots/index.html">Dots</a>
+        
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] " href="../demos/index.html">Demos</a>
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] is-active" href="../examples/index.html">Examples</a>
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] " href="../api/index.html">API</a>
+        <div class="!hidden demo-nav-link demo-nav-more ">
+          <button class="demo-nav-link demo-nav-more-toggle no-underline hover:text-[var(--demo-accent)] " type="button" aria-haspopup="true" aria-expanded="false">
+            More
+            <span aria-hidden="true">⌄</span>
+          </button>
+          <div class="demo-nav-more-menu" role="menu">
+            <a class="" href="../release-notes.html" role="menuitem">Releases</a>
+            <a class="" href="../roadmap.html" role="menuitem">Roadmap</a>
+            <a class="" href="../support.html" role="menuitem">Support</a>
+          </div>
+        </div>
+        
+      </nav>
+
+      <!-- Desktop CTA -->
+      <div class="hidden justify-end lg:flex">
+        <a class="inline-flex min-h-11 items-center justify-center rounded-full bg-demoDark px-5 pb-1 font-black text-white no-underline transition hover:bg-[var(--demo-accent)]" href="https://codedilaz.com/code/zoroslider-premium-wordpress-slider-builder/313/"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-target-arrow text-[#facc56] mr-2"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M12 7a5 5 0 1 0 5 5" /><path d="M13 3.055a9 9 0 1 0 7.941 7.945" /><path d="M15 6v3h3l3 -3h-3v-3l-3 3" /><path d="M15 9l-3 3" /></svg> Get It Now</a>
+      </div>
+
+      <!-- Hamburger toggle (below lg only) -->
+      <button
+        type="button"
+        class="demo-nav-hamburger relative flex h-10 w-10 shrink-0 flex-col items-center justify-center gap-[5px] lg:hidden cursor-pointer"
+        aria-label="Toggle menu"
+        aria-expanded="false"
+        aria-controls="demo-mobile-menu"
+        data-mobile-menu-toggle
+      >
+        <span class="block h-[3px] w-6 origin-center rounded-full bg-demoDark transition-transform duration-200" data-hamburger-bar="top"></span>
+        <span class="block h-[3px] w-6 rounded-full bg-demoDark transition-opacity duration-150" data-hamburger-bar="mid"></span>
+        <span class="block h-[3px] w-6 origin-center rounded-full bg-demoDark transition-transform duration-200" data-hamburger-bar="bottom"></span>
+      </button>
+    </div>
+
+    <!-- Mobile menu panel -->
+    <div
+      id="demo-mobile-menu"
+      class="grid grid-rows-[0fr] opacity-0 transition-[grid-template-rows,opacity] duration-300 ease-in-out lg:hidden"
+      data-mobile-menu
+      aria-hidden="true"
+      >
+      <div class="overflow-hidden">
+        <nav class="mx-auto flex w-[min(1180px,100%)] flex-col gap-1 py-4 font-black" aria-label="Demo navigation mobile">
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="../play.html">Play</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="../transitions/index.html">Transitions</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="../controls/index.html">Controls</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="../dots/index.html">Dots</a>
+          
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="../demos/index.html">Demos</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] is-active" href="../examples/index.html">Examples</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="../api/index.html">API</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="../release-notes.html">Releases</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="../roadmap.html">Roadmap</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="../support.html">Support</a>
+          
+
+          <a class="mt-3 inline-flex min-h-11 items-center justify-center rounded-full bg-demoDark px-5 pb-1 font-black text-white no-underline transition hover:bg-[var(--demo-accent)]" href="https://codedilaz.com/code/zoroslider-premium-wordpress-slider-builder/313/"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-target-arrow text-[#facc56] mr-2"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M12 7a5 5 0 1 0 5 5" /><path d="M13 3.055a9 9 0 1 0 7.941 7.945" /><path d="M15 6v3h3l3 -3h-3v-3l-3 3" /><path d="M15 9l-3 3" /></svg> Get It Now</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <script>
+    (function () {
+      var toggle = document.querySelector('[data-mobile-menu-toggle]');
+      var menu = document.querySelector('[data-mobile-menu]');
+      if (!toggle || !menu) return;
+
+      toggle.addEventListener('click', function () {
+        var isOpen = menu.classList.contains('is-open');
+        menu.classList.toggle('is-open', !isOpen);
+        menu.setAttribute('aria-hidden', String(isOpen));
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+        toggle.setAttribute('aria-label', !isOpen ? 'Close menu' : 'Toggle menu');
+      });
+    })();
+  </script>
+
+  
+<main>
+  <section class="grid min-h-[520px] w-full items-center bg-[radial-gradient(circle_at_18%_12%,rgba(124,58,237,0.14),transparent_34%),linear-gradient(180deg,#fff_0%,#faf5ff_100%)] py-16 md:py-24" style="--demo-accent:#7c3aed">
+    <div class="mx-auto w-[min(1180px,calc(100%_-_36px))]">
+      <p class="demo-eyebrow">Functional examples</p>
+      <h1 class="max-w-5xl font-display text-5xl font-black leading-[0.9] tracking-[-0.07em] md:text-5xl lg:text-6xl">General examples for every major slider feature.</h1>
+      <p class="mt-7 max-w-3xl text-lg leading-8 text-demoMuted md:text-xl">Examples are functional reference pages. Demos stay industry-specific, while examples show how each slider feature works in isolation.</p>
+    </div>
+  </section>
+
+  <section class="mx-auto w-[min(1180px,calc(100%_-_36px))] py-16 md:py-24">
+    <div class="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+      
+      <article class="flex min-h-[260px] flex-col justify-between rounded-[1rem] border border-demoLine bg-white p-6" style="--demo-accent: #0f766e">
+        <div>
+          <p class="m-0 mb-3 text-xs font-bold uppercase tracking-[0.12em]"><span class="text-[var(--demo-accent)]">Layouts</sspan></p>
+          <div class="demo-preview-frame">
+            <img class="demo-preview-image" src="../assets/images/examples/basic-boxed.png" alt="Basic Boxed Slider preview" loading="lazy" onerror="this.remove()">
+          </div>
+          <h2 class="my-5 mb-3 font-display text-2xl font-black leading-none">Basic Boxed Slider</h2>
+          <p class="m-0 leading-7 text-demoMuted">Minimal fixed-size slider with controls, dots, and a classic horizontal transition.</p>
+        </div>
+        <a class="mt-7 inline-flex min-h-12 w-max items-center justify-center rounded-full bg-[var(--demo-accent)] px-5 font-black text-white no-underline" href="basic-boxed.html">Open example</a>
+      </article>
+      
+      <article class="flex min-h-[260px] flex-col justify-between rounded-[1rem] border border-demoLine bg-white p-6" style="--demo-accent: #0f766e">
+        <div>
+          <p class="m-0 mb-3 text-xs font-bold uppercase tracking-[0.12em]"><span class="text-[var(--demo-accent)]">Layouts</sspan></p>
+          <div class="demo-preview-frame">
+            <img class="demo-preview-image" src="../assets/images/examples/responsive-default.png" alt="Responsive Default Layout preview" loading="lazy" onerror="this.remove()">
+          </div>
+          <h2 class="my-5 mb-3 font-display text-2xl font-black leading-none">Responsive Default Layout</h2>
+          <p class="m-0 leading-7 text-demoMuted">Default layout using responsive sizing inside its parent wrapper.</p>
+        </div>
+        <a class="mt-7 inline-flex min-h-12 w-max items-center justify-center rounded-full bg-[var(--demo-accent)] px-5 font-black text-white no-underline" href="responsive-default.html">Open example</a>
+      </article>
+      
+      <article class="flex min-h-[260px] flex-col justify-between rounded-[1rem] border border-demoLine bg-white p-6" style="--demo-accent: #0f766e">
+        <div>
+          <p class="m-0 mb-3 text-xs font-bold uppercase tracking-[0.12em]"><span class="text-[var(--demo-accent)]">Layouts</sspan></p>
+          <div class="demo-preview-frame">
+            <img class="demo-preview-image" src="../assets/images/examples/fixed-layout.png" alt="Fixed Layout preview" loading="lazy" onerror="this.remove()">
+          </div>
+          <h2 class="my-5 mb-3 font-display text-2xl font-black leading-none">Fixed Layout</h2>
+          <p class="m-0 leading-7 text-demoMuted">Fixed layout keeps the configured width and height as the authored design canvas.</p>
+        </div>
+        <a class="mt-7 inline-flex min-h-12 w-max items-center justify-center rounded-full bg-[var(--demo-accent)] px-5 font-black text-white no-underline" href="fixed-layout.html">Open example</a>
+      </article>
+      
+      <article class="flex min-h-[260px] flex-col justify-between rounded-[1rem] border border-demoLine bg-white p-6" style="--demo-accent: #0f766e">
+        <div>
+          <p class="m-0 mb-3 text-xs font-bold uppercase tracking-[0.12em]"><span class="text-[var(--demo-accent)]">Layouts</sspan></p>
+          <div class="demo-preview-frame">
+            <img class="demo-preview-image" src="../assets/images/examples/fullwidth-layout.png" alt="Viewport Full Width preview" loading="lazy" onerror="this.remove()">
+          </div>
+          <h2 class="my-5 mb-3 font-display text-2xl font-black leading-none">Viewport Full Width</h2>
+          <p class="m-0 leading-7 text-demoMuted">Full width layout escapes the parent wrapper and spans the browser viewport.</p>
+        </div>
+        <a class="mt-7 inline-flex min-h-12 w-max items-center justify-center rounded-full bg-[var(--demo-accent)] px-5 font-black text-white no-underline" href="fullwidth-layout.html">Open example</a>
+      </article>
+      
+      <article class="flex min-h-[260px] flex-col justify-between rounded-[1rem] border border-demoLine bg-white p-6" style="--demo-accent: #0f766e">
+        <div>
+          <p class="m-0 mb-3 text-xs font-bold uppercase tracking-[0.12em]"><span class="text-[var(--demo-accent)]">Layouts</sspan></p>
+          <div class="demo-preview-frame">
+            <img class="demo-preview-image" src="../assets/images/examples/fullwidth-scoped-layout.png" alt="Parent Scoped Full Width preview" loading="lazy" onerror="this.remove()">
+          </div>
+          <h2 class="my-5 mb-3 font-display text-2xl font-black leading-none">Parent Scoped Full Width</h2>
+          <p class="m-0 leading-7 text-demoMuted">fullWidthScoped fills the parent wrapper without applying full-bleed viewport offsets.</p>
+        </div>
+        <a class="mt-7 inline-flex min-h-12 w-max items-center justify-center rounded-full bg-[var(--demo-accent)] px-5 font-black text-white no-underline" href="fullwidth-scoped-layout.html">Open example</a>
+      </article>
+      
+      <article class="flex min-h-[260px] flex-col justify-between rounded-[1rem] border border-demoLine bg-white p-6" style="--demo-accent: #0f766e">
+        <div>
+          <p class="m-0 mb-3 text-xs font-bold uppercase tracking-[0.12em]"><span class="text-[var(--demo-accent)]">Layouts</sspan></p>
+          <div class="demo-preview-frame">
+            <img class="demo-preview-image" src="../assets/images/examples/fullscreen-layout.png" alt="Fullscreen Layout preview" loading="lazy" onerror="this.remove()">
+          </div>
+          <h2 class="my-5 mb-3 font-display text-2xl font-black leading-none">Fullscreen Layout</h2>
+          <p class="m-0 leading-7 text-demoMuted">Fullscreen slider with centered content frame, controls, and progress UI.</p>
+        </div>
+        <a class="mt-7 inline-flex min-h-12 w-max items-center justify-center rounded-full bg-[var(--demo-accent)] px-5 font-black text-white no-underline" href="fullscreen-layout.html">Open example</a>
+      </article>
+      
+      <article class="flex min-h-[260px] flex-col justify-between rounded-[1rem] border border-demoLine bg-white p-6" style="--demo-accent: #2563eb">
+        <div>
+          <p class="m-0 mb-3 text-xs font-bold uppercase tracking-[0.12em]"><span class="text-[var(--demo-accent)]">Navigation</sspan></p>
+          <div class="demo-preview-frame">
+            <img class="demo-preview-image" src="../assets/images/examples/thumbnail-navigation.png" alt="Thumbnail Navigation preview" loading="lazy" onerror="this.remove()">
+          </div>
+          <h2 class="my-5 mb-3 font-display text-2xl font-black leading-none">Thumbnail Navigation</h2>
+          <p class="m-0 leading-7 text-demoMuted">Thumbnail strip with boxed max width, centered layout, paging, and active sync.</p>
+        </div>
+        <a class="mt-7 inline-flex min-h-12 w-max items-center justify-center rounded-full bg-[var(--demo-accent)] px-5 font-black text-white no-underline" href="thumbnail-navigation.html">Open example</a>
+      </article>
+      
+      <article class="flex min-h-[260px] flex-col justify-between rounded-[1rem] border border-demoLine bg-white p-6" style="--demo-accent: #2563eb">
+        <div>
+          <p class="m-0 mb-3 text-xs font-bold uppercase tracking-[0.12em]"><span class="text-[var(--demo-accent)]">Navigation</sspan></p>
+          <div class="demo-preview-frame">
+            <img class="demo-preview-image" src="../assets/images/examples/dot-navigation-styles.png" alt="Dot Navigation Styles preview" loading="lazy" onerror="this.remove()">
+          </div>
+          <h2 class="my-5 mb-3 font-display text-2xl font-black leading-none">Dot Navigation Styles</h2>
+          <p class="m-0 leading-7 text-demoMuted">Dot navigation using tooltip styling and scoped generated navigation CSS.</p>
+        </div>
+        <a class="mt-7 inline-flex min-h-12 w-max items-center justify-center rounded-full bg-[var(--demo-accent)] px-5 font-black text-white no-underline" href="dot-navigation-styles.html">Open example</a>
+      </article>
+      
+      <article class="flex min-h-[260px] flex-col justify-between rounded-[1rem] border border-demoLine bg-white p-6" style="--demo-accent: #2563eb">
+        <div>
+          <p class="m-0 mb-3 text-xs font-bold uppercase tracking-[0.12em]"><span class="text-[var(--demo-accent)]">Navigation</sspan></p>
+          <div class="demo-preview-frame">
+            <img class="demo-preview-image" src="../assets/images/examples/number-navigation-tooltip.png" alt="Number Navigation Tooltip preview" loading="lazy" onerror="this.remove()">
+          </div>
+          <h2 class="my-5 mb-3 font-display text-2xl font-black leading-none">Number Navigation Tooltip</h2>
+          <p class="m-0 leading-7 text-demoMuted">Number navigation with tooltip hover and click-to-slide behavior.</p>
+        </div>
+        <a class="mt-7 inline-flex min-h-12 w-max items-center justify-center rounded-full bg-[var(--demo-accent)] px-5 font-black text-white no-underline" href="number-navigation-tooltip.html">Open example</a>
+      </article>
+      
+      <article class="flex min-h-[260px] flex-col justify-between rounded-[1rem] border border-demoLine bg-white p-6" style="--demo-accent: #8fca2f">
+        <div>
+          <p class="m-0 mb-3 text-xs font-bold uppercase tracking-[0.12em]"><span class="text-[var(--demo-accent)]">Controls</sspan></p>
+          <div class="demo-preview-frame">
+            <img class="demo-preview-image" src="../assets/images/examples/control-style-gallery.png" alt="Control Style Gallery preview" loading="lazy" onerror="this.remove()">
+          </div>
+          <h2 class="my-5 mb-3 font-display text-2xl font-black leading-none">Control Style Gallery</h2>
+          <p class="m-0 leading-7 text-demoMuted">Control buttons using one of the richer controlStyle variants.</p>
+        </div>
+        <a class="mt-7 inline-flex min-h-12 w-max items-center justify-center rounded-full bg-[var(--demo-accent)] px-5 font-black text-white no-underline" href="control-style-gallery.html">Open example</a>
+      </article>
+      
+      <article class="flex min-h-[260px] flex-col justify-between rounded-[1rem] border border-demoLine bg-white p-6" style="--demo-accent: #db2777">
+        <div>
+          <p class="m-0 mb-3 text-xs font-bold uppercase tracking-[0.12em]"><span class="text-[var(--demo-accent)]">Progress</sspan></p>
+          <div class="demo-preview-frame">
+            <img class="demo-preview-image" src="../assets/images/examples/progress-indicators.png" alt="Progress Indicators preview" loading="lazy" onerror="this.remove()">
+          </div>
+          <h2 class="my-5 mb-3 font-display text-2xl font-black leading-none">Progress Indicators</h2>
+          <p class="m-0 leading-7 text-demoMuted">Linear and radial autoplay progress with custom colors, thickness, and placement.</p>
+        </div>
+        <a class="mt-7 inline-flex min-h-12 w-max items-center justify-center rounded-full bg-[var(--demo-accent)] px-5 font-black text-white no-underline" href="progress-indicators.html">Open example</a>
+      </article>
+      
+      <article class="flex min-h-[260px] flex-col justify-between rounded-[1rem] border border-demoLine bg-white p-6" style="--demo-accent: #15803d">
+        <div>
+          <p class="m-0 mb-3 text-xs font-bold uppercase tracking-[0.12em]"><span class="text-[var(--demo-accent)]">Backgrounds</sspan></p>
+          <div class="demo-preview-frame">
+            <img class="demo-preview-image" src="../assets/images/examples/kenburns-backgrounds.png" alt="Ken Burns Backgrounds preview" loading="lazy" onerror="this.remove()">
+          </div>
+          <h2 class="my-5 mb-3 font-display text-2xl font-black leading-none">Ken Burns Backgrounds</h2>
+          <p class="m-0 leading-7 text-demoMuted">Background image slides using the Ken Burns option.</p>
+        </div>
+        <a class="mt-7 inline-flex min-h-12 w-max items-center justify-center rounded-full bg-[var(--demo-accent)] px-5 font-black text-white no-underline" href="kenburns-backgrounds.html">Open example</a>
+      </article>
+      
+      <article class="flex min-h-[260px] flex-col justify-between rounded-[1rem] border border-demoLine bg-white p-6" style="--demo-accent: #0891b2">
+        <div>
+          <p class="m-0 mb-3 text-xs font-bold uppercase tracking-[0.12em]"><span class="text-[var(--demo-accent)]">Media</sspan></p>
+          <div class="demo-preview-frame">
+            <img class="demo-preview-image" src="../assets/images/examples/background-video.png" alt="Background Video preview" loading="lazy" onerror="this.remove()">
+          </div>
+          <h2 class="my-5 mb-3 font-display text-2xl font-black leading-none">Background Video</h2>
+          <p class="m-0 leading-7 text-demoMuted">Slide background video with image fallback and overlay layers.</p>
+        </div>
+        <a class="mt-7 inline-flex min-h-12 w-max items-center justify-center rounded-full bg-[var(--demo-accent)] px-5 font-black text-white no-underline" href="background-video.html">Open example</a>
+      </article>
+      
+      <article class="flex min-h-[260px] flex-col justify-between rounded-[1rem] border border-demoLine bg-white p-6" style="--demo-accent: #0891b2">
+        <div>
+          <p class="m-0 mb-3 text-xs font-bold uppercase tracking-[0.12em]"><span class="text-[var(--demo-accent)]">Media</sspan></p>
+          <div class="demo-preview-frame">
+            <img class="demo-preview-image" src="../assets/images/examples/media-layers.png" alt="Audio And Video Layers preview" loading="lazy" onerror="this.remove()">
+          </div>
+          <h2 class="my-5 mb-3 font-display text-2xl font-black leading-none">Audio And Video Layers</h2>
+          <p class="m-0 leading-7 text-demoMuted">Layer-hosted audio and video players using the slider media event path.</p>
+        </div>
+        <a class="mt-7 inline-flex min-h-12 w-max items-center justify-center rounded-full bg-[var(--demo-accent)] px-5 font-black text-white no-underline" href="media-layers.html">Open example</a>
+      </article>
+      
+      <article class="flex min-h-[260px] flex-col justify-between rounded-[1rem] border border-demoLine bg-white p-6" style="--demo-accent: #9333ea">
+        <div>
+          <p class="m-0 mb-3 text-xs font-bold uppercase tracking-[0.12em]"><span class="text-[var(--demo-accent)]">Carousel</sspan></p>
+          <div class="demo-preview-frame">
+            <img class="demo-preview-image" src="../assets/images/examples/carousel-normal.png" alt="Carousel Normal preview" loading="lazy" onerror="this.remove()">
+          </div>
+          <h2 class="my-5 mb-3 font-display text-2xl font-black leading-none">Carousel Normal</h2>
+          <p class="m-0 leading-7 text-demoMuted">Equal-width visible slide carousel with responsive visibleSlides.</p>
+        </div>
+        <a class="mt-7 inline-flex min-h-12 w-max items-center justify-center rounded-full bg-[var(--demo-accent)] px-5 font-black text-white no-underline" href="carousel-normal.html">Open example</a>
+      </article>
+      
+      <article class="flex min-h-[260px] flex-col justify-between rounded-[1rem] border border-demoLine bg-white p-6" style="--demo-accent: #9333ea">
+        <div>
+          <p class="m-0 mb-3 text-xs font-bold uppercase tracking-[0.12em]"><span class="text-[var(--demo-accent)]">Carousel</sspan></p>
+          <div class="demo-preview-frame">
+            <img class="demo-preview-image" src="../assets/images/examples/carousel-showcase.png" alt="Carousel Showcase preview" loading="lazy" onerror="this.remove()">
+          </div>
+          <h2 class="my-5 mb-3 font-display text-2xl font-black leading-none">Carousel Showcase</h2>
+          <p class="m-0 leading-7 text-demoMuted">Showcase carousel with emphasized active slide.</p>
+        </div>
+        <a class="mt-7 inline-flex min-h-12 w-max items-center justify-center rounded-full bg-[var(--demo-accent)] px-5 font-black text-white no-underline" href="carousel-showcase.html">Open example</a>
+      </article>
+      
+      <article class="flex min-h-[260px] flex-col justify-between rounded-[1rem] border border-demoLine bg-white p-6" style="--demo-accent: #9333ea">
+        <div>
+          <p class="m-0 mb-3 text-xs font-bold uppercase tracking-[0.12em]"><span class="text-[var(--demo-accent)]">Carousel</sspan></p>
+          <div class="demo-preview-frame">
+            <img class="demo-preview-image" src="../assets/images/examples/carousel-gallery3d.png" alt="Carousel Gallery3D preview" loading="lazy" onerror="this.remove()">
+          </div>
+          <h2 class="my-5 mb-3 font-display text-2xl font-black leading-none">Carousel Gallery3D</h2>
+          <p class="m-0 leading-7 text-demoMuted">3D gallery carousel with forced loop behavior and clickable side items.</p>
+        </div>
+        <a class="mt-7 inline-flex min-h-12 w-max items-center justify-center rounded-full bg-[var(--demo-accent)] px-5 font-black text-white no-underline" href="carousel-gallery3d.html">Open example</a>
+      </article>
+      
+      <article class="flex min-h-[260px] flex-col justify-between rounded-[1rem] border border-demoLine bg-white p-6" style="--demo-accent: #9333ea">
+        <div>
+          <p class="m-0 mb-3 text-xs font-bold uppercase tracking-[0.12em]"><span class="text-[var(--demo-accent)]">Carousel</sspan></p>
+          <div class="demo-preview-frame">
+            <img class="demo-preview-image" src="../assets/images/examples/carousel-gallery3d-full-screen.png" alt="Carousel Gallery3D Full Screen preview" loading="lazy" onerror="this.remove()">
+          </div>
+          <h2 class="my-5 mb-3 font-display text-2xl font-black leading-none">Carousel Gallery3D Full Screen</h2>
+          <p class="m-0 leading-7 text-demoMuted">3D gallery carousel in full-screen layout with forced loop behavior and clickable side items.</p>
+        </div>
+        <a class="mt-7 inline-flex min-h-12 w-max items-center justify-center rounded-full bg-[var(--demo-accent)] px-5 font-black text-white no-underline" href="carousel-gallery3d-full-screen.html">Open example</a>
+      </article>
+      
+      <article class="flex min-h-[260px] flex-col justify-between rounded-[1rem] border border-demoLine bg-white p-6" style="--demo-accent: #ea580c">
+        <div>
+          <p class="m-0 mb-3 text-xs font-bold uppercase tracking-[0.12em]"><span class="text-[var(--demo-accent)]">Transitions</sspan></p>
+          <div class="demo-preview-frame">
+            <img class="demo-preview-image" src="../assets/images/examples/grid-transitions.png" alt="Grid Transitions preview" loading="lazy" onerror="this.remove()">
+          </div>
+          <h2 class="my-5 mb-3 font-display text-2xl font-black leading-none">Grid Transitions</h2>
+          <p class="m-0 leading-7 text-demoMuted">Image-splitting grid transition family using adaptive grid pieces.</p>
+        </div>
+        <a class="mt-7 inline-flex min-h-12 w-max items-center justify-center rounded-full bg-[var(--demo-accent)] px-5 font-black text-white no-underline" href="grid-transitions.html">Open example</a>
+      </article>
+      
+      <article class="flex min-h-[260px] flex-col justify-between rounded-[1rem] border border-demoLine bg-white p-6" style="--demo-accent: #ea580c">
+        <div>
+          <p class="m-0 mb-3 text-xs font-bold uppercase tracking-[0.12em]"><span class="text-[var(--demo-accent)]">Transitions</sspan></p>
+          <div class="demo-preview-frame">
+            <img class="demo-preview-image" src="../assets/images/examples/slicebox-transitions.png" alt="SliceBox Transitions preview" loading="lazy" onerror="this.remove()">
+          </div>
+          <h2 class="my-5 mb-3 font-display text-2xl font-black leading-none">SliceBox Transitions</h2>
+          <p class="m-0 leading-7 text-demoMuted">Cuboid-style SliceBox transition with vertical, horizontal, and random variants.</p>
+        </div>
+        <a class="mt-7 inline-flex min-h-12 w-max items-center justify-center rounded-full bg-[var(--demo-accent)] px-5 font-black text-white no-underline" href="slicebox-transitions.html">Open example</a>
+      </article>
+      
+    </div>
+  </section>
+</main>
+
+
+  <footer>
+    <div class="footer-cta">
+      <div class="footer-cta-inner">
+        <div class="footer-cta-text">
+          <h2>Ready to use beautiful sliders?</h2>
+          <p>One-time purchase. Lifetime updates. Zero overhead.</p>
+        </div>
+        <div class="cta-actions">
+          <a href="https://codedilaz.com/code/zoroslider-premium-wordpress-slider-builder/313/" class="btn-buy">Get ZoroSlider</a>
+          <a href="https://themecresthq.xyz/plugins/zoroslider/wp/docs" class="btn-docs">Documentation</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-main-shell">
+      <div class="footer-main">
+        <div>
+          <a class="footer-brand-logo" href="../index.html" aria-label="ZoroSlider demos home">
+            <img src="../assets/images/zoro-slider-light-logo.png" alt="ZoroSlider">
+          </a>
+          <div class="footer-tagline">Premium layer slider for modern web projects.</div>
+        </div>
+        <div>
+          <div class="footer-col-title">Product</div>
+          <ul class="footer-links">
+            <li><a href="../index.html#feature-hierarchy">Features</a></li>
+            <li><a href="../demos/index.html">Demos</a></li>
+            <li><a href="../examples/index.html">Examples</a></li>
+            <li><a href="../wp/docs/changelog">Changelog</a></li>
+            
+            
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-title">Resources</div>
+          <ul class="footer-links">
+            <li><a href="https://themecresthq.xyz/plugins/zoroslider/wp/docs">Documentation</a></li>
+            <li><a href="../api/index.html">API Reference</a></li>
+            
+            
+            
+            
+            
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-title">Company</div>
+          <ul class="footer-links">
+            
+            
+            <li><a href="../support.html">Support</a></li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-bottom-inner">
+        <div class="footer-copy">© 2025 ZoroSlider. All rights reserved.</div>
+        <div class="footer-bottom-links">
+          <a href="../privacy.html">Privacy</a>
+          <a href="../terms.html">Terms</a>
+          
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox HTML -->
+  <div id="lightbox" class="lightbox-overlay">
+    <span class="lightbox-close">&times;</span>
+    <span class="lightbox-nav prev">&#10094;</span>
+    <span class="lightbox-nav next">&#10095;</span>
+    <img id="lightbox-img" src="" alt="Enlarged view" />
+  </div>
+
+  <script src="../vendor/zoroslider/js/libs/jquery-3.6.0.min.js"></script>
+  <script src="../vendor/zoroslider/js/libs/jquery-migrate-3.3.2.min.js"></script>
+  <script src="../vendor/zoroslider/js/libs/plyr/plyr.min.js"></script>
+  <script type="module" src="../vendor/zoroslider/js/zoroslider.jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-markup.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
+  <script src="../assets/js/aos.js"></script>
+  <script>AOS.init();</script>
+  <script defer src="../assets/js/demo.js"></script>
+</body>
+</html>
