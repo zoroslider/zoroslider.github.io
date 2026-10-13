@@ -1,0 +1,1063 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZoroSlider Demos</title>
+  <meta name="description" content="Public demo layouts for validating ZoroSlider in realistic launch-ready pages.">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+  <link rel="shortcut icon" href="assets/images/favicon.ico">
+  <link rel="manifest" href="assets/images/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abel:wght@400;700&family=Bebas+Neue&family=Inter:wght@400;600;800&family=Montserrat:wght@600;800&family=Oswald:wght@500;700&family=Butcherman&display=swap">
+  <link rel="stylesheet" href="assets/css/tailwind.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+  <link rel="stylesheet" href="vendor/zoroslider/css/zoroslider.vendor.min.css">
+  <link rel="stylesheet" href="vendor/zoroslider/css/zoroslider.core.min.css">
+  <link rel="stylesheet" href="assets/css/aos.css">
+  <link rel="stylesheet" href="assets/css/demo.css">
+</head>
+
+
+
+
+<body class="min-h-screen bg-slate-100 text-slate-900 antialiased" style="--demo-accent: #0f766e">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="quicklinks text-slate-200" data-quicklinks aria-hidden="true">
+    <button class="quicklinks-backdrop" type="button" data-quicklinks-close aria-label="Close quicklinks"></button>
+    <aside class="quicklinks-drawer bg-slate-900" aria-label="Shortcut links">
+      <div class="quicklinks-inner">
+      <div class="mb-5 flex items-center justify-between gap-4">
+        <strong class="font-display text-xl font-black" data-quicklinks-title>Quicklinks</strong>
+        <button class="rounded-full border border-white/20 px-4 py-2 text-sm font-black text-white transition hover:bg-white hover:text-slate-900 cursor-pointer" type="button" data-quicklinks-close><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-x"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M18 6l-12 12" /><path d="M6 6l12 12" /></svg></button>
+      </div>
+      <div class="quicklinks-scroll">
+        <div class="quicklinks-panel grid gap-3" data-quicklinks-panel="demos">
+          <a class="quicklinks-index-btn" href="demos/index.html">Go to Demos Page</a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #ca8a04" href="demos/auto-1.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/auto-1-html-bundle_2026-07-14_10.34.40/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Automotive</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Auto 1</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #ca8a04" href="demos/auto-2.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/auto-2-html-bundle_2026-07-14_10.34.32/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Automotive</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Auto 2</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="demos/beauty-1.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/beauty-1-html-bundle_2026-07-14_10.35.12/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Beauty</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Beauty 1</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="demos/beauty-2.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/beauty-2-html-bundle_2026-07-14_10.35.01/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Beauty</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Beauty 2</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="demos/beauty-3.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/beauty-3-html-bundle_2026-07-14_10.34.51/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Beauty</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Beauty 3</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #1e40af" href="demos/charity-1.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/charity-1-html-bundle_2026-07-14_10.35.45/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Charity</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Charity 1</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #1e40af" href="demos/charity-2.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/charity-2-html-bundle_2026-07-14_10.35.35/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Charity</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Charity 2</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #1e40af" href="demos/charity-3.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/charity-3-html-bundle_2026-07-14_10.35.23/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Charity</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Charity 3</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #f97316" href="demos/corporate-1.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/corporate-1-html-bundle_2026-07-14_10.36.28/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Corporate</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Corporate 1</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #f97316" href="demos/corporate-2.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/corporate-2-html-bundle_2026-07-14_10.36.17/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Corporate</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Corporate 2</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #f97316" href="demos/corporate-3.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/corporate-3-html-bundle_2026-07-14_10.36.07/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Corporate</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Corporate 3</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #2563eb" href="demos/travel-1.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/travel-1-html-bundle_2026-07-14_10.35.57/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Travel</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Travel 1</strong>
+              
+            </span>
+          </a>
+          
+        </div>
+        <div class="quicklinks-panel grid gap-3" data-quicklinks-panel="examples">
+          <a class="quicklinks-index-btn" href="examples/index.html">Go to Examples Page</a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0f766e" href="examples/basic-boxed.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/basic-boxed.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Layouts</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Basic Boxed Slider</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0f766e" href="examples/responsive-default.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/responsive-default.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Layouts</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Responsive Default Layout</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0f766e" href="examples/fixed-layout.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/fixed-layout.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Layouts</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Fixed Layout</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0f766e" href="examples/fullwidth-layout.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/fullwidth-layout.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Layouts</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Viewport Full Width</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0f766e" href="examples/fullwidth-scoped-layout.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/fullwidth-scoped-layout.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Layouts</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Parent Scoped Full Width</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0f766e" href="examples/fullscreen-layout.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/fullscreen-layout.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Layouts</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Fullscreen Layout</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #2563eb" href="examples/thumbnail-navigation.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/thumbnail-navigation.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Navigation</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Thumbnail Navigation</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #2563eb" href="examples/dot-navigation-styles.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/dot-navigation-styles.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Navigation</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Dot Navigation Styles</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #2563eb" href="examples/number-navigation-tooltip.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/number-navigation-tooltip.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Navigation</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Number Navigation Tooltip</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #8fca2f" href="examples/control-style-gallery.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/control-style-gallery.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Controls</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Control Style Gallery</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #db2777" href="examples/progress-indicators.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/progress-indicators.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Progress</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Progress Indicators</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #15803d" href="examples/kenburns-backgrounds.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/kenburns-backgrounds.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Backgrounds</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Ken Burns Backgrounds</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0891b2" href="examples/background-video.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/background-video.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Media</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Background Video</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0891b2" href="examples/media-layers.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/media-layers.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Media</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Audio And Video Layers</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="examples/carousel-normal.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/carousel-normal.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Carousel</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Carousel Normal</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="examples/carousel-showcase.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/carousel-showcase.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Carousel</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Carousel Showcase</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="examples/carousel-gallery3d.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/carousel-gallery3d.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Carousel</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Carousel Gallery3D</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="examples/carousel-gallery3d-full-screen.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/carousel-gallery3d-full-screen.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Carousel</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Carousel Gallery3D Full Screen</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #ea580c" href="examples/grid-transitions.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/grid-transitions.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Transitions</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Grid Transitions</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #ea580c" href="examples/slicebox-transitions.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/slicebox-transitions.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Transitions</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">SliceBox Transitions</strong>
+              
+            </span>
+          </a>
+          
+        </div>
+      </div>
+      </div>
+    </aside>
+  </div>
+  
+  <header class="top-0 z-50 w-full border-b border-black/10 bg-demoPaper/90 px-5 py-4 backdrop-blur-xl" data-demo-site-header>
+    <div class="flex mx-auto w-[min(1180px,100%)] items-center justify-between gap-4 lg:grid lg:grid-cols-[minmax(160px,1fr)_auto_minmax(160px,1fr)]">
+
+      <a class="demo-site-logo no-underline shrink-0" href="index.html" aria-label="ZoroSlider demos home">
+        <img class="h-7 w-auto lg:h-9" src="assets/images/zoro-slider-dark-logo.png" alt="ZoroSlider">
+      </a>
+
+      <!-- Desktop nav (unchanged logic, just hidden below lg) -->
+      <nav class="hidden justify-center gap-9 font-black lg:flex" aria-label="Demo navigation">
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] " href="play.html">Play</a>
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] " href="transitions/index.html">Transitions</a>
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] " href="controls/index.html">Controls</a>
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] " href="dots/index.html">Dots</a>
+        
+        <a class="demo-nav-link toggle-quicklinks demo-link-toggle no-underline hover:text-[var(--demo-accent)] " href="demos/index.html" data-quicklinks-toggle="demos">Demos</a>
+        <a class="demo-nav-link toggle-quicklinks example-link-toggle no-underline hover:text-[var(--demo-accent)] " href="examples/index.html" data-quicklinks-toggle="examples">Examples</a>
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] " href="api/index.html">API</a>
+        <div class="!hidden demo-nav-link demo-nav-more ">
+          <button class="demo-nav-link demo-nav-more-toggle no-underline hover:text-[var(--demo-accent)] " type="button" aria-haspopup="true" aria-expanded="false">
+            More
+            <span aria-hidden="true">⌄</span>
+          </button>
+          <div class="demo-nav-more-menu" role="menu">
+            <a class="" href="release-notes.html" role="menuitem">Releases</a>
+            <a class="" href="roadmap.html" role="menuitem">Roadmap</a>
+            <a class="" href="support.html" role="menuitem">Support</a>
+          </div>
+        </div>
+        
+      </nav>
+
+      <!-- Desktop CTA -->
+      <div class="hidden justify-end lg:flex">
+        <a class="inline-flex min-h-11 items-center justify-center rounded-full bg-demoDark px-5 pb-1 font-black text-white no-underline transition hover:bg-[var(--demo-accent)]" href="https://codedilaz.com/code/zoroslider-premium-wordpress-slider-builder/313/"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-target-arrow text-[#facc56] mr-2"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M12 7a5 5 0 1 0 5 5" /><path d="M13 3.055a9 9 0 1 0 7.941 7.945" /><path d="M15 6v3h3l3 -3h-3v-3l-3 3" /><path d="M15 9l-3 3" /></svg> Get It Now</a>
+      </div>
+
+      <!-- Hamburger toggle (below lg only) -->
+      <button
+        type="button"
+        class="demo-nav-hamburger relative flex h-10 w-10 shrink-0 flex-col items-center justify-center gap-[5px] lg:hidden cursor-pointer"
+        aria-label="Toggle menu"
+        aria-expanded="false"
+        aria-controls="demo-mobile-menu"
+        data-mobile-menu-toggle
+      >
+        <span class="block h-[3px] w-6 origin-center rounded-full bg-demoDark transition-transform duration-200" data-hamburger-bar="top"></span>
+        <span class="block h-[3px] w-6 rounded-full bg-demoDark transition-opacity duration-150" data-hamburger-bar="mid"></span>
+        <span class="block h-[3px] w-6 origin-center rounded-full bg-demoDark transition-transform duration-200" data-hamburger-bar="bottom"></span>
+      </button>
+    </div>
+
+    <!-- Mobile menu panel -->
+    <div
+      id="demo-mobile-menu"
+      class="grid grid-rows-[0fr] opacity-0 transition-[grid-template-rows,opacity] duration-300 ease-in-out lg:hidden"
+      data-mobile-menu
+      aria-hidden="true"
+      >
+      <div class="overflow-hidden">
+        <nav class="mx-auto flex w-[min(1180px,100%)] flex-col gap-1 py-4 font-black" aria-label="Demo navigation mobile">
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="play.html">Play</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="transitions/index.html">Transitions</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="controls/index.html">Controls</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="dots/index.html">Dots</a>
+          
+          <a class="demo-nav-link toggle-quicklinks demo-link-toggle block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="demos/index.html" data-quicklinks-toggle="demos">Demos</a>
+          <a class="demo-nav-link toggle-quicklinks example-link-toggle block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="examples/index.html" data-quicklinks-toggle="examples">Examples</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="api/index.html">API</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="release-notes.html">Releases</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="roadmap.html">Roadmap</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="support.html">Support</a>
+          
+
+          <a class="mt-3 inline-flex min-h-11 items-center justify-center rounded-full bg-demoDark px-5 pb-1 font-black text-white no-underline transition hover:bg-[var(--demo-accent)]" href="https://codedilaz.com/code/zoroslider-premium-wordpress-slider-builder/313/"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-target-arrow text-[#facc56] mr-2"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M12 7a5 5 0 1 0 5 5" /><path d="M13 3.055a9 9 0 1 0 7.941 7.945" /><path d="M15 6v3h3l3 -3h-3v-3l-3 3" /><path d="M15 9l-3 3" /></svg> Get It Now</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <script>
+    (function () {
+      var toggle = document.querySelector('[data-mobile-menu-toggle]');
+      var menu = document.querySelector('[data-mobile-menu]');
+      if (!toggle || !menu) return;
+
+      toggle.addEventListener('click', function () {
+        var isOpen = menu.classList.contains('is-open');
+        menu.classList.toggle('is-open', !isOpen);
+        menu.setAttribute('aria-hidden', String(isOpen));
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+        toggle.setAttribute('aria-label', !isOpen ? 'Close menu' : 'Toggle menu');
+      });
+    })();
+  </script>
+
+  
+
+  <style>
+
+    .meta {
+      color: #6b7280;
+      font-size: 0.95rem;
+      margin-top: 0.25rem;
+      margin-bottom: 1.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: #0d0d1a;
+      margin-top: 2.2rem;
+      margin-bottom: 0.75rem;
+      padding-top: 0.25rem;
+    }
+
+    h3 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #1f2937;
+      margin-top: 1.6rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+      color: #374151;
+    }
+
+    ol,
+    ul {
+      margin: 0.5rem 0 1.2rem 1.8rem;
+      color: #374151;
+    }
+
+    li {
+      margin-bottom: 0.4rem;
+    }
+
+    ul {
+      list-style: disc;
+      padding-left: 1.5rem;
+    }
+
+    ul li {
+      padding-left: 0;
+    }
+
+    ul li::before {
+      display: none;
+    }
+
+    .code-block {
+      background: #f1f3f5;
+      padding: 0.75rem 1.2rem;
+      border-radius: 6px;
+      font-family: "SF Mono", "Menlo", "Monaco", "Consolas", monospace;
+      font-size: 0.9rem;
+      color: #1e293b;
+      margin: 0.5rem 0 1.2rem;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+
+    .code-block span {
+      display: block;
+    }
+
+    .placeholder-box {
+      background: #f3f4f6;
+      border-left: 4px solid #9ca3af;
+      padding: 0.75rem 1.2rem;
+      margin: 0.75rem 0 1.2rem;
+      border-radius: 4px;
+      font-size: 0.95rem;
+      color: #4b5563;
+    }
+
+    .placeholder-box strong {
+      color: #1f2937;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #e5e7eb;
+      margin: 2.5rem 0;
+    }
+
+    @media (max-width: 640px) {
+      h1 {
+        font-size: 1.6rem;
+      }
+
+      h2 {
+        font-size: 1.2rem;
+      }
+
+      ol,
+      ul {
+        margin-left: 1.2rem;
+      }
+
+      .code-block {
+        font-size: 0.8rem;
+        padding: 0.5rem 0.8rem;
+        white-space: normal;
+        word-break: break-all;
+      }
+    }
+  </style>
+
+  <main class="demo-other-page support-page">
+    <section class="relative overflow-hidden border-b border-slate-200 bg-white py-16 md:py-24" style="--demo-accent: #2563eb">
+      <div class="demo-hero-gradient"></div>
+      <div class="relative z-10 mx-auto grid w-[min(1180px,calc(100%_-_36px))] gap-10 lg:grid-cols-[1fr_380px] lg:items-end">
+        <div>
+          <p class="demo-eyebrow">Privacy Policy</p>
+          <h1 class="max-w-5xl font-display text-6xl font-black leading-[0.86] tracking-[-0.075em] text-demoDark md:text-7xl">ZoroSlider Privacy Policy</h1>
+          <p class="mt-6 max-w-3xl text-lg leading-8 text-demoMuted md:text-xl">Learn how ZoroSlider collects, uses, and protects your personal information when you use our website, plugin, and related services.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mx-auto flex w-[min(800px,calc(100%_-_36px))] flex-col items-center gap-6 py-14 md:py-20">
+      <div class="support-form-card">.
+
+        <div class="meta">
+          <strong>Last updated:</strong> 2026-06-09
+        </div>
+
+        <p>
+            This Privacy Policy explains how ZoroSlider handles personal information through our websites, software, documentation, templates, add-ons, license services, support services, demo import services, and related services (collectively, the "Services").
+        </p>
+
+        <p>
+            In this policy, "ZoroSlider", "we", "us", and "our" refer to the owner/operator of ZoroSlider. "You" refers to website visitors, plugin users, customers, buyers, and support requesters.
+        </p>
+
+        <!-- ============================== -->
+        <h2>1. Important Product Privacy Summary</h2>
+
+        <p>
+            The ZoroSlider WordPress plugin does <strong>not</strong> send personal data to ZoroSlider by default simply because it is installed.
+        </p>
+
+        <p>
+            Some features may contact third-party services or ZoroSlider-operated services <strong>only</strong> when you choose to use those features. Examples include:
+        </p>
+
+        <ul>
+          <li>loading Google Fonts selected in a slider</li>
+          <li>fetching a YouTube Playlist source</li>
+          <li>fetching a JSON Import URL configured by the site owner</li>
+          <li>loading Vimeo embeds or other media embeds</li>
+          <li>importing remote demo templates</li>
+          <li>validating buyer access for Pro templates or premium downloads</li>
+          <li>checking for updates where a licensed update service is used</li>
+        </ul>
+
+        <p>
+            Site owners are responsible for informing their own site visitors about external services used in published sliders.
+        </p>
+
+        <!-- ============================== -->
+        <h2>2. Information We May Collect</h2>
+
+        <p>We may collect information in the following situations.</p>
+
+        <h3>Information You Provide Directly</h3>
+
+        <p>This may include:</p>
+
+        <ul>
+          <li>name</li>
+          <li>email address</li>
+          <li>company name</li>
+          <li>billing or tax details where applicable</li>
+          <li>support messages</li>
+          <li>license key or purchase code</li>
+          <li>website URL/domain</li>
+          <li>uploaded screenshots, logs, or diagnostic details you choose to share</li>
+          <li>content submitted through contact forms, account forms, checkout forms, or support channels</li>
+        </ul>
+
+        <h3>Information Collected Automatically On Our Website</h3>
+
+        <p>Our website or hosting systems may collect technical information such as:</p>
+
+        <ul>
+          <li>IP address</li>
+          <li>browser type and version</li>
+          <li>operating system</li>
+          <li>referrer URL</li>
+          <li>requested pages/files</li>
+          <li>date and time of requests</li>
+          <li>device and connection metadata</li>
+          <li>security and error logs</li>
+        </ul>
+
+        <h3>Information Sent By The Plugin When You Use Remote Features</h3>
+
+        <p>Depending on the feature used, the plugin may send limited data to ZoroSlider-operated endpoints, such as:</p>
+
+        <ul>
+          <li>plugin version</li>
+          <li>WordPress version</li>
+          <li>site URL</li>
+          <li>admin email, where needed for license or buyer verification</li>
+          <li>buyer email</li>
+          <li>license key or purchase code</li>
+          <li>selected demo/template identifier</li>
+          <li>request metadata generated by WordPress and the hosting environment</li>
+        </ul>
+
+        <p>These requests are used to provide remote demo catalogs, download protected templates, verify license entitlement, prevent abuse, and deliver requested functionality.</p>
+
+        <!-- ============================== -->
+        <h2>3. How We Use Information</h2>
+
+        <p>We may use information to:</p>
+
+        <ul>
+          <li>provide the Services</li>
+          <li>process purchases, licenses, renewals, and downloads</li>
+          <li>validate license status and access rights</li>
+          <li>provide support</li>
+          <li>respond to messages and legal requests</li>
+          <li>deliver documentation, updates, notices, and transactional emails</li>
+          <li>prevent fraud, license abuse, excessive downloads, and unauthorized access</li>
+          <li>improve product quality, website reliability, and user experience</li>
+          <li>maintain security logs and diagnose technical issues</li>
+          <li>comply with legal, tax, accounting, and marketplace obligations</li>
+        </ul>
+
+        <p>We do <strong>not</strong> sell personal information.</p>
+
+        <!-- ============================== -->
+        <h2>4. Legal Bases For Processing</h2>
+
+        <p>Where GDPR or similar privacy laws apply, our legal bases may include:</p>
+
+        <ul>
+          <li>
+            <strong>performance of a contract</strong>, such as delivering purchased products or support</li>
+          <li>
+            <strong>legitimate interests</strong>, such as security, fraud prevention, license enforcement, and product improvement</li>
+          <li>
+            <strong>consent</strong>, such as newsletter signups or optional cookies</li>
+          <li>
+            <strong>legal obligation</strong>, such as tax, accounting, or compliance requirements</li>
+        </ul>
+
+        <!-- ============================== -->
+        <h2>5. Cookies And Similar Technologies</h2>
+
+        <p>Our website may use cookies or similar technologies for:</p>
+
+        <ul>
+          <li>remembering preferences</li>
+          <li>account login and security</li>
+          <li>checkout/session functionality</li>
+          <li>analytics</li>
+          <li>spam prevention</li>
+          <li>support/chat tools, if enabled</li>
+          <li>marketing or newsletter tools, if enabled</li>
+        </ul>
+
+        <p>You can manage cookies through your browser settings. Blocking some cookies may affect website functionality.</p>
+
+        <p>
+            The ZoroSlider WordPress plugin itself may store local browser data in the WordPress admin builder, such as draft builder state, UI preferences, or temporary preview data. This data is stored in the user's browser or WordPress site environment and is not automatically sent to ZoroSlider unless a remote feature or support workflow requires it.
+        </p>
+
+        <!-- ============================== -->
+        <h2>6. Third-Party Services</h2>
+
+        <p>ZoroSlider may use or integrate with third-party services. These services have their own privacy policies and terms.</p>
+
+        <h3>Google Fonts</h3>
+
+        <p>When a slider uses Google Fonts, the visitor's browser may request font CSS and font files from Google domains such as:</p>
+
+        <ul>
+          <li>
+            <code>https://fonts.googleapis.com/</code>
+          </li>
+          <li>
+            <code>https://fonts.gstatic.com/</code>
+          </li>
+        </ul>
+
+        <p>Google may receive standard request metadata such as IP address, user agent, requested font family, and related browser metadata.</p>
+
+        <h3>YouTube</h3>
+
+        <p>When a slider uses YouTube Playlist source or embeds YouTube videos, requests may be made to Google/YouTube services such as:</p>
+
+        <ul>
+          <li>
+            <code>https://www.googleapis.com/youtube/v3/playlistItems</code>
+          </li>
+          <li>
+            <code>https://www.youtube.com/</code>
+          </li>
+          <li>
+            <code>https://www.youtube.com/embed/</code>
+          </li>
+        </ul>
+
+        <p>Data may include playlist IDs, video IDs, API keys configured by the site owner, and standard request/browser metadata.</p>
+
+        <h3>JSON Import</h3>
+
+        <p>When a site owner configures a JSON Import source, the WordPress site sends a request to the configured JSON URL.</p>
+
+        <p>ZoroSlider does not control the remote JSON endpoint. Site owners should only use trusted endpoints and should disclose the endpoint where required.</p>
+
+        <h3>Vimeo And Media Embeds</h3>
+
+        <p>When Vimeo or other media embeds are used, the visitor's browser or server may connect to the relevant media provider. The provider may receive video identifiers and standard request metadata.</p>
+
+        <h3>Remote Demo Templates</h3>
+
+        <p>When remote demo templates are fetched or imported, requests may be sent to ZoroSlider servers. These requests may include site URL, plugin version, WordPress version, selected template ID, buyer email, license key, and related request metadata.</p>
+
+        <p>This information is used to provide the requested template catalog/download, verify access for Pro content, prevent duplicate or abusive downloads, and protect licensed content.</p>
+
+        <h3>Payment Providers And Marketplaces</h3>
+
+        <p>If purchases are handled by a marketplace or payment processor, that provider may process billing and payment information. ZoroSlider may receive limited purchase details needed to provide access, support, and license services, but we do not need to store full payment card details.</p>
+
+        <div class="placeholder-box">
+          <strong>Placeholder payment/marketplace providers:</strong><br/>
+            [INSERT MARKETPLACE, E.G. ENVATO/CODECANYON]<br/>
+            [INSERT PAYMENT PROVIDER IF DIRECT SALES ARE USED]
+        </div>
+
+        <!-- ============================== -->
+        <h2>7. Support Data</h2>
+
+        <p>If you contact support, we may process:</p>
+
+        <ul>
+          <li>your name and email</li>
+          <li>license or purchase details</li>
+          <li>website URL</li>
+          <li>WordPress/PHP/plugin/theme versions</li>
+          <li>screenshots, logs, exports, or diagnostic information you provide</li>
+          <li>support conversation history</li>
+        </ul>
+
+        <p>
+          <strong>Do not</strong> send passwords, private keys, payment card details, or unnecessary personal data. If temporary admin access is ever requested, use a temporary account and remove it after the support case is complete.
+        </p>
+
+        <!-- ============================== -->
+        <h2>8. Data Sharing</h2>
+
+        <p>We may share information with service providers who help us operate the Services, such as:</p>
+
+        <ul>
+          <li>hosting providers</li>
+          <li>payment processors or marketplaces</li>
+          <li>email providers</li>
+          <li>support desk providers</li>
+          <li>analytics providers</li>
+          <li>security or anti-abuse tools</li>
+          <li>legal, tax, and accounting advisors</li>
+        </ul>
+
+        <p>We may also disclose information if required by law, court order, marketplace rules, fraud investigation, security incident response, or to protect our rights and users.</p>
+
+        <!-- ============================== -->
+        <h2>9. Data Retention</h2>
+
+        <p>We keep information only as long as reasonably necessary for the purpose collected, unless a longer period is required for legal, tax, accounting, security, dispute, or fraud-prevention reasons.</p>
+
+        <p>Typical retention categories may include:</p>
+
+        <ul>
+          <li>purchase and invoice records retained for legal/accounting periods</li>
+          <li>support tickets retained for service history and quality control</li>
+          <li>license activation and access logs retained while a license remains active and for a reasonable anti-abuse period</li>
+          <li>server logs retained for security and operational troubleshooting</li>
+          <li>newsletter data retained until you unsubscribe or request deletion</li>
+        </ul>
+
+        <!-- ============================== -->
+        <h2>10. Security</h2>
+
+        <p>We use reasonable technical and organizational measures to protect information. However, no website, plugin, server, or transmission method is completely secure.</p>
+
+        <p>You are responsible for securing your own WordPress site, admin accounts, license keys, API keys, backups, and hosting environment.</p>
+
+        <!-- ============================== -->
+        <h2>11. Your Rights</h2>
+
+        <p>Depending on your location, you may have rights to:</p>
+
+        <ul>
+          <li>access personal information we hold about you</li>
+          <li>request correction</li>
+          <li>request deletion</li>
+          <li>object to processing</li>
+          <li>restrict processing</li>
+          <li>request data portability</li>
+          <li>withdraw consent where processing is based on consent</li>
+          <li>complain to a data protection authority</li>
+        </ul>
+
+        <p>To exercise privacy rights, contact us using the details below. We may need to verify your identity before processing a request.</p>
+
+        <!-- ============================== -->
+        <h2>12. Children's Privacy</h2>
+
+        <p>The Services are not directed to children. We do not knowingly collect personal information from children. If you believe a child has provided personal information to us, contact us and we will take appropriate action.</p>
+
+        <!-- ============================== -->
+        <h2>13. International Transfers</h2>
+
+        <p>Depending on where you are located and which providers are used, information may be processed in countries outside your country of residence.</p>
+
+        <p>Where required, we rely on appropriate safeguards such as contractual protections, marketplace/provider compliance programs, or other lawful transfer mechanisms.</p>
+
+        <!-- ============================== -->
+        <h2>14. Changes To This Policy</h2>
+
+        <p>We may update this Privacy Policy as our Services, providers, or legal obligations change. The latest version will be posted on the ZoroSlider website or included in relevant documentation.</p>
+
+        <!-- ============================== -->
+        
+
+      </div>
+
+    </section>
+  </main>
+
+
+
+  <footer>
+    <div class="footer-cta">
+      <div class="footer-cta-inner">
+        <div class="footer-cta-text">
+          <h2>Ready to use beautiful sliders?</h2>
+          <p>One-time purchase. Lifetime updates. Zero overhead.</p>
+        </div>
+        <div class="cta-actions">
+          <a href="https://codedilaz.com/code/zoroslider-premium-wordpress-slider-builder/313/" class="btn-buy">Get ZoroSlider</a>
+          <a href="https://themecresthq.xyz/plugins/zoroslider/wp/docs" class="btn-docs">Documentation</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-main-shell">
+      <div class="footer-main">
+        <div>
+          <a class="footer-brand-logo" href="index.html" aria-label="ZoroSlider demos home">
+            <img src="assets/images/zoro-slider-light-logo.png" alt="ZoroSlider">
+          </a>
+          <div class="footer-tagline">Premium layer slider for modern web projects.</div>
+        </div>
+        <div>
+          <div class="footer-col-title">Product</div>
+          <ul class="footer-links">
+            <li><a href="index.html#feature-hierarchy">Features</a></li>
+            <li><a href="demos/index.html">Demos</a></li>
+            <li><a href="examples/index.html">Examples</a></li>
+            <li><a href="wp/docs/changelog">Changelog</a></li>
+            
+            
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-title">Resources</div>
+          <ul class="footer-links">
+            <li><a href="https://themecresthq.xyz/plugins/zoroslider/wp/docs">Documentation</a></li>
+            <li><a href="api/index.html">API Reference</a></li>
+            
+            
+            
+            
+            
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-title">Company</div>
+          <ul class="footer-links">
+            
+            
+            <li><a href="support.html">Support</a></li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-bottom-inner">
+        <div class="footer-copy">© 2025 ZoroSlider. All rights reserved.</div>
+        <div class="footer-bottom-links">
+          <a href="privacy.html">Privacy</a>
+          <a href="terms.html">Terms</a>
+          
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox HTML -->
+  <div id="lightbox" class="lightbox-overlay">
+    <span class="lightbox-close">&times;</span>
+    <span class="lightbox-nav prev">&#10094;</span>
+    <span class="lightbox-nav next">&#10095;</span>
+    <img id="lightbox-img" src="" alt="Enlarged view" />
+  </div>
+
+  <script src="vendor/zoroslider/js/libs/jquery-3.6.0.min.js"></script>
+  <script src="vendor/zoroslider/js/libs/jquery-migrate-3.3.2.min.js"></script>
+  <script src="vendor/zoroslider/js/libs/plyr/plyr.min.js"></script>
+  <script type="module" src="vendor/zoroslider/js/zoroslider.jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-markup.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
+  <script src="assets/js/aos.js"></script>
+  <script>AOS.init();</script>
+  <script defer src="assets/js/demo.js"></script>
+</body>
+</html>

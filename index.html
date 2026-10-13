@@ -1,0 +1,1932 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZoroSlider Demos</title>
+  <meta name="description" content="Public demo layouts for validating ZoroSlider in realistic launch-ready pages.">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+  <link rel="shortcut icon" href="assets/images/favicon.ico">
+  <link rel="manifest" href="assets/images/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abel:wght@400;700&family=Bebas+Neue&family=Inter:wght@400;600;800&family=Montserrat:wght@600;800&family=Oswald:wght@500;700&family=Butcherman&display=swap">
+  <link rel="stylesheet" href="assets/css/tailwind.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+  <link rel="stylesheet" href="vendor/zoroslider/css/zoroslider.vendor.min.css">
+  <link rel="stylesheet" href="vendor/zoroslider/css/zoroslider.core.min.css">
+  <link rel="stylesheet" href="assets/css/aos.css">
+  <link rel="stylesheet" href="assets/css/demo.css">
+</head>
+
+
+
+
+<body class="min-h-screen bg-slate-100 text-slate-900 antialiased" style="--demo-accent: #0f766e">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="quicklinks text-slate-200" data-quicklinks aria-hidden="true">
+    <button class="quicklinks-backdrop" type="button" data-quicklinks-close aria-label="Close quicklinks"></button>
+    <aside class="quicklinks-drawer bg-slate-900" aria-label="Shortcut links">
+      <div class="quicklinks-inner">
+      <div class="mb-5 flex items-center justify-between gap-4">
+        <strong class="font-display text-xl font-black" data-quicklinks-title>Quicklinks</strong>
+        <button class="rounded-full border border-white/20 px-4 py-2 text-sm font-black text-white transition hover:bg-white hover:text-slate-900 cursor-pointer" type="button" data-quicklinks-close><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-x"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M18 6l-12 12" /><path d="M6 6l12 12" /></svg></button>
+      </div>
+      <div class="quicklinks-scroll">
+        <div class="quicklinks-panel grid gap-3" data-quicklinks-panel="demos">
+          <a class="quicklinks-index-btn" href="demos/index.html">Go to Demos Page</a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #ca8a04" href="demos/auto-1.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/auto-1-html-bundle_2026-07-14_10.34.40/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Automotive</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Auto 1</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #ca8a04" href="demos/auto-2.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/auto-2-html-bundle_2026-07-14_10.34.32/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Automotive</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Auto 2</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="demos/beauty-1.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/beauty-1-html-bundle_2026-07-14_10.35.12/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Beauty</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Beauty 1</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="demos/beauty-2.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/beauty-2-html-bundle_2026-07-14_10.35.01/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Beauty</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Beauty 2</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="demos/beauty-3.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/beauty-3-html-bundle_2026-07-14_10.34.51/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Beauty</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Beauty 3</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #1e40af" href="demos/charity-1.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/charity-1-html-bundle_2026-07-14_10.35.45/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Charity</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Charity 1</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #1e40af" href="demos/charity-2.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/charity-2-html-bundle_2026-07-14_10.35.35/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Charity</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Charity 2</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #1e40af" href="demos/charity-3.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/charity-3-html-bundle_2026-07-14_10.35.23/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Charity</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Charity 3</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #f97316" href="demos/corporate-1.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/corporate-1-html-bundle_2026-07-14_10.36.28/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Corporate</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Corporate 1</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #f97316" href="demos/corporate-2.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/corporate-2-html-bundle_2026-07-14_10.36.17/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Corporate</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Corporate 2</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #f97316" href="demos/corporate-3.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/corporate-3-html-bundle_2026-07-14_10.36.07/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Corporate</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Corporate 3</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #2563eb" href="demos/travel-1.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/travel-1-html-bundle_2026-07-14_10.35.57/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Travel</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Travel 1</strong>
+              
+            </span>
+          </a>
+          
+        </div>
+        <div class="quicklinks-panel grid gap-3" data-quicklinks-panel="examples">
+          <a class="quicklinks-index-btn" href="examples/index.html">Go to Examples Page</a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0f766e" href="examples/basic-boxed.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/basic-boxed.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Layouts</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Basic Boxed Slider</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0f766e" href="examples/responsive-default.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/responsive-default.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Layouts</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Responsive Default Layout</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0f766e" href="examples/fixed-layout.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/fixed-layout.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Layouts</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Fixed Layout</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0f766e" href="examples/fullwidth-layout.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/fullwidth-layout.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Layouts</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Viewport Full Width</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0f766e" href="examples/fullwidth-scoped-layout.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/fullwidth-scoped-layout.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Layouts</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Parent Scoped Full Width</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0f766e" href="examples/fullscreen-layout.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/fullscreen-layout.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Layouts</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Fullscreen Layout</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #2563eb" href="examples/thumbnail-navigation.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/thumbnail-navigation.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Navigation</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Thumbnail Navigation</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #2563eb" href="examples/dot-navigation-styles.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/dot-navigation-styles.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Navigation</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Dot Navigation Styles</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #2563eb" href="examples/number-navigation-tooltip.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/number-navigation-tooltip.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Navigation</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Number Navigation Tooltip</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #8fca2f" href="examples/control-style-gallery.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/control-style-gallery.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Controls</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Control Style Gallery</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #db2777" href="examples/progress-indicators.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/progress-indicators.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Progress</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Progress Indicators</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #15803d" href="examples/kenburns-backgrounds.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/kenburns-backgrounds.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Backgrounds</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Ken Burns Backgrounds</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0891b2" href="examples/background-video.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/background-video.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Media</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Background Video</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0891b2" href="examples/media-layers.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/media-layers.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Media</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Audio And Video Layers</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="examples/carousel-normal.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/carousel-normal.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Carousel</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Carousel Normal</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="examples/carousel-showcase.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/carousel-showcase.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Carousel</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Carousel Showcase</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="examples/carousel-gallery3d.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/carousel-gallery3d.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Carousel</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Carousel Gallery3D</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="examples/carousel-gallery3d-full-screen.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/carousel-gallery3d-full-screen.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Carousel</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Carousel Gallery3D Full Screen</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #ea580c" href="examples/grid-transitions.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/grid-transitions.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Transitions</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Grid Transitions</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #ea580c" href="examples/slicebox-transitions.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/slicebox-transitions.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Transitions</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">SliceBox Transitions</strong>
+              
+            </span>
+          </a>
+          
+        </div>
+      </div>
+      </div>
+    </aside>
+  </div>
+  
+  <header class="top-0 z-50 w-full border-b border-black/10 bg-demoPaper/90 px-5 py-4 backdrop-blur-xl" data-demo-site-header>
+    <div class="flex mx-auto w-[min(1180px,100%)] items-center justify-between gap-4 lg:grid lg:grid-cols-[minmax(160px,1fr)_auto_minmax(160px,1fr)]">
+
+      <a class="demo-site-logo no-underline shrink-0" href="index.html" aria-label="ZoroSlider demos home">
+        <img class="h-7 w-auto lg:h-9" src="assets/images/zoro-slider-dark-logo.png" alt="ZoroSlider">
+      </a>
+
+      <!-- Desktop nav (unchanged logic, just hidden below lg) -->
+      <nav class="hidden justify-center gap-9 font-black lg:flex" aria-label="Demo navigation">
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] " href="play.html">Play</a>
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] " href="transitions/index.html">Transitions</a>
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] " href="controls/index.html">Controls</a>
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] " href="dots/index.html">Dots</a>
+        
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] " href="demos/index.html">Demos</a>
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] " href="examples/index.html">Examples</a>
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] " href="api/index.html">API</a>
+        <div class="!hidden demo-nav-link demo-nav-more ">
+          <button class="demo-nav-link demo-nav-more-toggle no-underline hover:text-[var(--demo-accent)] " type="button" aria-haspopup="true" aria-expanded="false">
+            More
+            <span aria-hidden="true">⌄</span>
+          </button>
+          <div class="demo-nav-more-menu" role="menu">
+            <a class="" href="release-notes.html" role="menuitem">Releases</a>
+            <a class="" href="roadmap.html" role="menuitem">Roadmap</a>
+            <a class="" href="support.html" role="menuitem">Support</a>
+          </div>
+        </div>
+        
+      </nav>
+
+      <!-- Desktop CTA -->
+      <div class="hidden justify-end lg:flex">
+        <a class="inline-flex min-h-11 items-center justify-center rounded-full bg-demoDark px-5 pb-1 font-black text-white no-underline transition hover:bg-[var(--demo-accent)]" href="https://codedilaz.com/code/zoroslider-premium-wordpress-slider-builder/313/"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-target-arrow text-[#facc56] mr-2"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M12 7a5 5 0 1 0 5 5" /><path d="M13 3.055a9 9 0 1 0 7.941 7.945" /><path d="M15 6v3h3l3 -3h-3v-3l-3 3" /><path d="M15 9l-3 3" /></svg> Get It Now</a>
+      </div>
+
+      <!-- Hamburger toggle (below lg only) -->
+      <button
+        type="button"
+        class="demo-nav-hamburger relative flex h-10 w-10 shrink-0 flex-col items-center justify-center gap-[5px] lg:hidden cursor-pointer"
+        aria-label="Toggle menu"
+        aria-expanded="false"
+        aria-controls="demo-mobile-menu"
+        data-mobile-menu-toggle
+      >
+        <span class="block h-[3px] w-6 origin-center rounded-full bg-demoDark transition-transform duration-200" data-hamburger-bar="top"></span>
+        <span class="block h-[3px] w-6 rounded-full bg-demoDark transition-opacity duration-150" data-hamburger-bar="mid"></span>
+        <span class="block h-[3px] w-6 origin-center rounded-full bg-demoDark transition-transform duration-200" data-hamburger-bar="bottom"></span>
+      </button>
+    </div>
+
+    <!-- Mobile menu panel -->
+    <div
+      id="demo-mobile-menu"
+      class="grid grid-rows-[0fr] opacity-0 transition-[grid-template-rows,opacity] duration-300 ease-in-out lg:hidden"
+      data-mobile-menu
+      aria-hidden="true"
+      >
+      <div class="overflow-hidden">
+        <nav class="mx-auto flex w-[min(1180px,100%)] flex-col gap-1 py-4 font-black" aria-label="Demo navigation mobile">
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="play.html">Play</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="transitions/index.html">Transitions</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="controls/index.html">Controls</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="dots/index.html">Dots</a>
+          
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="demos/index.html">Demos</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="examples/index.html">Examples</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="api/index.html">API</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="release-notes.html">Releases</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="roadmap.html">Roadmap</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="support.html">Support</a>
+          
+
+          <a class="mt-3 inline-flex min-h-11 items-center justify-center rounded-full bg-demoDark px-5 pb-1 font-black text-white no-underline transition hover:bg-[var(--demo-accent)]" href="https://codedilaz.com/code/zoroslider-premium-wordpress-slider-builder/313/"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-target-arrow text-[#facc56] mr-2"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M12 7a5 5 0 1 0 5 5" /><path d="M13 3.055a9 9 0 1 0 7.941 7.945" /><path d="M15 6v3h3l3 -3h-3v-3l-3 3" /><path d="M15 9l-3 3" /></svg> Get It Now</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <script>
+    (function () {
+      var toggle = document.querySelector('[data-mobile-menu-toggle]');
+      var menu = document.querySelector('[data-mobile-menu]');
+      if (!toggle || !menu) return;
+
+      toggle.addEventListener('click', function () {
+        var isOpen = menu.classList.contains('is-open');
+        menu.classList.toggle('is-open', !isOpen);
+        menu.setAttribute('aria-hidden', String(isOpen));
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+        toggle.setAttribute('aria-label', !isOpen ? 'Close menu' : 'Toggle menu');
+      });
+    })();
+  </script>
+
+  
+<main class="landing-skin">
+  <section id="hero" class="relative overflow-hidden bg-[var(--landing-dark)] text-white">
+  <div class="pointer-events-none absolute inset-y-0 right-0 hidden w-1/2 border-l border-white/10 lg:block"></div>
+  <div class="pointer-events-none absolute right-[8%] top-12 hidden rotate-[-35deg] flex-col font-display text-[6.7rem] font-black leading-[0.86] tracking-[-0.05em] text-white/[0.035] lg:flex">
+    <span>VISUAL</span>
+    <span>SLIDER</span>
+    <span>BUILDER</span>
+  </div>
+
+  <div class="hidden mx-auto w-[min(1280px,calc(100%_-_36px))] mt-16" style="height: 600px; background: black; border-radius: 8px;"></div>
+
+  <div class="mx-auto grid min-h-[640px] w-[min(1180px,calc(100%_-_36px))] items-stretch lg:grid-cols-2">
+    <div class="relative z-10 flex flex-col justify-center border-white/10 py-16 lg:border-r lg:py-24 lg:pr-14">
+      <span class="mb-7 inline-flex w-fit items-center gap-2 rounded-md border border-[var(--landing-bright-line)] px-4 py-2 text-xs font-black uppercase tracking-[0.18em] text-[var(--landing-bright)]" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="1200">
+        <span class="h-1.5 w-1.5 rounded-full bg-[var(--landing-bright)]"></span>
+        WordPress slider system
+      </span>
+      <h1 class="max-w-2xl font-display text-5xl font-black leading-[0.92] tracking-[-0.055em] md:text-7xl" data-aos="fade-down" data-aos-duration="1600">
+        Build advanced <span class="italic text-[var(--landing-pale)]">WordPress</span> sliders with visual control.
+      </h1>
+      <p class="mt-6 max-w-xl text-base leading-8 text-white/55 md:text-lg" data-aos="fade-down" data-aos-duration="1600">ZoroSlider brings a visual builder, source-driven slides, reusable templates, media layers, responsive layouts and a polished frontend runtime into one WordPress plugin.</p>
+      <div class="hidden mt-8 flex flex-wrap gap-3" data-aos="fade-down" data-aos-duration="1600">
+        <a class="inline-flex min-h-12 items-center justify-center rounded-md bg-[var(--landing-bright)] px-6 font-black text-[var(--landing-dark)] no-underline transition hover:bg-[var(--landing-bright-hover)]" href="transitions/index.html">Explore Slider Transitions</a>
+        <a class="inline-flex min-h-12 items-center justify-center rounded-md border border-white/20 px-6 font-bold text-white/80 no-underline transition hover:border-[var(--landing-bright)] hover:text-[var(--landing-bright)]" href="controls/index.html">Explore Slider Controls</a>
+      </div>
+      <div class="mt-8 flex flex-wrap gap-3">
+        <a class="inline-flex min-h-12 items-center justify-center rounded-md bg-[var(--landing-bright)] px-6 font-black text-[var(--landing-dark)] no-underline transition hover:bg-[var(--landing-bright-hover)]" href="demos/index.html" data-aos="zoom-in" data-aos-duration="1600">See Live Demos</a>
+        <a class="inline-flex min-h-12 items-center justify-center rounded-md border border-white/20 px-6 font-bold text-white/80 no-underline transition hover:border-[var(--landing-bright)] hover:text-[var(--landing-bright)]" href="demos/examples.html" data-aos="zoom-in" data-aos-duration="1600">See Live Examples</a>
+      </div>
+    </div>
+
+    <div class="relative z-10 flex flex-col justify-center py-16 lg:py-24 lg:pl-14">
+      <div class="mb-5 grid grid-cols-2 overflow-hidden rounded-lg border border-white/10 bg-white/10" data-landing-counter-group data-aos="zoom-in-up" data-aos-duration="1600">
+        
+        <div class="border-b border-r border-white/10 bg-[var(--landing-dark-2)] p-6 last:border-r-0">
+          <div class="block font-display text-4xl font-black leading-none text-white"><span data-landing-counter data-counter-value="50">0</span><span class="text-2xl text-[var(--landing-bright)]">+</span></div>
+          <span class="mt-2 block text-xs font-semibold uppercase tracking-[0.12em] text-white/35">Slide transitions</span>
+        </div>
+        
+        <div class="border-b border-r border-white/10 bg-[var(--landing-dark-2)] p-6 last:border-r-0">
+          <div class="block font-display text-4xl font-black leading-none text-white"><span data-landing-counter data-counter-value="9">0</span><span class="text-2xl text-[var(--landing-bright)]"> types</span></div>
+          <span class="mt-2 block text-xs font-semibold uppercase tracking-[0.12em] text-white/35">Layer & workflow</span>
+        </div>
+        
+        <div class="border-b border-r border-white/10 bg-[var(--landing-dark-2)] p-6 last:border-r-0">
+          <div class="block font-display text-4xl font-black leading-none text-white"><span data-landing-counter data-counter-value="4">0</span><span class="text-2xl text-[var(--landing-bright)]"> sources</span></div>
+          <span class="mt-2 block text-xs font-semibold uppercase tracking-[0.12em] text-white/35">Content sources</span>
+        </div>
+        
+        <div class="border-b border-r border-white/10 bg-[var(--landing-dark-2)] p-6 last:border-r-0">
+          <div class="block font-display text-4xl font-black leading-none text-white"><span data-landing-counter data-counter-value="5">0</span><span class="text-2xl text-[var(--landing-bright)]"> modes</span></div>
+          <span class="mt-2 block text-xs font-semibold uppercase tracking-[0.12em] text-white/35">Layout Modes</span>
+        </div>
+        
+        <div class="border-b border-r border-white/10 bg-[var(--landing-dark-2)] p-6 last:border-r-0">
+          <div class="block font-display text-4xl font-black leading-none text-white"><span data-landing-counter data-counter-value="20">0</span><span class="text-2xl text-[var(--landing-bright)]"> styles</span></div>
+          <span class="mt-2 block text-xs font-semibold uppercase tracking-[0.12em] text-white/35">Control & arrow variants</span>
+        </div>
+        
+        <div class="border-b border-r border-white/10 bg-[var(--landing-dark-2)] p-6 last:border-r-0">
+          <div class="block font-display text-4xl font-black leading-none text-white"><span data-landing-counter data-counter-value="29">0</span><span class="text-2xl text-[var(--landing-bright)]"> types</span></div>
+          <span class="mt-2 block text-xs font-semibold uppercase tracking-[0.12em] text-white/35">Startup loader styles</span>
+        </div>
+        
+      </div>
+
+      <div class="mt-8 flex flex-wrap gap-2">
+        
+        <span class="rounded-sm border border-white/10 bg-white/[0.06] px-3 py-[0.3rem] text-[11px] font-semibold uppercase tracking-[0.13em] text-white/50" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="0">Visual builder</span>
+        
+        <span class="rounded-sm border border-white/10 bg-white/[0.06] px-3 py-[0.3rem] text-[11px] font-semibold uppercase tracking-[0.13em] text-white/50" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="150">Templates</span>
+        
+        <span class="rounded-sm border border-white/10 bg-white/[0.06] px-3 py-[0.3rem] text-[11px] font-semibold uppercase tracking-[0.13em] text-white/50" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="300">Import / Export</span>
+        
+        <span class="rounded-sm border border-white/10 bg-white/[0.06] px-3 py-[0.3rem] text-[11px] font-semibold uppercase tracking-[0.13em] text-white/50" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="450">Media layers</span>
+        
+        <span class="rounded-sm border border-white/10 bg-white/[0.06] px-3 py-[0.3rem] text-[11px] font-semibold uppercase tracking-[0.13em] text-white/50" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="600">Scoped CSS</span>
+        
+        <span class="rounded-sm border border-white/10 bg-white/[0.06] px-3 py-[0.3rem] text-[11px] font-semibold uppercase tracking-[0.13em] text-white/50" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="750">Responsive Layers</span>
+        
+        <span class="rounded-sm border border-white/10 bg-white/[0.06] px-3 py-[0.3rem] text-[11px] font-semibold uppercase tracking-[0.13em] text-white/50" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="900">Public API</span>
+        
+        <span class="rounded-sm border border-white/10 bg-white/[0.06] px-3 py-[0.3rem] text-[11px] font-semibold uppercase tracking-[0.13em] text-white/50" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="1050">Posts · JSON · YouTube</span>
+        
+      </div>
+
+      <div class="!hidden relative rounded-xl border border-white/10 bg-[var(--landing-dark-2)] p-4 shadow-demo">
+        <div class="absolute -left-5 top-8 z-30 hidden w-36 rounded-lg border border-white/10 bg-white p-4 text-[var(--landing-dark)] shadow-demoSoft md:block">
+          <span class="block text-[10px] font-black uppercase tracking-[0.18em] text-slate-400">Source</span>
+          <strong class="mt-2 block font-display text-2xl font-black leading-none">Posts + JSON</strong>
+        </div>
+        <div class="absolute -right-5 bottom-10 z-30 hidden rounded-lg bg-[var(--landing-bright)] p-4 text-[var(--landing-dark)] shadow-demoSoft md:block">
+          <span class="block text-[10px] font-black uppercase tracking-[0.18em]">Builder</span>
+          <strong class="mt-2 block font-display text-2xl font-black leading-none">No-code canvas</strong>
+        </div>
+        <div id="landing-index-slider" class="overflow-hidden rounded-lg" data-index-landing-slider>
+          <ul class="zoro-slider">
+            <li data-bg-image="vendor/zoroslider/img/t01.jpg">
+              <div class="zoro-slider-layer" data-layer-type="text" data-x="center" data-y="center" data-z="10" data-anim-in-type="zoomIn" data-anim-in-delay="160" data-anim-in-speed="720" data-anim-out-type="zoomOut" data-anim-out-delay="100" data-anim-out-speed="420" data-style="width:430px;font-size:58px;font-weight:800;letter-spacing:-.05em;line-height:1;text-align:center;color:#fff;text-shadow:0 20px 54px rgba(0,0,0,.55);">Responsive</div>
+            </li>
+            <li data-bg-image="vendor/zoroslider/img/t08.jpg">
+              <div class="zoro-slider-layer" data-layer-type="text" data-x="center" data-y="center" data-z="10" data-anim-in-type="fadeInUp" data-anim-in-delay="160" data-anim-in-speed="720" data-anim-out-type="fadeOutUp" data-anim-out-delay="100" data-anim-out-speed="420" data-style="width:430px;font-size:50px;font-weight:800;letter-spacing:-.05em;line-height:1;text-align:center;color:#fff;text-shadow:0 20px 54px rgba(0,0,0,.55);">Transitions</div>
+            </li>
+            <li data-bg-image="vendor/zoroslider/img/t12.jpg">
+              <div class="zoro-slider-layer" data-layer-type="text" data-x="center" data-y="center" data-z="10" data-anim-in-type="fadeInRight" data-anim-in-delay="160" data-anim-in-speed="720" data-anim-out-type="fadeOutRight" data-anim-out-delay="100" data-anim-out-speed="420" data-style="width:430px;font-size:50px;font-weight:800;letter-spacing:-.05em;line-height:1;text-align:center;color:#fff;text-shadow:0 20px 54px rgba(0,0,0,.55);">Sources</div>
+            </li>
+            <li data-bg-image="vendor/zoroslider/img/t05.jpg">
+              <div class="zoro-slider-layer" data-layer-type="text" data-x="center" data-y="center" data-z="10" data-anim-in-type="bounceInUp" data-anim-in-delay="160" data-anim-in-speed="760" data-anim-out-type="bounceOutDown" data-anim-out-delay="100" data-anim-out-speed="420" data-style="width:430px;font-size:50px;font-weight:800;letter-spacing:-.05em;line-height:1;text-align:center;color:#fff;text-shadow:0 20px 54px rgba(0,0,0,.55);">Builder</div>
+            </li>
+            <li data-bg-image="vendor/zoroslider/img/t10.jpg">
+              <div class="zoro-slider-layer" data-layer-type="text" data-x="center" data-y="center" data-z="10" data-anim-in-type="flipInX" data-anim-in-delay="160" data-anim-in-speed="760" data-anim-out-type="flipOutX" data-anim-out-delay="100" data-anim-out-speed="420" data-style="width:430px;font-size:50px;font-weight:800;letter-spacing:-.05em;line-height:1;text-align:center;color:#fff;text-shadow:0 20px 54px rgba(0,0,0,.55);">Templates</div>
+            </li>
+            <li data-bg-image="vendor/zoroslider/img/t14.jpg">
+              <div class="zoro-slider-layer" data-layer-type="text" data-x="center" data-y="center" data-z="10" data-anim-in-type="rotateIn" data-anim-in-delay="160" data-anim-in-speed="760" data-anim-out-type="rotateOut" data-anim-out-delay="100" data-anim-out-speed="420" data-style="width:430px;font-size:50px;font-weight:800;letter-spacing:-.05em;line-height:1;text-align:center;color:#fff;text-shadow:0 20px 54px rgba(0,0,0,.55);">Media</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section id="trust-strip" class="overflow-hidden bg-[var(--landing-bright)] py-4">
+  <div class="flex w-max animate-[marquee_23s_linear_infinite] whitespace-nowrap">
+    
+      
+      <span class="border-r border-[var(--landing-dark-line)] px-8 font-mono text-xs font-semibold uppercase tracking-[0.12em] text-[var(--landing-dark)]">Visual WordPress Builder</span>
+      
+      <span class="border-r border-[var(--landing-dark-line)] px-8 font-mono text-xs font-semibold uppercase tracking-[0.12em] text-[var(--landing-dark)]">Source-Driven Slides</span>
+      
+      <span class="border-r border-[var(--landing-dark-line)] px-8 font-mono text-xs font-semibold uppercase tracking-[0.12em] text-[var(--landing-dark)]">Layer Timeline</span>
+      
+      <span class="border-r border-[var(--landing-dark-line)] px-8 font-mono text-xs font-semibold uppercase tracking-[0.12em] text-[var(--landing-dark)]">50+ Transitions</span>
+      
+      <span class="border-r border-[var(--landing-dark-line)] px-8 font-mono text-xs font-semibold uppercase tracking-[0.12em] text-[var(--landing-dark)]">Templates</span>
+      
+      <span class="border-r border-[var(--landing-dark-line)] px-8 font-mono text-xs font-semibold uppercase tracking-[0.12em] text-[var(--landing-dark)]">Media Layers</span>
+      
+      <span class="border-r border-[var(--landing-dark-line)] px-8 font-mono text-xs font-semibold uppercase tracking-[0.12em] text-[var(--landing-dark)]">Scoped CSS</span>
+      
+      <span class="border-r border-[var(--landing-dark-line)] px-8 font-mono text-xs font-semibold uppercase tracking-[0.12em] text-[var(--landing-dark)]">Events and API</span>
+      
+    
+      
+      <span class="border-r border-[var(--landing-dark-line)] px-8 font-mono text-xs font-semibold uppercase tracking-[0.12em] text-[var(--landing-dark)]">Visual WordPress Builder</span>
+      
+      <span class="border-r border-[var(--landing-dark-line)] px-8 font-mono text-xs font-semibold uppercase tracking-[0.12em] text-[var(--landing-dark)]">Source-Driven Slides</span>
+      
+      <span class="border-r border-[var(--landing-dark-line)] px-8 font-mono text-xs font-semibold uppercase tracking-[0.12em] text-[var(--landing-dark)]">Layer Timeline</span>
+      
+      <span class="border-r border-[var(--landing-dark-line)] px-8 font-mono text-xs font-semibold uppercase tracking-[0.12em] text-[var(--landing-dark)]">50+ Transitions</span>
+      
+      <span class="border-r border-[var(--landing-dark-line)] px-8 font-mono text-xs font-semibold uppercase tracking-[0.12em] text-[var(--landing-dark)]">Templates</span>
+      
+      <span class="border-r border-[var(--landing-dark-line)] px-8 font-mono text-xs font-semibold uppercase tracking-[0.12em] text-[var(--landing-dark)]">Media Layers</span>
+      
+      <span class="border-r border-[var(--landing-dark-line)] px-8 font-mono text-xs font-semibold uppercase tracking-[0.12em] text-[var(--landing-dark)]">Scoped CSS</span>
+      
+      <span class="border-r border-[var(--landing-dark-line)] px-8 font-mono text-xs font-semibold uppercase tracking-[0.12em] text-[var(--landing-dark)]">Events and API</span>
+      
+    
+  </div>
+</section>
+
+  <section id="studio-showcase" class="relative overflow-hidden bg-[linear-gradient(180deg,#eef4ff_0%,#f8fafc_64%,#ffffff_100%)] pt-16 md:pt-24">
+  <div class="pointer-events-none absolute left-[8%] top-10 hidden h-20 w-20 rotate-12 rounded-[1rem] bg-lime-300/80 blur-sm lg:block"></div>
+  <div class="pointer-events-none absolute right-[10%] bottom-12 hidden h-24 w-24 -rotate-12 rounded-full bg-blue-300/40 blur-md lg:block"></div>
+
+  <div class="mx-auto w-[min(1180px,calc(100%_-_36px))]">
+    <div class="mx-auto max-w-3xl text-center">
+      <p class="demo-eyebrow">Presentation system</p>
+      <h2 class="mt-3 font-display text-4xl font-black leading-none md:text-6xl">Design the slider, manage the workflow, publish the experience.</h2>
+      <p class="mx-auto mt-5 max-w-2xl text-lg leading-8 text-demoMuted">The plugin combines builder tools, templates, source-driven content and polished frontend behavior into one WordPress workflow.</p>
+    </div>
+
+    
+    <div class="mt-14 min-h-[620px] md:min-h-[720px] pb-16 md:pb-24 bg-[url('../../assets/images/screenshots/frame.avif')] bg-cover bg-top">
+
+      <!-- Bottom dark green gradient -->
+      <div class="absolute inset-0 bg-gradient-to-t from-emerald-950 via-emerald-800/10 via-[30%] to-transparent"></div>
+
+      <div class="relative z-10">
+
+        <article class="absolute left-0 top-0 w-[min(430px,92%)] rotate-[-3deg] rounded-[1.75rem] border border-white bg-slate-950 p-5 text-white shadow-demo md:p-7" data-aos="fade-up" data-aos-duration="1500">
+          <div class="rounded-[1.2rem] bg-[radial-gradient(circle_at_20%_20%,rgba(192,255,89,.28),transparent_24%),linear-gradient(135deg,#111827_0%,#020617_100%)] p-6">
+            <span class="rounded-full bg-lime-300 px-3 py-1 text-[10px] font-black uppercase tracking-[0.16em] text-slate-950">Builder canvas</span>
+            <h3 class="mt-8 font-display text-5xl font-black leading-[0.88] tracking-[-0.04em]">Layered slide design</h3>
+            <p class="mb-0 mt-5 max-w-xs text-sm leading-7 text-slate-300">Compose text, captions, buttons, icons, shapes, media and source placeholders as separate editable layers.</p>
+          </div>
+        </article>
+
+        <article class="absolute right-0 top-12 w-[min(390px,92%)] rotate-[2deg] rounded-[1.75rem] border border-slate-200 bg-white p-5 shadow-demo md:p-7" data-aos="fade-left" data-aos-duration="1500">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-black uppercase tracking-[0.16em] text-slate-400">Template system</span>
+            <div class="flex gap-1">
+              <span class="h-3 w-3 rounded-full bg-lime-300"></span>
+              <span class="h-3 w-3 rounded-full bg-blue-300"></span>
+              <span class="h-3 w-3 rounded-full bg-slate-950"></span>
+            </div>
+          </div>
+          <h3 class="mt-8 font-display text-4xl font-black leading-none text-demoDark">Reusable slider packages</h3>
+          <div class="mt-8 grid grid-cols-3 gap-2">
+            
+            <span class="rounded-xl bg-slate-100 px-3 py-4 text-center text-xs font-black uppercase tracking-[0.12em] text-slate-600">Hero</span>
+            
+            <span class="rounded-xl bg-slate-100 px-3 py-4 text-center text-xs font-black uppercase tracking-[0.12em] text-slate-600">Video</span>
+            
+            <span class="rounded-xl bg-slate-100 px-3 py-4 text-center text-xs font-black uppercase tracking-[0.12em] text-slate-600">Carousel</span>
+            
+            <span class="rounded-xl bg-slate-100 px-3 py-4 text-center text-xs font-black uppercase tracking-[0.12em] text-slate-600">Posts</span>
+            
+            <span class="rounded-xl bg-slate-100 px-3 py-4 text-center text-xs font-black uppercase tracking-[0.12em] text-slate-600">JSON</span>
+            
+            <span class="rounded-xl bg-slate-100 px-3 py-4 text-center text-xs font-black uppercase tracking-[0.12em] text-slate-600">YouTube</span>
+            
+          </div>
+        </article>
+
+        <article class="absolute left-[10%] top-[330px] w-[min(360px,90%)] rotate-[2deg] rounded-[1.5rem] border border-slate-200 bg-white p-5 shadow-demoSoft md:left-[7%] md:top-[390px]" data-aos="flip-left" data-aos-duration="1500">
+          <span class="text-xs font-black uppercase tracking-[0.16em] text-[var(--demo-accent)]">Dynamic content</span>
+          <h3 class="mt-4 font-display text-3xl font-black leading-none">Posts, JSON and YouTube sources.</h3>
+          <div class="mt-6 space-y-3">
+            
+            <div class="flex items-center justify-between rounded-xl bg-slate-100 px-4 py-3 text-sm font-bold text-slate-600">
+              <span>Post title mapped</span>
+              <span class="h-2 w-10 rounded-full bg-lime-300"></span>
+            </div>
+            
+            <div class="flex items-center justify-between rounded-xl bg-slate-100 px-4 py-3 text-sm font-bold text-slate-600">
+              <span>Featured image background</span>
+              <span class="h-2 w-10 rounded-full bg-lime-300"></span>
+            </div>
+            
+            <div class="flex items-center justify-between rounded-xl bg-slate-100 px-4 py-3 text-sm font-bold text-slate-600">
+              <span>Button link placeholder</span>
+              <span class="h-2 w-10 rounded-full bg-lime-300"></span>
+            </div>
+            
+          </div>
+        </article>
+
+        <article class="absolute right-[8%] top-[360px] w-[min(440px,92%)] rotate-[-2deg] rounded-[1.75rem] border border-slate-200 bg-white p-5 shadow-demo md:top-[430px]" data-aos="flip-left" data-aos-duration="1500">
+          <div class="grid gap-3 sm:grid-cols-2">
+            <div class="rounded-[1.2rem] bg-slate-950 p-5 text-white">
+              <span class="text-xs font-black uppercase tracking-[0.16em] text-lime-300">Runtime</span>
+              <strong class="mt-5 block font-display text-4xl font-black leading-none">50+</strong>
+              <span class="mt-2 block text-sm font-bold text-slate-300">Transitions</span>
+            </div>
+            <div class="rounded-[1.2rem] bg-lime-300 p-5 text-slate-950">
+              <span class="text-xs font-black uppercase tracking-[0.16em]">Frontend</span>
+              <strong class="mt-5 block font-display text-4xl font-black leading-none">API</strong>
+              <span class="mt-2 block text-sm font-bold">Methods and events</span>
+            </div>
+          </div>
+        </article>
+
+        <div class="absolute left-1/2 top-[255px] hidden -translate-x-1/2 rounded-full border border-slate-200 bg-white px-6 py-4 text-center shadow-demoSoft md:block" data-aos="zoom-in" data-aos-duration="1500">
+          <span class="font-display text-4xl font-black leading-none tracking-[-0.05em] text-demoDark">Made with ZoroSlider</span>
+        </div>
+      </div>
+      <div class="min-h-[750px]"></div>
+    </div>
+  </div>
+</section>
+
+  
+
+<section id="stats" class="bg-[var(--landing-accent)] py-12 text-white">
+  <div class="mx-auto grid w-[min(1180px,calc(100%_-_36px))] overflow-hidden rounded-lg border border-white/15 bg-white/15 sm:grid-cols-2 lg:grid-cols-4" data-aos="zoom-in">
+    
+    <div class="border-b border-r border-white/15 bg-[var(--landing-accent)] p-7 last:border-b-0 sm:[&:nth-child(3)]:border-b-0 sm:[&:nth-child(4)]:border-b-0 lg:border-b-0 lg:last:border-r-0">
+      <div class="font-display text-5xl font-black leading-none tracking-[-0.04em] text-white">
+        <span data-landing-counter data-counter-value="50">0</span><span class="text-2xl text-[var(--landing-bright)]">+</span>
+      </div>
+      <div class="mt-3 text-xs font-black uppercase tracking-[0.14em] text-white/55">Built-in transitions</div>
+    </div>
+    
+    <div class="border-b border-r border-white/15 bg-[var(--landing-accent)] p-7 last:border-b-0 sm:[&:nth-child(3)]:border-b-0 sm:[&:nth-child(4)]:border-b-0 lg:border-b-0 lg:last:border-r-0">
+      <div class="font-display text-5xl font-black leading-none tracking-[-0.04em] text-white">
+        <span data-landing-counter data-counter-value="11">0</span><span class="text-2xl text-[var(--landing-bright)]"> styles</span>
+      </div>
+      <div class="mt-3 text-xs font-black uppercase tracking-[0.14em] text-white/55">Control / arrow variants</div>
+    </div>
+    
+    <div class="border-b border-r border-white/15 bg-[var(--landing-accent)] p-7 last:border-b-0 sm:[&:nth-child(3)]:border-b-0 sm:[&:nth-child(4)]:border-b-0 lg:border-b-0 lg:last:border-r-0">
+      <div class="font-display text-5xl font-black leading-none tracking-[-0.04em] text-white">
+        <span data-landing-counter data-counter-value="29">0</span><span class="text-2xl text-[var(--landing-bright)]"> types</span>
+      </div>
+      <div class="mt-3 text-xs font-black uppercase tracking-[0.14em] text-white/55">Startup loader styles</div>
+    </div>
+    
+    <div class="border-b border-r border-white/15 bg-[var(--landing-accent)] p-7 last:border-b-0 sm:[&:nth-child(3)]:border-b-0 sm:[&:nth-child(4)]:border-b-0 lg:border-b-0 lg:last:border-r-0">
+      <div class="font-display text-5xl font-black leading-none tracking-[-0.04em] text-white">
+        <span data-landing-counter data-counter-value="4">0</span><span class="text-2xl text-[var(--landing-bright)]"> src</span>
+      </div>
+      <div class="mt-3 text-xs font-black uppercase tracking-[0.14em] text-white/55">Content source types</div>
+    </div>
+    
+  </div>
+</section>
+
+  <section id="product-overview" class="border-t border-[var(--landing-line)] bg-white py-20 md:py-28">
+  <div class="mx-auto w-[min(1180px,calc(100%_-_36px))]">
+    <div class="grid gap-10 md:grid-cols-2 md:items-end">
+      <div data-aos="fade-up" data-aos-duration="1600">
+        <p class="mb-4 flex items-center gap-3 font-mono text-xs font-black uppercase tracking-[0.2em] text-[var(--landing-accent)] before:h-0.5 before:w-6 before:bg-[var(--landing-accent)]">What you get</p>
+        <h2 class="font-display text-4xl font-black leading-[1.02] tracking-[-0.04em] text-[var(--landing-dark)] md:text-5xl">A complete WordPress slider system, not just a frontend effect.</h2>
+      </div>
+      <p class="mb-0 text-base leading-8 text-slate-500" data-aos="fade-up" data-aos-duration="1600">ZoroSlider covers the full production workflow: manage sliders from WordPress, design layered slides visually, generate content from posts, JSON or YouTube, publish with shortcodes, and rely on a hardened frontend runtime for responsive animation and media playback.</p>
+    </div>
+    <div class="mt-14 grid overflow-hidden rounded-lg border border-[var(--landing-line)] md:grid-cols-3" data-aos="fade-up" data-aos-duration="1600">
+      
+      <article class="border-b border-[var(--landing-line)] p-7 last:border-b-0 md:border-b-0 md:border-r md:last:border-r-0">
+        <div class="mb-5 flex items-center gap-3 font-mono text-xs font-black uppercase tracking-[0.16em] text-[var(--landing-accent)]">
+          <span>01</span>
+          <span class="h-px flex-1 bg-[var(--landing-line)]"></span>
+        </div>
+        <span class="mb-5 inline-flex rounded px-3 py-1 text-[11px] font-black uppercase tracking-[0.13em] bg-[var(--landing-dark)] text-[var(--landing-bright)]">Admin workflow</span>
+        <h3 class="font-display text-2xl font-black leading-[1.05] tracking-[-0.03em] text-[var(--landing-dark)]">Create, manage, preview and reuse sliders from WordPress.</h3>
+        <p class="mb-0 mt-4 text-sm leading-7 text-slate-500">Dashboard, sliders, templates and addons pages give you one organized place for editing, cloning, exporting, importing, deleting and previewing slider assets.</p>
+      </article>
+      
+      <article class="border-b border-[var(--landing-line)] p-7 last:border-b-0 md:border-b-0 md:border-r md:last:border-r-0">
+        <div class="mb-5 flex items-center gap-3 font-mono text-xs font-black uppercase tracking-[0.16em] text-[var(--landing-accent)]">
+          <span>02</span>
+          <span class="h-px flex-1 bg-[var(--landing-line)]"></span>
+        </div>
+        <span class="mb-5 inline-flex rounded px-3 py-1 text-[11px] font-black uppercase tracking-[0.13em] bg-[var(--landing-accent)] text-white">Visual builder</span>
+        <h3 class="font-display text-2xl font-black leading-[1.05] tracking-[-0.03em] text-[var(--landing-dark)]">Design layered slides with canvas tools and precise settings.</h3>
+        <p class="mb-0 mt-4 text-sm leading-7 text-slate-500">Text, captions, images, buttons, shapes, icons, HTML, audio and video layers can be positioned, animated, ordered, resized, locked, grouped and shown per device.</p>
+      </article>
+      
+      <article class="border-b border-[var(--landing-line)] p-7 last:border-b-0 md:border-b-0 md:border-r md:last:border-r-0">
+        <div class="mb-5 flex items-center gap-3 font-mono text-xs font-black uppercase tracking-[0.16em] text-[var(--landing-accent)]">
+          <span>03</span>
+          <span class="h-px flex-1 bg-[var(--landing-line)]"></span>
+        </div>
+        <span class="mb-5 inline-flex rounded px-3 py-1 text-[11px] font-black uppercase tracking-[0.13em] bg-[var(--landing-bright)] text-[var(--landing-dark)]">Frontend power</span>
+        <h3 class="font-display text-2xl font-black leading-[1.05] tracking-[-0.03em] text-[var(--landing-dark)]">Publish sliders that stay responsive, animated and interactive.</h3>
+        <p class="mb-0 mt-4 text-sm leading-7 text-slate-500">Over 50 transitions, 11 control styles, dots, thumbnails, progress, carousel modes, media handling, public methods and events are available in the published output.</p>
+      </article>
+      
+    </div>
+  </div>
+</section>
+
+  
+
+<section id="wordpress-management" class="bg-[var(--landing-dark)] py-20 text-white md:py-28">
+  <div class="mx-auto grid w-[min(1180px,calc(100%_-_36px))] gap-12 lg:grid-cols-[0.85fr_1.15fr]">
+    <div data-aos="fade-up">
+      <p class="mb-4 flex items-center gap-3 font-mono text-xs font-black uppercase tracking-[0.2em] text-[var(--landing-bright)] before:h-0.5 before:w-6 before:bg-[var(--landing-bright)]">WordPress management</p>
+      <h2 class="font-display text-4xl font-black leading-[1.02] tracking-[-0.04em] text-white md:text-5xl">Everything starts from an organized plugin dashboard.</h2>
+      <p class="mt-5 text-base leading-8 text-white/45">ZoroSlider is designed for repeat work. You manage slider assets, templates, imports, previews and addons without digging through scattered WordPress pages.</p>
+      <div class="mt-8 space-y-3">
+        
+        <div class="flex gap-3 text-sm font-bold text-white/45 before:text-[var(--landing-bright)] before:content-['→']">Shortcode rendering</div>
+        
+        <div class="flex gap-3 text-sm font-bold text-white/45 before:text-[var(--landing-bright)] before:content-['→']">PHP snippet support</div>
+        
+        <div class="flex gap-3 text-sm font-bold text-white/45 before:text-[var(--landing-bright)] before:content-['→']">Grid and list layouts</div>
+        
+        <div class="flex gap-3 text-sm font-bold text-white/45 before:text-[var(--landing-bright)] before:content-['→']">Preview mode with Escape close</div>
+        
+      </div>
+    </div>
+    <div class="overflow-hidden rounded-lg border border-white/10 bg-white/[0.04]" data-aos="flip-right" data-aos-duration="2000">
+      <div class="flex items-center gap-2 border-b border-white/10 bg-white/[0.07] px-5 py-4">
+        <span class="h-2 w-2 rounded-full bg-[var(--landing-bright)]"></span>
+        <span class="h-2 w-2 rounded-full bg-[var(--landing-accent)]"></span>
+        <span class="h-2 w-2 rounded-full bg-white/35"></span>
+      </div>
+      <div class="grid md:grid-cols-2">
+        
+        <div class="border-b border-r border-white/10 bg-[var(--landing-dark-2)] p-5 transition hover:bg-[var(--landing-dark-3)]">
+          <strong class="block text-sm font-black text-white/85">Dashboard overview</strong>
+          <span class="mt-2 block text-sm leading-6 text-white/45">Product overview, compatibility, changelog, quick access links and version visibility.</span>
+        </div>
+        
+        <div class="border-b border-r border-white/10 bg-[var(--landing-dark-2)] p-5 transition hover:bg-[var(--landing-dark-3)]">
+          <strong class="block text-sm font-black text-white/85">Slider cards</strong>
+          <span class="mt-2 block text-sm leading-6 text-white/45">Preview, edit, clone, export, embed and delete actions with source-type badges.</span>
+        </div>
+        
+        <div class="border-b border-r border-white/10 bg-[var(--landing-dark-2)] p-5 transition hover:bg-[var(--landing-dark-3)]">
+          <strong class="block text-sm font-black text-white/85">Template cards</strong>
+          <span class="mt-2 block text-sm leading-6 text-white/45">Edit, clone, preview, import, export and delete reusable slider templates.</span>
+        </div>
+        
+        <div class="border-b border-r border-white/10 bg-[var(--landing-dark-2)] p-5 transition hover:bg-[var(--landing-dark-3)]">
+          <strong class="block text-sm font-black text-white/85">Search and filters</strong>
+          <span class="mt-2 block text-sm leading-6 text-white/45">Grid and list views with admin search fields for sliders, templates and addons.</span>
+        </div>
+        
+        <div class="border-b border-r border-white/10 bg-[var(--landing-dark-2)] p-5 transition hover:bg-[var(--landing-dark-3)]">
+          <strong class="block text-sm font-black text-white/85">Import dialogs</strong>
+          <span class="mt-2 block text-sm leading-6 text-white/45">Modern upload boxes with progress, metadata, success spinner and error states.</span>
+        </div>
+        
+        <div class="border-b border-r border-white/10 bg-[var(--landing-dark-2)] p-5 transition hover:bg-[var(--landing-dark-3)]">
+          <strong class="block text-sm font-black text-white/85">AJAX hardening</strong>
+          <span class="mt-2 block text-sm leading-6 text-white/45">Nonce-protected forms, capability checks and consistent success/error responses.</span>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+  
+
+
+
+<section id="admin-ui" class="border-t border-white/10 bg-[var(--landing-dark)] py-20 text-white md:py-28">
+  <div class="mx-auto w-[min(1180px,calc(100%_-_36px))]">
+    <div class="mb-10" data-aos="fade-up" data-aos-duration="1600">
+      <p class="mb-4 flex items-center gap-3 font-mono text-xs font-black uppercase tracking-[0.2em] text-[var(--landing-bright)] before:h-0.5 before:w-6 before:bg-[var(--landing-bright)]">Admin UI</p>
+      <h2 class="max-w-3xl font-display text-4xl font-black leading-[1.02] tracking-[-0.04em] text-white md:text-5xl">WordPress management screens that keep slider work organized.</h2>
+    </div>
+
+    <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-6">
+      
+      <article class="rounded-lg border-2 border-dashed border-[var(--landing-bright)]/60 bg-[var(--landing-bright)]/[0.055] p-5 lg:col-span-3" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="0">
+        <div class="overflow-hidden rounded" style="height: 230px">
+          <img class="h-full w-full object-cover object-top" src="assets/images/screenshots/sliders-grid-view.avif" alt="Sliders page - grid view" loading="lazy" decoding="async">
+        </div>
+        <div class="mt-4">
+          <span class="!hidden font-mono text-[10px] font-black uppercase tracking-[0.18em] text-red-400">Screenshot</span>
+          <h3 class="mt-2 font-display text-2xl font-black leading-tight tracking-[-0.03em] text-white">Sliders page - grid view</h3>
+          <p class="mb-0 mt-2 text-md leading-7 text-white/50">Slider manager in grid mode. Cards show source-type badge, thumbnail preview and action icons for edit, clone, export, embed and delete.</p>
+        </div>
+      </article>
+      
+      <article class="rounded-lg border-2 border-dashed border-[var(--landing-bright)]/60 bg-[var(--landing-bright)]/[0.055] p-5 lg:col-span-3" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="100">
+        <div class="overflow-hidden rounded" style="height: 230px">
+          <img class="h-full w-full object-cover object-top" src="assets/images/screenshots/sliders-list-view.avif" alt="Sliders page - list view" loading="lazy" decoding="async">
+        </div>
+        <div class="mt-4">
+          <span class="!hidden font-mono text-[10px] font-black uppercase tracking-[0.18em] text-red-400">Screenshot</span>
+          <h3 class="mt-2 font-display text-2xl font-black leading-tight tracking-[-0.03em] text-white">Sliders page - list view</h3>
+          <p class="mb-0 mt-2 text-md leading-7 text-white/50">Compact list layout with search field, filter row and sortable columns for managing many sliders quickly.</p>
+        </div>
+      </article>
+      
+      <article class="rounded-lg border-2 border-dashed border-[var(--landing-bright)]/60 bg-[var(--landing-bright)]/[0.055] p-5 lg:col-span-3" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="200">
+        <div class="overflow-hidden rounded" style="height: 230px">
+          <img class="h-full w-full object-cover object-top" src="assets/images/screenshots/templates-catalog.avif" alt="Templates page with catalog" loading="lazy" decoding="async">
+        </div>
+        <div class="mt-4">
+          <span class="!hidden font-mono text-[10px] font-black uppercase tracking-[0.18em] text-red-400">Screenshot</span>
+          <h3 class="mt-2 font-display text-2xl font-black leading-tight tracking-[-0.03em] text-white">Templates page with catalog</h3>
+          <p class="mb-0 mt-2 text-md leading-7 text-white/50">Remote template catalog with Free, Pro and Installed state badges, category filters and preview button per card.</p>
+        </div>
+      </article>
+      
+      <article class="rounded-lg border-2 border-dashed border-[var(--landing-bright)]/60 bg-[var(--landing-bright)]/[0.055] p-5 lg:col-span-3" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="300">
+        <div class="overflow-hidden rounded" style="height: 230px">
+          <img class="h-full w-full object-cover object-top" src="assets/images/screenshots/templates-catalog-list-view.avif" alt="Templates catalog- list view" loading="lazy" decoding="async">
+        </div>
+        <div class="mt-4">
+          <span class="!hidden font-mono text-[10px] font-black uppercase tracking-[0.18em] text-red-400">Screenshot</span>
+          <h3 class="mt-2 font-display text-2xl font-black leading-tight tracking-[-0.03em] text-white">Templates catalog- list view</h3>
+          <p class="mb-0 mt-2 text-md leading-7 text-white/50">Remote template catalog with Free, Pro and Installed state badges, category filters and preview button per card.</p>
+        </div>
+      </article>
+      
+    </div>
+  </div>
+</section>
+
+  
+
+<section id="builder-workspace" class="border-t border-[var(--landing-line)] bg-[var(--landing-soft)] py-20 md:py-28">
+  <div class="mx-auto w-[min(1180px,calc(100%_-_36px))]" data-aos="fade-up" data-aos-duration="1600">
+    <div class="max-w-3xl">
+      <p class="mb-4 flex items-center gap-3 font-mono text-xs font-black uppercase tracking-[0.2em] text-[var(--landing-accent)] before:h-0.5 before:w-6 before:bg-[var(--landing-accent)]">Visual builder</p>
+      <h2 class="font-display text-4xl font-black leading-[1.02] tracking-[-0.04em] text-[var(--landing-dark)] md:text-5xl">A slide design workspace with the tools serious layouts need.</h2>
+    </div>
+    <div class="mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+      
+      <article class="rounded-lg border border-[var(--landing-line)] bg-white p-6 transition hover:border-[var(--landing-accent)]" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="0">
+        <span class="mb-5 block font-mono text-xs font-black uppercase tracking-[0.15em] text-[var(--landing-accent)]">01</span>
+        <h3 class="font-display text-xl font-black leading-tight text-[var(--landing-dark)]">Canvas and layout aids</h3>
+        <p class="mb-0 mt-3 text-md leading-6 text-slate-500">Rulers, draggable guides, grid lines and vertical/horizontal layout columns help align detailed slide compositions.</p>
+      </article>
+      
+      <article class="rounded-lg border border-[var(--landing-line)] bg-white p-6 transition hover:border-[var(--landing-accent)]" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+        <span class="mb-5 block font-mono text-xs font-black uppercase tracking-[0.15em] text-[var(--landing-accent)]">02</span>
+        <h3 class="font-display text-xl font-black leading-tight text-[var(--landing-dark)]">Layer editing controls</h3>
+        <p class="mb-0 mt-3 text-md leading-6 text-slate-500">Drag, resize, rotate, select, group, lock, hide, align, reorder and animate layers directly from the builder workflow.</p>
+      </article>
+      
+      <article class="rounded-lg border border-[var(--landing-line)] bg-white p-6 transition hover:border-[var(--landing-accent)]" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+        <span class="mb-5 block font-mono text-xs font-black uppercase tracking-[0.15em] text-[var(--landing-accent)]">03</span>
+        <h3 class="font-display text-xl font-black leading-tight text-[var(--landing-dark)]">Editing safety</h3>
+        <p class="mb-0 mt-3 text-md leading-6 text-slate-500">Undo/redo history, local draft handling, DB freshness checks and stale draft protection reduce lost work.</p>
+      </article>
+      
+      <article class="rounded-lg border border-[var(--landing-line)] bg-white p-6 transition hover:border-[var(--landing-accent)]" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+        <span class="mb-5 block font-mono text-xs font-black uppercase tracking-[0.15em] text-[var(--landing-accent)]">04</span>
+        <h3 class="font-display text-xl font-black leading-tight text-[var(--landing-dark)]">Productivity tools</h3>
+        <p class="mb-0 mt-3 text-md leading-6 text-slate-500">Context menus, keyboard shortcuts, builder tour, about dialog and status bar feedback make the editor faster.</p>
+      </article>
+      
+      <article class="rounded-lg border border-[var(--landing-line)] bg-white p-6 transition hover:border-[var(--landing-accent)]" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+        <span class="mb-5 block font-mono text-xs font-black uppercase tracking-[0.15em] text-[var(--landing-accent)]">05</span>
+        <h3 class="font-display text-xl font-black leading-tight text-[var(--landing-dark)]">Typography and icons</h3>
+        <p class="mb-0 mt-3 text-md leading-6 text-slate-500">7400+ searchable font selection, Google font previews, frontend font preparation and icon picker support.</p>
+      </article>
+      
+      <article class="rounded-lg border border-[var(--landing-line)] bg-white p-6 transition hover:border-[var(--landing-accent)]" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
+        <span class="mb-5 block font-mono text-xs font-black uppercase tracking-[0.15em] text-[var(--landing-accent)]">06</span>
+        <h3 class="font-display text-xl font-black leading-tight text-[var(--landing-dark)]">Per-slide memory</h3>
+        <p class="mb-0 mt-3 text-md leading-6 text-slate-500">Guide, grid and layout-column settings can be remembered per slide so complex layouts stay organized.</p>
+      </article>
+      
+    </div>
+  </div>
+</section>
+
+  
+
+<section id="builder-ui" class="border-t border-[var(--landing-line)] bg-[var(--landing-soft)] py-20 md:py-28">
+  <div class="mx-auto w-[min(1180px,calc(100%_-_36px))]">
+    <div class="mb-10" data-aos="fade-up" data-aos-duration="1600">
+      <p class="mb-4 flex items-center gap-3 font-mono text-xs font-black uppercase tracking-[0.2em] text-[var(--landing-accent)] before:h-0.5 before:w-6 before:bg-[var(--landing-accent)]">Builder UI</p>
+      <h2 class="max-w-3xl font-display text-4xl font-black leading-[1.02] tracking-[-0.04em] text-[var(--landing-dark)] md:text-5xl">Inside the visual builder workspace.</h2>
+    </div>
+
+    <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-6">
+      
+      <article class="rounded-lg border-2 border-dashed border-[#E02F2F]/80 bg-[#E02F2F]/[0.055] p-5 lg:col-span-6" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="0">
+        <div class="overflow-hidden rounded" style="height: 340px">
+          <img class="h-full w-full object-cover object-top screenshot" src="assets/images/screenshots/full-builder-workspace.avif" alt="Full builder workspace - wide view" loading="lazy" decoding="async">
+        </div>
+        <div class="mt-4">
+          <span class="!hidden font-mono text-[10px] font-black uppercase tracking-[0.18em] text-red-600">Screenshot</span>
+          <h3 class="mt-2 font-display text-2xl font-black leading-tight tracking-[-0.03em] text-[var(--landing-dark)]">Full builder workspace - wide view</h3>
+          <p class="mb-0 mt-2 text-md leading-6 text-slate-600">Top menu bar, builder action buttons, centered canvas with rulers, left slide panel, right settings panel and bottom status bar with cursor, size and rotation output.</p>
+        </div>
+      </article>
+      
+      <article class="rounded-lg border-2 border-dashed border-[#E02F2F]/80 bg-[#E02F2F]/[0.055] p-5 lg:col-span-4" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+        <div class="overflow-hidden rounded" style="height: 220px">
+          <img class="h-full w-full object-cover object-top screenshot" src="assets/images/screenshots/canvas-guides-and-grids.avif" alt="Canvas with guides and grid lines active" loading="lazy" decoding="async">
+        </div>
+        <div class="mt-4">
+          <span class="!hidden font-mono text-[10px] font-black uppercase tracking-[0.18em] text-red-600">Screenshot</span>
+          <h3 class="mt-2 font-display text-2xl font-black leading-tight tracking-[-0.03em] text-[var(--landing-dark)]">Canvas with guides and grid lines active</h3>
+          <p class="mb-0 mt-2 text-md leading-6 text-slate-600">Draggable guide lines pulled from rulers, grid overlay and vertical layout columns visible. Multiple layers selected with multi-select handles. You can set the width and gutter of the columns and rows. The grid width/height is also adjustable.</p>
+        </div>
+      </article>
+      
+      <article class="rounded-lg border-2 border-dashed border-[#E02F2F]/80 bg-[#E02F2F]/[0.055] p-5 lg:col-span-2" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+        <div class="overflow-hidden rounded" style="height: 220px">
+          <img class="h-full w-full object-cover object-top screenshot" src="assets/images/screenshots/layer-settings-animation-tab.avif" alt="Layer settings panel - animation tab" loading="lazy" decoding="async">
+        </div>
+        <div class="mt-4">
+          <span class="!hidden font-mono text-[10px] font-black uppercase tracking-[0.18em] text-red-600">Screenshot</span>
+          <h3 class="mt-2 font-display text-2xl font-black leading-tight tracking-[-0.03em] text-[var(--landing-dark)]">Layer settings panel - animation tab</h3>
+          <p class="mb-0 mt-2 text-md leading-6 text-slate-600">Entrance animation type, exit animation type, delay, speed and easing controls for the selected layer.</p>
+        </div>
+      </article>
+      
+      <article class="rounded-lg border-2 border-dashed border-[#E02F2F]/80 bg-[#E02F2F]/[0.055] p-5 lg:col-span-2" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+        <div class="overflow-hidden rounded" style="height: 155px">
+          <img class="h-full w-full object-cover object-top screenshot" src="assets/images/screenshots/right-click-context-menu.avif" alt="Right-click context menu on layer" loading="lazy" decoding="async">
+        </div>
+        <div class="mt-4">
+          <span class="!hidden font-mono text-[10px] font-black uppercase tracking-[0.18em] text-red-600">Screenshot</span>
+          <h3 class="mt-2 font-display text-2xl font-black leading-tight tracking-[-0.03em] text-[var(--landing-dark)]">Right-click context menu on layer</h3>
+          <p class="mb-0 mt-2 text-md leading-6 text-slate-600">Layer context menu showing Group, Lock, Hide, Bring Forward, Send Backward, Clone and Delete actions with platform keyboard labels.</p>
+        </div>
+      </article>
+      
+      <article class="rounded-lg border-2 border-dashed border-[#E02F2F]/80 bg-[#E02F2F]/[0.055] p-5 lg:col-span-2" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+        <div class="overflow-hidden rounded" style="height: 155px">
+          <img class="h-full w-full object-cover object-top screenshot" src="assets/images/screenshots/google-font-picker.avif" alt="Google font picker" loading="lazy" decoding="async">
+        </div>
+        <div class="mt-4">
+          <span class="!hidden font-mono text-[10px] font-black uppercase tracking-[0.18em] text-red-600">Screenshot</span>
+          <h3 class="mt-2 font-display text-2xl font-black leading-tight tracking-[-0.03em] text-[var(--landing-dark)]">Google font picker</h3>
+          <p class="mb-0 mt-2 text-md leading-6 text-slate-600">Searchable font selector modal with live font preview at multiple weights. Selected font is prepared for the published output.</p>
+        </div>
+      </article>
+      
+      <article class="rounded-lg border-2 border-dashed border-[#E02F2F]/80 bg-[#E02F2F]/[0.055] p-5 lg:col-span-2" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
+        <div class="overflow-hidden rounded" style="height: 155px">
+          <img class="h-full w-full object-cover object-top screenshot" src="assets/images/screenshots/keyboard-shortcut-modal.avif" alt="Keyboard shortcuts modal" loading="lazy" decoding="async">
+        </div>
+        <div class="mt-4">
+          <span class="!hidden font-mono text-[10px] font-black uppercase tracking-[0.18em] text-red-600">Screenshot</span>
+          <h3 class="mt-2 font-display text-2xl font-black leading-tight tracking-[-0.03em] text-[var(--landing-dark)]">Keyboard shortcuts modal</h3>
+          <p class="mb-0 mt-2 text-md leading-6 text-slate-600">Full shortcuts reference grouped by Canvas, Layers, Editing and Playback, with macOS and Windows labels shown side by side.</p>
+        </div>
+      </article>
+      
+    </div>
+  </div>
+</section>
+
+  
+
+<section id="source-types" class="bg-[var(--landing-dark-2)] py-20 text-white md:py-28">
+  <div class="mx-auto w-[min(1180px,calc(100%_-_36px))]">
+    <p class="mb-4 flex items-center gap-3 font-mono text-xs font-black uppercase tracking-[0.2em] text-[var(--landing-bright)] before:h-0.5 before:w-6 before:bg-[var(--landing-bright)]" data-aos="fade-up" data-aos-duration="1600">Source-driven sliders</p>
+    <h2 class="max-w-4xl font-display text-4xl font-black leading-[1.02] tracking-[-0.04em] text-white md:text-5xl" data-aos="fade-up" data-aos-duration="1600">Build static sliders or generate them from real content.</h2>
+    <p class="mt-5 max-w-3xl text-base leading-8 text-white/45" data-aos="fade-up" data-aos-duration="1600">ZoroSlider supports manual creative sliders and dynamic content workflows. Placeholders map live data into text, caption, button and HTML layers.</p>
+    <div class="mt-12 grid overflow-hidden rounded-lg border border-white/10 md:grid-cols-4" data-aos="fade-up" data-aos-duration="1600">
+      
+      <article class="border-b border-r border-white/10 bg-[var(--landing-dark-2)] p-6 transition hover:bg-[var(--landing-dark-3)] md:border-b-0">
+        <div class="mb-6 flex items-center justify-between">
+          <span class="font-display text-4xl font-black leading-none text-white/10">01</span>
+          <span class="rounded border border-[var(--landing-bright-line)] px-2 py-1 text-[10px] font-black uppercase tracking-[0.14em] text-[var(--landing-bright)]">Builder</span>
+        </div>
+        <h3 class="font-display text-xl font-black leading-tight text-white">Manual slides</h3>
+        <p class="mb-0 mt-3 text-sm leading-7 text-white/40">Create every slide by hand when you need full creative control over backgrounds, layers, animations and device visibility.</p>
+      </article>
+      
+      <article class="border-b border-r border-white/10 bg-[var(--landing-dark-2)] p-6 transition hover:bg-[var(--landing-dark-3)] md:border-b-0">
+        <div class="mb-6 flex items-center justify-between">
+          <span class="font-display text-4xl font-black leading-none text-white/10">02</span>
+          <span class="rounded border border-[var(--landing-bright-line)] px-2 py-1 text-[10px] font-black uppercase tracking-[0.14em] text-[var(--landing-bright)]">WP</span>
+        </div>
+        <h3 class="font-display text-xl font-black leading-tight text-white">WordPress posts</h3>
+        <p class="mb-0 mt-3 text-sm leading-7 text-white/40">Generate slides from posts or custom post types with taxonomy filters, sort options, excerpt limits and featured image backgrounds.</p>
+      </article>
+      
+      <article class="border-b border-r border-white/10 bg-[var(--landing-dark-2)] p-6 transition hover:bg-[var(--landing-dark-3)] md:border-b-0">
+        <div class="mb-6 flex items-center justify-between">
+          <span class="font-display text-4xl font-black leading-none text-white/10">03</span>
+          <span class="rounded border border-[var(--landing-bright-line)] px-2 py-1 text-[10px] font-black uppercase tracking-[0.14em] text-[var(--landing-bright)]">Data</span>
+        </div>
+        <h3 class="font-display text-xl font-black leading-tight text-white">JSON import</h3>
+        <p class="mb-0 mt-3 text-sm leading-7 text-white/40">Build sliders from remote JSON endpoints using data paths, item limits, sorting and field mapping for titles, images, links and video.</p>
+      </article>
+      
+      <article class="border-b border-r border-white/10 bg-[var(--landing-dark-2)] p-6 transition hover:bg-[var(--landing-dark-3)] md:border-b-0">
+        <div class="mb-6 flex items-center justify-between">
+          <span class="font-display text-4xl font-black leading-none text-white/10">04</span>
+          <span class="rounded border border-[var(--landing-bright-line)] px-2 py-1 text-[10px] font-black uppercase tracking-[0.14em] text-[var(--landing-bright)]">Video</span>
+        </div>
+        <h3 class="font-display text-xl font-black leading-tight text-white">YouTube playlists</h3>
+        <p class="mb-0 mt-3 text-sm leading-7 text-white/40">Turn playlist data into slider content with playlist URL/ID, API key, max video count and metadata placeholders.</p>
+      </article>
+      
+    </div>
+    <div class="mt-8 flex flex-wrap gap-3 justify-center">
+      
+      <span class="rounded border border-[var(--landing-bright-line)] bg-[var(--landing-bright-soft)] px-3 py-1 font-mono text-xs font-medium text-[var(--landing-bright)]" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="0">{{post_title}}</span>
+      
+      <span class="rounded border border-[var(--landing-bright-line)] bg-[var(--landing-bright-soft)] px-3 py-1 font-mono text-xs font-medium text-[var(--landing-bright)]" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="100">{{featured_image}}</span>
+      
+      <span class="rounded border border-[var(--landing-bright-line)] bg-[var(--landing-bright-soft)] px-3 py-1 font-mono text-xs font-medium text-[var(--landing-bright)]" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200">{{post_excerpt}}</span>
+      
+      <span class="rounded border border-[var(--landing-bright-line)] bg-[var(--landing-bright-soft)] px-3 py-1 font-mono text-xs font-medium text-[var(--landing-bright)]" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="300">{{video_embed}}</span>
+      
+      <span class="rounded border border-[var(--landing-bright-line)] bg-[var(--landing-bright-soft)] px-3 py-1 font-mono text-xs font-medium text-[var(--landing-bright)]" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="400">{{video_url}}</span>
+      
+      <span class="rounded border border-[var(--landing-bright-line)] bg-[var(--landing-bright-soft)] px-3 py-1 font-mono text-xs font-medium text-[var(--landing-bright)]" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="500">{{post_link}}</span>
+      
+      <span class="rounded border border-[var(--landing-bright-line)] bg-[var(--landing-bright-soft)] px-3 py-1 font-mono text-xs font-medium text-[var(--landing-bright)]" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="600">{{custom_field:name}}</span>
+      
+      <span class="rounded border border-[var(--landing-bright-line)] bg-[var(--landing-bright-soft)] px-3 py-1 font-mono text-xs font-medium text-[var(--landing-bright)]" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="700">{{json_field}}</span>
+      
+      <span class="rounded border border-[var(--landing-bright-line)] bg-[var(--landing-bright-soft)] px-3 py-1 font-mono text-xs font-medium text-[var(--landing-bright)]" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="800">{{post_author}}</span>
+      
+      <span class="rounded border border-[var(--landing-bright-line)] bg-[var(--landing-bright-soft)] px-3 py-1 font-mono text-xs font-medium text-[var(--landing-bright)]" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="900">{{post_date}}</span>
+      
+    </div>
+  </div>
+</section>
+
+  
+
+<section id="layout-settings" class="border-t border-white/10 bg-[var(--landing-dark-2)] py-20 text-white md:py-28">
+  <div class="mx-auto w-[min(1180px,calc(100%_-_36px))]">
+    <div class="mb-10 max-w-3xl" data-aos="fade-up" data-aos-duration="1600">
+      <p class="mb-4 flex items-center gap-3 font-mono text-xs font-black uppercase tracking-[0.2em] text-[var(--landing-bright)] before:h-0.5 before:w-6 before:bg-[var(--landing-bright)]">Source + layer settings</p>
+      <h2 class="font-display text-4xl font-black leading-[1.02] tracking-[-0.04em] text-white md:text-5xl">Source type settings and placeholder mapping.</h2>
+      <p class="mt-5 text-base leading-8 text-white/45">Dynamic sliders need clear source controls and predictable layer mapping. These builder screens show how content sources, placeholder tokens and device visibility work together.</p>
+    </div>
+
+    <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-6">
+      
+      <article class="rounded-lg border-2 border-dashed border-[var(--landing-bright)]/60 bg-[var(--landing-bright)]/[0.055] p-5 lg:col-span-3" data-aos="fade-up" data-aos-duration="1600">
+        <div class="overflow-hidden rounded" style="height: 200px">
+          <img class="h-full w-full object-cover object-top screenshot" src="assets/images/screenshots/wordpress-posts-source.avif" alt="WordPress Posts source settings panel" loading="lazy" decoding="async">
+        </div>
+        <div class="mt-4">
+          <span class="!hidden font-mono text-[10px] font-black uppercase tracking-[0.18em] text-red-400">Screenshot</span>
+          <h3 class="mt-2 font-display text-2xl font-black leading-tight tracking-[-0.03em] text-white">WordPress Posts source settings panel</h3>
+          <p class="mb-0 mt-2 text-md leading-7 text-white/50">Source settings panel showing post type selector, taxonomy filter, sort order, max posts and excerpt length controls.</p>
+        </div>
+      </article>
+      
+      <article class="rounded-lg border-2 border-dashed border-[var(--landing-bright)]/60 bg-[var(--landing-bright)]/[0.055] p-5 lg:col-span-3" data-aos="fade-up" data-aos-duration="1600">
+        <div class="overflow-hidden rounded" style="height: 200px">
+          <img class="h-full w-full object-cover object-top screenshot" src="assets/images/screenshots/wordpress-json-source.avif" alt="JSON source settings with field mapping" loading="lazy" decoding="async">
+        </div>
+        <div class="mt-4">
+          <span class="!hidden font-mono text-[10px] font-black uppercase tracking-[0.18em] text-red-400">Screenshot</span>
+          <h3 class="mt-2 font-display text-2xl font-black leading-tight tracking-[-0.03em] text-white">JSON source settings with field mapping</h3>
+          <p class="mb-0 mt-2 text-md leading-7 text-white/50">Remote URL field, data path notation input, field mapping table, placeholder names, max items and sort controls.</p>
+        </div>
+      </article>
+      
+      <article class="rounded-lg border-2 border-dashed border-[var(--landing-bright)]/60 bg-[var(--landing-bright)]/[0.055] p-5 lg:col-span-2" data-aos="fade-up" data-aos-duration="1600">
+        <div class="overflow-hidden rounded" style="height: 155px">
+          <img class="h-full w-full object-cover object-top screenshot" src="assets/images/screenshots/wordpress-youtube-source.avif" alt="YouTube playlist source settings" loading="lazy" decoding="async">
+        </div>
+        <div class="mt-4">
+          <span class="!hidden font-mono text-[10px] font-black uppercase tracking-[0.18em] text-red-400">Screenshot</span>
+          <h3 class="mt-2 font-display text-2xl font-black leading-tight tracking-[-0.03em] text-white">YouTube playlist source settings</h3>
+          <p class="mb-0 mt-2 text-md leading-7 text-white/50">Playlist URL or ID field, API key input, max video count and available metadata placeholder reference list.</p>
+        </div>
+      </article>
+      
+      <article class="rounded-lg border-2 border-dashed border-[var(--landing-bright)]/60 bg-[var(--landing-bright)]/[0.055] p-5 lg:col-span-2" data-aos="fade-up" data-aos-duration="1600">
+        <div class="overflow-hidden rounded" style="height: 155px">
+          <img class="h-full w-full object-cover object-top screenshot" src="assets/images/screenshots/wordpress-posts-placeholder.avif" alt="Layer with {{post_title}} placeholder" loading="lazy" decoding="async">
+        </div>
+        <div class="mt-4">
+          <span class="!hidden font-mono text-[10px] font-black uppercase tracking-[0.18em] text-red-400">Screenshot</span>
+          <h3 class="mt-2 font-display text-2xl font-black leading-tight tracking-[-0.03em] text-white">Layer with {{post_title}} placeholder</h3>
+          <p class="mb-0 mt-2 text-md leading-7 text-white/50">Text layer selected in the builder with placeholder token visible in the text content field and rendered on canvas.</p>
+        </div>
+      </article>
+      
+      <article class="rounded-lg border-2 border-dashed border-[var(--landing-bright)]/60 bg-[var(--landing-bright)]/[0.055] p-5 lg:col-span-2" data-aos="fade-up" data-aos-duration="1600">
+        <div class="overflow-hidden rounded" style="height: 155px">
+          <img class="h-full w-full object-cover object-top screenshot" src="assets/images/screenshots/layer-device-visibility.avif" alt="Layer device visibility controls" loading="lazy" decoding="async">
+        </div>
+        <div class="mt-4">
+          <span class="!hidden font-mono text-[10px] font-black uppercase tracking-[0.18em] text-red-400">Screenshot</span>
+          <h3 class="mt-2 font-display text-2xl font-black leading-tight tracking-[-0.03em] text-white">Layer device visibility controls</h3>
+          <p class="mb-0 mt-2 text-md leading-7 text-white/50">Desktop, tablet and mobile visibility toggles in the layer settings panel with current breakpoint indicator.</p>
+        </div>
+      </article>
+      
+    </div>
+  </div>
+</section>
+
+  
+
+<section id="feature-hierarchy" class="border-t border-[var(--landing-line)] bg-[var(--landing-soft)] py-20 md:py-28">
+  <div class="mx-auto w-[min(1180px,calc(100%_-_36px))]">
+    <p class="mb-4 flex items-center gap-3 font-mono text-xs font-black uppercase tracking-[0.2em] text-[var(--landing-accent)] before:h-0.5 before:w-6 before:bg-[var(--landing-accent)]" data-aos="fade-up" data-aos-duration="1600">Feature hierarchy</p>
+    <h2 class="max-w-4xl font-display text-4xl font-black leading-[1.02] tracking-[-0.04em] text-[var(--landing-dark)] md:text-5xl" data-aos="fade-up" data-aos-duration="1600">Frontend features that make each published slider feel polished.</h2>
+    <div class="mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+      
+      <article class="rounded-lg border border-[var(--landing-line)] bg-white p-6 transition hover:border-[var(--landing-accent)]" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="0">
+        <span class="font-mono text-xs font-black uppercase tracking-[0.16em] text-[var(--landing-accent)]">Structure</span>
+        <h3 class="mt-4 font-display text-xl font-black leading-tight text-[var(--landing-dark)]">Layout foundation</h3>
+        <p class="mb-0 mt-3 text-sm leading-7 text-slate-500">Default, fixed, fullWidth, fullWidthScoped and fullScreen modes place sliders inside boxed pages, full-bleed sections and viewport experiences.</p>
+        <a class="mt-5 inline-flex font-mono text-xs font-black uppercase tracking-[0.1em] text-[var(--landing-dark)] no-underline hover:text-[var(--landing-accent)]" href="examples/index.html">See layout examples →</a>
+      </article>
+      
+      <article class="rounded-lg border border-[var(--landing-line)] bg-white p-6 transition hover:border-[var(--landing-accent)]" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+        <span class="font-mono text-xs font-black uppercase tracking-[0.16em] text-[var(--landing-accent)]">Content</span>
+        <h3 class="mt-4 font-display text-xl font-black leading-tight text-[var(--landing-dark)]">Layer composition</h3>
+        <p class="mb-0 mt-3 text-sm leading-7 text-slate-500">Text, captions, shapes, images, buttons, icons, HTML, audio and video layers can be positioned, styled, animated and controlled separately.</p>
+        <a class="mt-5 inline-flex font-mono text-xs font-black uppercase tracking-[0.1em] text-[var(--landing-dark)] no-underline hover:text-[var(--landing-accent)]" href="https://themecresthq.xyz/plugins/zoroslider/wp/docs">Read layer docs →</a>
+      </article>
+      
+      <article class="rounded-lg border border-[var(--landing-line)] bg-white p-6 transition hover:border-[var(--landing-accent)]" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+        <span class="font-mono text-xs font-black uppercase tracking-[0.16em] text-[var(--landing-accent)]">Devices</span>
+        <h3 class="mt-4 font-display text-xl font-black leading-tight text-[var(--landing-dark)]">Responsive behavior</h3>
+        <p class="mb-0 mt-3 text-sm leading-7 text-slate-500">Layer geometry, typography, padding, margin, radius, dimensions and visibility rules adapt across desktop, tablet and mobile screens.</p>
+        <a class="mt-5 inline-flex font-mono text-xs font-black uppercase tracking-[0.1em] text-[var(--landing-dark)] no-underline hover:text-[var(--landing-accent)]" href="examples/responsive-layer-scaling.html">Open responsive example →</a>
+      </article>
+      
+      <article class="rounded-lg border border-[var(--landing-line)] bg-white p-6 transition hover:border-[var(--landing-accent)]" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+        <span class="font-mono text-xs font-black uppercase tracking-[0.16em] text-[var(--landing-accent)]">Animation</span>
+        <h3 class="mt-4 font-display text-xl font-black leading-tight text-[var(--landing-dark)]">Motion system</h3>
+        <p class="mb-0 mt-3 text-sm leading-7 text-slate-500">Transitions, Ken Burns, layer entrance/exit animations, easing, speed, delay and manual interruption handling keep motion controlled.</p>
+        <a class="mt-5 inline-flex font-mono text-xs font-black uppercase tracking-[0.1em] text-[var(--landing-dark)] no-underline hover:text-[var(--landing-accent)]" href="transitions/index.html">Test transitions →</a>
+      </article>
+      
+      <article class="rounded-lg border border-[var(--landing-line)] bg-white p-6 transition hover:border-[var(--landing-accent)]" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+        <span class="font-mono text-xs font-black uppercase tracking-[0.16em] text-[var(--landing-accent)]">Controls</span>
+        <h3 class="mt-4 font-display text-xl font-black leading-tight text-[var(--landing-dark)]">Navigation systems</h3>
+        <p class="mb-0 mt-3 text-sm leading-7 text-slate-500">Arrows, dots, numbers, thumbnails, keyboard, swipe and carousel navigation cover heroes, galleries and product showcases.</p>
+        <a class="mt-5 inline-flex font-mono text-xs font-black uppercase tracking-[0.1em] text-[var(--landing-dark)] no-underline hover:text-[var(--landing-accent)]" href="controls/index.html">Inspect controls →</a>
+      </article>
+      
+      <article class="rounded-lg border border-[var(--landing-line)] bg-white p-6 transition hover:border-[var(--landing-accent)]" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
+        <span class="font-mono text-xs font-black uppercase tracking-[0.16em] text-[var(--landing-accent)]">API</span>
+        <h3 class="mt-4 font-display text-xl font-black leading-tight text-[var(--landing-dark)]">Runtime integration</h3>
+        <p class="mb-0 mt-3 text-sm leading-7 text-slate-500">Public methods and events connect navigation, autoplay, layers, media, carousel movement and responsive changes to custom interfaces.</p>
+        <a class="mt-5 inline-flex font-mono text-xs font-black uppercase tracking-[0.1em] text-[var(--landing-dark)] no-underline hover:text-[var(--landing-accent)]" href="api/index.html">Open API page →</a>
+      </article>
+      
+    </div>
+  </div>
+</section>
+
+  
+
+<section id="frontend-experience" class="border-t border-[var(--landing-line)] bg-white py-20 md:py-28">
+  <div class="mx-auto grid w-[min(1180px,calc(100%_-_36px))] gap-12 lg:grid-cols-[0.9fr_1.1fr]">
+    <div data-aos="fade-up" data-aos-duration="1600">
+      <p class="mb-4 flex items-center gap-3 font-mono text-xs font-black uppercase tracking-[0.2em] text-[var(--landing-accent)] before:h-0.5 before:w-6 before:bg-[var(--landing-accent)]">Published output</p>
+      <h2 class="font-display text-4xl font-black leading-[1.02] tracking-[-0.04em] text-[var(--landing-dark)] md:text-5xl">The frontend output is built for motion, polish and stability.</h2>
+      <p class="mt-5 text-base leading-8 text-slate-500">The WordPress builder publishes sliders powered by a mature runtime, so the final result can handle rich motion, responsive layers, media playback, controls and custom integrations.</p>
+      <div class="mt-8 flex flex-wrap gap-3">
+        <a class="inline-flex min-h-11 items-center justify-center rounded-md bg-[var(--landing-dark)] px-5 font-black text-white no-underline transition hover:bg-[var(--landing-accent)]" href="transitions/index.html" data-aos="fade-up" data-aos-duration="1600">Explore transitions</a>
+        <a class="inline-flex min-h-11 items-center justify-center rounded-md border border-[var(--landing-line)] bg-white px-5 font-black text-[var(--landing-dark)] no-underline transition hover:border-[var(--landing-accent)] hover:text-[var(--landing-accent)]" href="controls/index.html" data-aos="fade-up" data-aos-duration="1600">Explore controls</a>
+      </div>
+    </div>
+    <div class="relative overflow-hidden rounded-lg bg-[var(--landing-dark)] p-8" data-aos="flip-right" data-aos-duration="1600">
+      <div class="pointer-events-none absolute inset-0 flex items-center justify-center font-display text-7xl font-black leading-none tracking-[-0.06em] text-white/[0.035]">MOTION SYSTEM</div>
+      <div class="relative z-10">
+        <p class="mb-4 font-mono text-xs font-black uppercase tracking-[0.2em] text-white/30">Frontend runtime</p>
+        <h3 class="max-w-xl font-display text-4xl font-black leading-[0.98] tracking-[-0.04em] text-white">The motion system for <em class="text-[var(--landing-bright)]">real</em> WordPress projects.</h3>
+        <div class="mt-8 grid gap-3 sm:grid-cols-2">
+          
+          <div class="rounded-md border border-white/10 bg-white/[0.05] p-4 text-sm font-bold leading-6 text-white/55">50+ standard, piece-based, grid, SliceBox and 3D-style transitions</div>
+          
+          <div class="rounded-md border border-white/10 bg-white/[0.05] p-4 text-sm font-bold leading-6 text-white/55">11 control styles and SVG control icon families</div>
+          
+          <div class="rounded-md border border-white/10 bg-white/[0.05] p-4 text-sm font-bold leading-6 text-white/55">13 dots styles, 12 number styles and tooltip modes</div>
+          
+          <div class="rounded-md border border-white/10 bg-white/[0.05] p-4 text-sm font-bold leading-6 text-white/55">Responsive thumbnail navigation with paging and rewind behavior</div>
+          
+          <div class="rounded-md border border-white/10 bg-white/[0.05] p-4 text-sm font-bold leading-6 text-white/55">Autoplay, pause-on-hover, loop, shuffle, keyboard and swipe</div>
+          
+          <div class="rounded-md border border-white/10 bg-white/[0.05] p-4 text-sm font-bold leading-6 text-white/55">Linear and radial progress indicators</div>
+          
+          <div class="rounded-md border border-white/10 bg-white/[0.05] p-4 text-sm font-bold leading-6 text-white/55">Preloader-first startup and raw markup flash prevention</div>
+          
+          <div class="rounded-md border border-white/10 bg-white/[0.05] p-4 text-sm font-bold leading-6 text-white/55">Navigation lock to prevent overlapping transitions</div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  
+
+<section id="published-output" class="border-t border-[var(--landing-line)] bg-white py-20 md:py-28">
+  <div class="mx-auto w-[min(1180px,calc(100%_-_36px))]">
+    <div class="mb-10 max-w-3xl" data-aos="fade-up" data-aos-duration="1600">
+      <p class="mb-4 flex items-center gap-3 font-mono text-xs font-black uppercase tracking-[0.2em] text-[var(--landing-accent)] before:h-0.5 before:w-6 before:bg-[var(--landing-accent)]">Published output</p>
+      <h2 class="font-display text-4xl font-black leading-[1.02] tracking-[-0.04em] text-[var(--landing-dark)] md:text-5xl">Navigation styles, controls and carousel modes.</h2>
+      <p class="mt-5 text-base leading-8 text-slate-500">Published sliders can present different navigation systems, progress states, carousel modes and image motion effects without changing the WordPress page layout.</p>
+    </div>
+
+    <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-6">
+      
+      <article class="rounded-lg border-2 border-dashed border-[#E02F2F]/60 bg-[#E02F2F]/[0.055] p-5 lg:col-span-3" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="0">
+        <div class=" mb-4 overflow-hidden rounded" style="height: 280px">
+          <img class="h-full w-full object-cover object-top screenshot" src="assets/images/screenshots/published-fullwidth-layout.avif" alt="Fullwidth live published slider layout with arrow controls" loading="lazy" decoding="async">
+        </div>
+        <div class="">
+          <span class="!hidden font-mono text-[10px] font-black uppercase tracking-[0.18em] text-red-600">Screenshot</span>
+          <h3 class="mt-2 font-display text-2xl font-black leading-tight tracking-[-0.03em] text-[var(--landing-dark)]">Fullwidth live published slider layout with arrow controls</h3>
+          <p class="mb-0 mt-2 text-md leading-6 text-slate-600">Slider in fullWidth layout mode with background image and one of the visual arrow control styles.</p>
+        </div>
+      </article>
+      
+      <article class="rounded-lg border-2 border-dashed border-[#E02F2F]/60 bg-[#E02F2F]/[0.055] p-5 lg:col-span-3" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="100">
+        <div class=" mb-4 overflow-hidden rounded" style="height: 280px">
+          <img class="h-full w-full object-cover object-top screenshot" src="assets/images/screenshots/published-fullscreen-layout.avif" alt="Fullscreen live published slider layout with arrow controls" loading="lazy" decoding="async">
+        </div>
+        <div class="">
+          <span class="!hidden font-mono text-[10px] font-black uppercase tracking-[0.18em] text-red-600">Screenshot</span>
+          <h3 class="mt-2 font-display text-2xl font-black leading-tight tracking-[-0.03em] text-[var(--landing-dark)]">Fullscreen live published slider layout with arrow controls</h3>
+          <p class="mb-0 mt-2 text-md leading-6 text-slate-600">Slider in fullscreen layout mode with background image and one of the visual arrow control styles.</p>
+        </div>
+      </article>
+      
+      <article class="rounded-lg border-2 border-dashed border-[#E02F2F]/60 bg-[#E02F2F]/[0.055] p-5 lg:col-span-2" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="200">
+        <div class=" mb-4 overflow-hidden rounded" style="height: 150px">
+          <img class="h-full w-full object-cover object-top screenshot" src="assets/images/screenshots/dot-nav-variants.avif" alt="Dots navigation - 4 style variants" loading="lazy" decoding="async">
+        </div>
+        <div class="">
+          <span class="!hidden font-mono text-[10px] font-black uppercase tracking-[0.18em] text-red-600">Screenshot</span>
+          <h3 class="mt-2 font-display text-2xl font-black leading-tight tracking-[-0.03em] text-[var(--landing-dark)]">Dots navigation - 4 style variants</h3>
+          <p class="mb-0 mt-2 text-md leading-6 text-slate-600">Side-by-side comparison of fillup, scaleup, drawcircle and tooltip dot styles with image thumbnail tooltip mode.</p>
+        </div>
+      </article>
+      
+      <article class="rounded-lg border-2 border-dashed border-[#E02F2F]/60 bg-[#E02F2F]/[0.055] p-5 lg:col-span-2" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="300">
+        <div class=" mb-4 overflow-hidden rounded" style="height: 150px">
+          <img class="h-full w-full object-cover object-top screenshot" src="assets/images/screenshots/thumbnails-navigation-strip.avif" alt="Thumbnail navigation strip" loading="lazy" decoding="async">
+        </div>
+        <div class="">
+          <span class="!hidden font-mono text-[10px] font-black uppercase tracking-[0.18em] text-red-600">Screenshot</span>
+          <h3 class="mt-2 font-display text-2xl font-black leading-tight tracking-[-0.03em] text-[var(--landing-dark)]">Thumbnail navigation strip</h3>
+          <p class="mb-0 mt-2 text-md leading-6 text-slate-600">Responsive thumbnail strip below the slider with active highlight, rewind arrows and paging controls.</p>
+        </div>
+      </article>
+      
+      <article class="rounded-lg border-2 border-dashed border-[#E02F2F]/60 bg-[#E02F2F]/[0.055] p-5 lg:col-span-2" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="400">
+        <div class=" mb-4 overflow-hidden rounded" style="height: 150px">
+          <img class="h-full w-full object-cover object-top screenshot" src="assets/images/screenshots/gallery-3d-carousel-mode.avif" alt="Gallery3D carousel mode" loading="lazy" decoding="async">
+        </div>
+        <div class="">
+          <span class="!hidden font-mono text-[10px] font-black uppercase tracking-[0.18em] text-red-600">Screenshot</span>
+          <h3 class="mt-2 font-display text-2xl font-black leading-tight tracking-[-0.03em] text-[var(--landing-dark)]">Gallery3D carousel mode</h3>
+          <p class="mb-0 mt-2 text-md leading-6 text-slate-600">Perspective-based carousel with centered active slide, scaled side slides and active-slide progress indicator.</p>
+        </div>
+      </article>
+      
+      <article class="rounded-lg border-2 border-dashed border-[#E02F2F]/60 bg-[#E02F2F]/[0.055] p-5 lg:col-span-2" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="500">
+        <div class="!hidden mb-4 overflow-hidden rounded" style="height: 160px">
+          <img class="h-full w-full object-cover object-top screenshot" src="" alt="Linear progress bar - bottom right placement" loading="lazy" decoding="async">
+        </div>
+        <div class="">
+          <span class="!hidden font-mono text-[10px] font-black uppercase tracking-[0.18em] text-red-600">Screenshot</span>
+          <h3 class="mt-2 font-display text-2xl font-black leading-tight tracking-[-0.03em] text-[var(--landing-dark)]">Linear progress bar - bottom right placement</h3>
+          <p class="mb-0 mt-2 text-md leading-6 text-slate-600">Autoplayed progress bar running across the top edge of the slider with custom fill, background and thickness. Placement can be <strong>top</strong>, <strong>bottom</strong>, <strong>left</strong> or <strong>right</strong></p>
+        </div>
+      </article>
+      
+      <article class="rounded-lg border-2 border-dashed border-[#E02F2F]/60 bg-[#E02F2F]/[0.055] p-5 lg:col-span-2" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="600">
+        <div class="!hidden mb-4 overflow-hidden rounded" style="height: 160px">
+          <img class="h-full w-full object-cover object-top screenshot" src="" alt="Radial progress bar - top placement" loading="lazy" decoding="async">
+        </div>
+        <div class="">
+          <span class="!hidden font-mono text-[10px] font-black uppercase tracking-[0.18em] text-red-600">Screenshot</span>
+          <h3 class="mt-2 font-display text-2xl font-black leading-tight tracking-[-0.03em] text-[var(--landing-dark)]">Radial progress bar - top placement</h3>
+          <p class="mb-0 mt-2 text-md leading-6 text-slate-600">Autoplayed radial progress bar running on the bottom right edge of the slider with custom fill, background and thickness. Placement can be <strong>top left</strong>, <strong>top right</strong>, <strong>bottom left</strong>, <strong>bottom right</strong></p>
+        </div>
+      </article>
+      
+      <article class="rounded-lg border-2 border-dashed border-[#E02F2F]/60 bg-[#E02F2F]/[0.055] p-5 lg:col-span-2" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="700">
+        <div class="!hidden mb-4 overflow-hidden rounded" style="height: 160px">
+          <img class="h-full w-full object-cover object-top screenshot" src="" alt="Ken Burns effect on image-backed slide" loading="lazy" decoding="async">
+        </div>
+        <div class="">
+          <span class="!hidden font-mono text-[10px] font-black uppercase tracking-[0.18em] text-red-600">Screenshot</span>
+          <h3 class="mt-2 font-display text-2xl font-black leading-tight tracking-[-0.03em] text-[var(--landing-dark)]">Ken Burns effect on image-backed slide</h3>
+          <p class="mb-0 mt-2 text-md leading-6 text-slate-600">Slow pan and zoom movement on image-backed slides with configurable duration and direction.</p>
+        </div>
+      </article>
+      
+    </div>
+  </div>
+</section>
+
+  
+
+<section id="templates-addons" class="bg-[var(--landing-dark)] py-20 text-white md:py-28">
+  <div class="mx-auto w-[min(1180px,calc(100%_-_36px))]">
+    <p class="mb-4 flex items-center gap-3 font-mono text-xs font-black uppercase tracking-[0.2em] text-[var(--landing-bright)] before:h-0.5 before:w-6 before:bg-[var(--landing-bright)]" data-aos="fade-up" data-aos-duration="1600">Reusable assets</p>
+    <h2 class="max-w-4xl font-display text-4xl font-black leading-[1.02] tracking-[-0.04em] text-white md:text-5xl" data-aos="fade-up" data-aos-duration="1600">Templates, imports and addons for <span class="italic text-[var(--landing-pale)]">repeatable</span> tasks.</h2>
+    <div class="mt-12 grid gap-10 lg:grid-cols-2">
+      <div class="overflow-hidden rounded-lg border border-white/10">
+        
+        <div class="flex gap-4 border-b border-white/10 px-5 py-4 text-md font-bold leading-6 text-white/50 last:border-b-0" data-aos="fade-left" data-aos-duration="1100" data-aos-delay="0">
+          <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--landing-bright)]"></span>
+          <span>Save any slider as a reusable local template</span>
+        </div>
+        
+        <div class="flex gap-4 border-b border-white/10 px-5 py-4 text-md font-bold leading-6 text-white/50 last:border-b-0" data-aos="fade-left" data-aos-duration="1100" data-aos-delay="100">
+          <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--landing-bright)]"></span>
+          <span>Create new sliders from installed templates</span>
+        </div>
+        
+        <div class="flex gap-4 border-b border-white/10 px-5 py-4 text-md font-bold leading-6 text-white/50 last:border-b-0" data-aos="fade-left" data-aos-duration="1100" data-aos-delay="200">
+          <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--landing-bright)]"></span>
+          <span>Filter templates by Hero, Carousel, Fullscreen, Ticker and Video</span>
+        </div>
+        
+        <div class="flex gap-4 border-b border-white/10 px-5 py-4 text-md font-bold leading-6 text-white/50 last:border-b-0" data-aos="fade-left" data-aos-duration="1100" data-aos-delay="300">
+          <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--landing-bright)]"></span>
+          <span>Free, Pro and Installed template state badges</span>
+        </div>
+        
+        <div class="flex gap-4 border-b border-white/10 px-5 py-4 text-md font-bold leading-6 text-white/50 last:border-b-0" data-aos="fade-left" data-aos-duration="1100" data-aos-delay="400">
+          <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--landing-bright)]"></span>
+          <span>Remote catalog with preview and duplicate prevention</span>
+        </div>
+        
+        <div class="flex gap-4 border-b border-white/10 px-5 py-4 text-md font-bold leading-6 text-white/50 last:border-b-0" data-aos="fade-left" data-aos-duration="1100" data-aos-delay="500">
+          <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--landing-bright)]"></span>
+          <span>Export sliders and templates as `.zoro` package files</span>
+        </div>
+        
+        <div class="flex gap-4 border-b border-white/10 px-5 py-4 text-md font-bold leading-6 text-white/50 last:border-b-0" data-aos="fade-left" data-aos-duration="1100" data-aos-delay="600">
+          <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--landing-bright)]"></span>
+          <span>Import progress UI, metadata and error states</span>
+        </div>
+        
+        <div class="flex gap-4 border-b border-white/10 px-5 py-4 text-md font-bold leading-6 text-white/50 last:border-b-0" data-aos="fade-left" data-aos-duration="1100" data-aos-delay="700">
+          <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--landing-bright)]"></span>
+          <span>Addon architecture for export and debugging workflows</span>
+        </div>
+        
+      </div>
+      <div class="overflow-hidden rounded-lg border border-white/10 bg-white/[0.04]" data-aos="flip-right" data-aos-duration="1600">
+        <div class="bg-[var(--landing-accent-muted)] p-7">
+          <span class="font-mono text-xs font-black uppercase tracking-[0.2em] text-white/45">Reusable asset system</span>
+          <h3 class="mt-3 font-display text-4xl font-black leading-none text-white">Templates · Imports · Addons</h3>
+        </div>
+        <div class="border-y border-dashed border-white/15 px-7 py-4"></div>
+        <div class="grid border-b border-dashed border-white/15 sm:grid-cols-2">
+          
+          <div class="border-b border-dashed border-white/15 p-7 last:border-b-0 sm:border-r sm:[&:nth-child(2)]:border-r-0 sm:[&:nth-child(3)]:border-b-0 sm:[&:nth-child(4)]:border-r-0 sm:[&:nth-child(4)]:border-b-0">
+            <span class="block font-mono text-[10px] font-black uppercase tracking-[0.16em] text-white/30">Package format</span>
+            <strong class="mt-1 block text-md font-black text-white/75">.zoro files</strong>
+          </div>
+          
+          <div class="border-b border-dashed border-white/15 p-7 last:border-b-0 sm:border-r sm:[&:nth-child(2)]:border-r-0 sm:[&:nth-child(3)]:border-b-0 sm:[&:nth-child(4)]:border-r-0 sm:[&:nth-child(4)]:border-b-0">
+            <span class="block font-mono text-[10px] font-black uppercase tracking-[0.16em] text-white/30">Template groups</span>
+            <strong class="mt-1 block text-md font-black text-white/75">Hero · Video · Carousel</strong>
+          </div>
+          
+          <div class="border-b border-dashed border-white/15 p-7 last:border-b-0 sm:border-r sm:[&:nth-child(2)]:border-r-0 sm:[&:nth-child(3)]:border-b-0 sm:[&:nth-child(4)]:border-r-0 sm:[&:nth-child(4)]:border-b-0">
+            <span class="block font-mono text-[10px] font-black uppercase tracking-[0.16em] text-white/30">Addon naming</span>
+            <strong class="mt-1 block text-md font-black text-white/75">zoro-slider-{name}</strong>
+          </div>
+          
+          <div class="border-b border-dashed border-white/15 p-7 last:border-b-0 sm:border-r sm:[&:nth-child(2)]:border-r-0 sm:[&:nth-child(3)]:border-b-0 sm:[&:nth-child(4)]:border-r-0 sm:[&:nth-child(4)]:border-b-0">
+            <span class="block font-mono text-[10px] font-black uppercase tracking-[0.16em] text-white/30">Import guards</span>
+            <strong class="mt-1 block text-md font-black text-white/75">Type checked</strong>
+          </div>
+          
+        </div>
+        <div class="mt-[1.1rem] flex flex-wrap gap-[0.45rem] px-4">
+          <span class="inline-flex h-[1.45rem] items-center justify-center rounded-[3px] border border-white/[0.18] px-[0.65rem] pt-[0.05rem] pb-[0.2rem] text-center text-[0.62rem] font-bold uppercase leading-[1] tracking-[0.1em] text-white/50">Debugger addon</span>
+          <span class="inline-flex h-[1.45rem] items-center justify-center rounded-[3px] border border-white/[0.18] px-[0.65rem] pt-[0.05rem] pb-[0.2rem] text-center text-[0.62rem] font-bold uppercase leading-[1] tracking-[0.1em] text-white/50">Remote catalog</span>
+          <span class="inline-flex h-[1.45rem] items-center justify-center rounded-[3px] border border-white/[0.18] px-[0.65rem] pt-[0.05rem] pb-[0.2rem] text-center text-[0.62rem] font-bold uppercase leading-[1] tracking-[0.1em] text-white/50">.zoro import/export</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  
+
+<section id="templates-workflows" class="border-t border-[var(--landing-line)] bg-[var(--landing-soft)] py-20 md:py-28">
+  <div class="mx-auto w-[min(1180px,calc(100%_-_36px))]">
+    <div class="mb-10 max-w-3xl" data-aos="fade-up" data-aos-duration="1600">
+      <p class="mb-4 flex items-center gap-3 font-mono text-xs font-black uppercase tracking-[0.2em] text-[var(--landing-accent)] before:h-0.5 before:w-6 before:bg-[var(--landing-accent)]">Templates &amp; addons</p>
+      <h2 class="font-display text-4xl font-black leading-[1.02] tracking-[-0.04em] text-[var(--landing-dark)] md:text-5xl">Template library, import/export and addon workflows.</h2>
+      <p class="mt-5 text-base leading-8 text-slate-500">Reusable templates and package workflows make it easier to move slider designs between projects, preserve production layouts and expand the plugin with focused addons.</p>
+    </div>
+
+    <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-6">
+      
+      <article class="rounded-lg border-2 border-dashed border-[#E02F2F]/60 bg-[#E02F2F]/[0.055] p-5 lg:col-span-3" data-aos="fade-up" data-aos-duration="1600">
+        <div class="overflow-hidden rounded" style="height: 210px">
+          <img class="h-full w-full object-cover object-top screenshot" src="assets/images/screenshots/template-library-remote-catalog-view.avif" alt="Template library - remote catalog view" loading="lazy" decoding="async">
+        </div>
+        <div class="mt-4">
+          <span class="!hidden font-mono text-[10px] font-black uppercase tracking-[0.18em] text-red-600">Screenshot</span>
+          <h3 class="mt-2 font-display text-2xl font-black leading-tight tracking-[-0.03em] text-[var(--landing-dark)]">Template library - remote catalog view</h3>
+          <p class="mb-0 mt-2 text-md leading-6 text-slate-600">Remote template catalog in grid mode with category filter tabs, Free, Pro and Installed badges, and preview buttons.</p>
+        </div>
+      </article>
+      
+      <article class="rounded-lg border-2 border-dashed border-[#E02F2F]/60 bg-[#E02F2F]/[0.055] p-5 lg:col-span-3" data-aos="fade-up" data-aos-duration="1600">
+        <div class="overflow-hidden rounded" style="height: 210px">
+          <img class="h-full w-full object-cover object-top screenshot" src="assets/images/screenshots/new-slider-from-template-dialog.avif" alt="New slider from template dialog" loading="lazy" decoding="async">
+        </div>
+        <div class="mt-4">
+          <span class="!hidden font-mono text-[10px] font-black uppercase tracking-[0.18em] text-red-600">Screenshot</span>
+          <h3 class="mt-2 font-display text-2xl font-black leading-tight tracking-[-0.03em] text-[var(--landing-dark)]">New slider from template dialog</h3>
+          <p class="mb-0 mt-2 text-md leading-6 text-slate-600">Template selector modal triggered from the sliders page with installed template cards and name field for the new slider.</p>
+        </div>
+      </article>
+      
+      <article class="rounded-lg border-2 border-dashed border-[#E02F2F]/60 bg-[#E02F2F]/[0.055] p-5 lg:col-span-2" data-aos="fade-up" data-aos-duration="1600">
+        <div class="overflow-hidden rounded" style="height: 155px">
+          <img class="h-full w-full object-cover object-top screenshot" src="assets/images/screenshots/import-zoro-dialog-with-progress.avif" alt="Import .zoro dialog - with progress" loading="lazy" decoding="async">
+        </div>
+        <div class="mt-4">
+          <span class="!hidden font-mono text-[10px] font-black uppercase tracking-[0.18em] text-red-600">Screenshot</span>
+          <h3 class="mt-2 font-display text-2xl font-black leading-tight tracking-[-0.03em] text-[var(--landing-dark)]">Import .zoro dialog - with progress</h3>
+          <p class="mb-0 mt-2 text-md leading-6 text-slate-600">Import modal showing upload progress, package metadata and success state with redirect button.</p>
+        </div>
+      </article>
+      
+      <article class="rounded-lg border-2 border-dashed border-[#E02F2F]/60 bg-[#E02F2F]/[0.055] p-5 lg:col-span-2" data-aos="fade-up" data-aos-duration="1600">
+        <div class="overflow-hidden rounded" style="height: 155px">
+          <img class="h-full w-full object-cover object-top screenshot" src="assets/images/screenshots/export-modal-slider-as-zoro.avif" alt="Export modal - slider as .zoro" loading="lazy" decoding="async">
+        </div>
+        <div class="mt-4">
+          <span class="!hidden font-mono text-[10px] font-black uppercase tracking-[0.18em] text-red-600">Screenshot</span>
+          <h3 class="mt-2 font-display text-2xl font-black leading-tight tracking-[-0.03em] text-[var(--landing-dark)]">Export modal - slider as .zoro</h3>
+          <p class="mb-0 mt-2 text-md leading-6 text-slate-600">Export modal for a slider showing package name field, included assets summary and download button.</p>
+        </div>
+      </article>
+      
+      <article class="rounded-lg border-2 border-dashed border-[#E02F2F]/60 bg-[#E02F2F]/[0.055] p-5 lg:col-span-2" data-aos="fade-up" data-aos-duration="1600">
+        <div class="overflow-hidden rounded" style="height: 155px">
+          <img class="h-full w-full object-cover object-top screenshot" src="assets/images/screenshots/debugger-addon.avif" alt="Debugger addon - DB + draft inspector" loading="lazy" decoding="async">
+        </div>
+        <div class="mt-4">
+          <span class="!hidden font-mono text-[10px] font-black uppercase tracking-[0.18em] text-red-600">Screenshot</span>
+          <h3 class="mt-2 font-display text-2xl font-black leading-tight tracking-[-0.03em] text-[var(--landing-dark)]">Debugger addon - DB + draft inspector</h3>
+          <p class="mb-0 mt-2 text-md leading-6 text-slate-600">Debugger panel showing saved DB JSON, parsed localStorage draft, sync timestamp and copy actions.</p>
+        </div>
+      </article>
+      
+    </div>
+  </div>
+</section>
+
+  
+
+<section id="security-docs" class="border-t border-[var(--landing-line)] bg-white py-20 md:py-28">
+  <div class="mx-auto w-[min(1180px,calc(100%_-_36px))]">
+    <p class="mb-4 flex items-center gap-3 font-mono text-xs font-black uppercase tracking-[0.2em] text-[var(--landing-accent)] before:h-0.5 before:w-6 before:bg-[var(--landing-accent)]" data-aos="fade-up" data-aos-duration="1600">Professional foundation</p>
+    <h2 class="max-w-4xl font-display text-4xl font-black leading-[1.02] tracking-[-0.04em] text-[var(--landing-dark)] md:text-5xl" data-aos="fade-up" data-aos-duration="1600">Built with the details expected from a serious WordPress plugin.</h2>
+    <div class="mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+      
+      <article class="rounded-lg border border-[var(--landing-line)] p-6" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="0">
+        <span class="mb-5 grid h-10 w-10 place-items-center rounded bg-[var(--landing-dark)] font-mono text-xs font-black text-[var(--landing-bright)]">WP</span>
+        <h3 class="font-display text-xl font-black leading-tight text-[var(--landing-dark)]">WordPress-safe operations</h3>
+        <p class="mb-0 mt-3 text-sm leading-7 text-slate-500">Nonce verification, capability checks and ownership checks protect privileged create, update, delete, clone, preview, import and export actions.</p>
+      </article>
+      
+      <article class="rounded-lg border border-[var(--landing-line)] p-6" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="100">
+        <span class="mb-5 grid h-10 w-10 place-items-center rounded bg-[var(--landing-dark)] font-mono text-xs font-black text-[var(--landing-bright)]">ESC</span>
+        <h3 class="font-display text-xl font-black leading-tight text-[var(--landing-dark)]">Safer frontend output</h3>
+        <p class="mb-0 mt-3 text-sm leading-7 text-slate-500">URLs, attributes, inline styles and text contexts are escaped, with placeholders handled by rendering context.</p>
+      </article>
+      
+      <article class="rounded-lg border border-[var(--landing-line)] p-6" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="200">
+        <span class="mb-5 grid h-10 w-10 place-items-center rounded bg-[var(--landing-dark)] font-mono text-xs font-black text-[var(--landing-bright)]">NET</span>
+        <h3 class="font-display text-xl font-black leading-tight text-[var(--landing-dark)]">Remote request handling</h3>
+        <p class="mb-0 mt-3 text-sm leading-7 text-slate-500">JSON imports, YouTube playlists and remote templates use timeout handling, safe errors and external-service disclosures.</p>
+      </article>
+      
+      <article class="rounded-lg border border-[var(--landing-line)] p-6" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="300">
+        <span class="mb-5 grid h-10 w-10 place-items-center rounded bg-[var(--landing-dark)] font-mono text-xs font-black text-[var(--landing-bright)]">ZIP</span>
+        <h3 class="font-display text-xl font-black leading-tight text-[var(--landing-dark)]">Production packaging</h3>
+        <p class="mb-0 mt-3 text-sm leading-7 text-slate-500">Release packaging excludes development-only content and keeps compiled assets ready for plugin distribution.</p>
+      </article>
+      
+      <article class="rounded-lg border border-[var(--landing-line)] p-6" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="400">
+        <span class="mb-5 grid h-10 w-10 place-items-center rounded bg-[var(--landing-dark)] font-mono text-xs font-black text-[var(--landing-bright)]">DOC</span>
+        <h3 class="font-display text-xl font-black leading-tight text-[var(--landing-dark)]">Documentation</h3>
+        <p class="mb-0 mt-3 text-sm leading-7 text-slate-500">Installation, source types, placeholders, settings, layers, embeds, import/export, events and methods are covered.</p>
+      </article>
+      
+      <article class="rounded-lg border border-[var(--landing-line)] p-6" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="500">
+        <span class="mb-5 grid h-10 w-10 place-items-center rounded bg-[var(--landing-dark)] font-mono text-xs font-black text-[var(--landing-bright)]">DBG</span>
+        <h3 class="font-display text-xl font-black leading-tight text-[var(--landing-dark)]">Optional debugging</h3>
+        <p class="mb-0 mt-3 text-sm leading-7 text-slate-500">Debugger tools live in an addon so production core stays cleaner while advanced troubleshooting remains available.</p>
+      </article>
+      
+    </div>
+  </div>
+</section>
+
+  
+  <section id="page-links" class="border-y border-[var(--landing-line)] bg-white py-16">
+  <div class="mx-auto grid w-[min(1180px,calc(100%_-_36px))] gap-4 lg:grid-cols-3">
+    
+    <article class="rounded-lg border p-7 border-transparent bg-[var(--landing-dark)] text-white" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="0">
+      <span class="font-mono text-xs font-black uppercase tracking-[0.18em] text-[var(--landing-bright)]">Explore motion</span>
+      <h3 class="mt-4 font-display text-2xl font-black leading-tight tracking-[-0.03em]">Transitions have their own page.</h3>
+      <p class="mb-0 mt-3 text-sm leading-7 text-white/40">Browse and test all built-in transition families without crowding this overview.</p>
+      <a class="mt-6 inline-flex font-mono text-sm font-black no-underline text-white/70 hover:text-[var(--landing-bright)]" href="transitions/index.html">Open transitions →</a>
+    </article>
+    
+    <article class="rounded-lg border p-7 border-[var(--landing-line)] bg-white text-[var(--landing-dark)]" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="100">
+      <span class="font-mono text-xs font-black uppercase tracking-[0.18em] text-[var(--landing-accent)]">Browse proof</span>
+      <h3 class="mt-4 font-display text-2xl font-black leading-tight tracking-[-0.03em]">Demos show industry-specific usage.</h3>
+      <p class="mb-0 mt-3 text-sm leading-7 text-slate-500">Hero sections, product stories, media galleries and campaign banners for real markets.</p>
+      <a class="mt-6 inline-flex font-mono text-sm font-black no-underline text-[var(--landing-dark)] hover:text-[var(--landing-accent)]" href="demos/index.html">Open demos →</a>
+    </article>
+    
+    <article class="rounded-lg border p-7 border-[var(--landing-line)] bg-white text-[var(--landing-dark)]" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="200">
+      <span class="font-mono text-xs font-black uppercase tracking-[0.18em] text-[var(--landing-accent)]">Inspect features</span>
+      <h3 class="mt-4 font-display text-2xl font-black leading-tight tracking-[-0.03em]">Examples isolate individual behavior.</h3>
+      <p class="mb-0 mt-3 text-sm leading-7 text-slate-500">Responsive scaling, media layers, progress indicators, carousel modes and API integration.</p>
+      <a class="mt-6 inline-flex font-mono text-sm font-black no-underline text-[var(--landing-dark)] hover:text-[var(--landing-accent)]" href="examples/index.html">Open examples →</a>
+    </article>
+    
+  </div>
+</section>
+
+  
+
+<section id="faqs" class="bg-[var(--landing-dark-2)] py-20 text-white md:py-28">
+  <div class="mx-auto w-[min(920px,calc(100%_-_36px))]" data-aos="fade-up" data-aos-duration="1600">
+    <div class="mx-auto max-w-3xl text-center">
+      <p class="mb-4 font-mono text-xs font-black uppercase tracking-[0.2em] text-[var(--landing-bright)]">Common questions</p>
+      <h2 class="font-display text-4xl font-black leading-[1.02] tracking-[-0.04em] md:text-5xl">Common <span class="italic text-[var(--landing-pale)]">FAQs</span> about the plugin.</h2>
+      <p class="mx-auto mt-5 max-w-2xl text-base leading-8 text-white/45">Clear answers about who ZoroSlider is for, what it builds and how much control it gives you.</p>
+    </div>
+
+    <div class="mt-12 overflow-hidden rounded-lg border border-white/10">
+      
+      <details class="group border-b border-white/10 bg-[var(--landing-dark-2)] transition-colors duration-500 last:border-b-0 open:bg-[var(--landing-dark-3)]" data-index-faq>
+        <summary class="flex cursor-pointer list-none items-center justify-between gap-5 px-5 py-5 font-display text-xl font-black leading-tight text-white" data-index-faq-trigger>
+          <span>Is ZoroSlider mainly a WordPress plugin?</span>
+          <span class="grid h-8 w-8 shrink-0 place-items-center rounded bg-white/10 text-lg transition group-open:rotate-45 group-open:bg-[var(--landing-bright)] group-open:text-[var(--landing-dark)]">+</span>
+        </summary>
+        <div class="max-h-0 overflow-hidden opacity-0 transition-[max-height,opacity] duration-500 ease-[cubic-bezier(.22,1,.36,1)]" data-index-faq-panel>
+          <p class="mb-0 max-w-3xl px-5 pb-5 text-md font-medium leading-7 text-white/45">Yes. This product is focused on the WordPress plugin experience: visual building, admin management, templates, source types, shortcodes and frontend rendering. The published sliders are powered by a capable frontend runtime underneath.</p>
+        </div>
+      </details>
+      
+      <details class="group border-b border-white/10 bg-[var(--landing-dark-2)] transition-colors duration-500 last:border-b-0 open:bg-[var(--landing-dark-3)]" data-index-faq>
+        <summary class="flex cursor-pointer list-none items-center justify-between gap-5 px-5 py-5 font-display text-xl font-black leading-tight text-white" data-index-faq-trigger>
+          <span>What layout modes are available?</span>
+          <span class="grid h-8 w-8 shrink-0 place-items-center rounded bg-white/10 text-lg transition group-open:rotate-45 group-open:bg-[var(--landing-bright)] group-open:text-[var(--landing-dark)]">+</span>
+        </summary>
+        <div class="max-h-0 overflow-hidden opacity-0 transition-[max-height,opacity] duration-500 ease-[cubic-bezier(.22,1,.36,1)]" data-index-faq-panel>
+          <p class="mb-0 max-w-3xl px-5 pb-5 text-md font-medium leading-7 text-white/45">ZoroSlider supports <em><strong>default</strong></em>, <em><strong>fixed</strong></em>, <em><strong>fullWidth</strong></em>, <em><strong>fullWidthScoped</strong></em> and <em><strong>fullScreen</strong></em> layouts, so sliders can work inside boxed pages, parent-width sections, browser-wide full-bleed areas and viewport-filling hero sections.</p>
+        </div>
+      </details>
+      
+      <details class="group border-b border-white/10 bg-[var(--landing-dark-2)] transition-colors duration-500 last:border-b-0 open:bg-[var(--landing-dark-3)]" data-index-faq>
+        <summary class="flex cursor-pointer list-none items-center justify-between gap-5 px-5 py-5 font-display text-xl font-black leading-tight text-white" data-index-faq-trigger>
+          <span>What layer types can I use?</span>
+          <span class="grid h-8 w-8 shrink-0 place-items-center rounded bg-white/10 text-lg transition group-open:rotate-45 group-open:bg-[var(--landing-bright)] group-open:text-[var(--landing-dark)]">+</span>
+        </summary>
+        <div class="max-h-0 overflow-hidden opacity-0 transition-[max-height,opacity] duration-500 ease-[cubic-bezier(.22,1,.36,1)]" data-index-faq-panel>
+          <p class="mb-0 max-w-3xl px-5 pb-5 text-md font-medium leading-7 text-white/45">Layers can be <em><strong>text</strong></em>, <em><strong>captions</strong></em>, <em><strong>shapes</strong></em>, <em><strong>images</strong></em>, <em><strong>buttons</strong></em>, <em><strong>icons</strong></em>, <em><strong>HTML</strong></em>, <em><strong>audio</strong></em> and <em><strong>video</strong></em>. Each layer can have its own position, z-index, animation timing, responsive visibility and device behavior.</p>
+        </div>
+      </details>
+      
+      <details class="group border-b border-white/10 bg-[var(--landing-dark-2)] transition-colors duration-500 last:border-b-0 open:bg-[var(--landing-dark-3)]" data-index-faq>
+        <summary class="flex cursor-pointer list-none items-center justify-between gap-5 px-5 py-5 font-display text-xl font-black leading-tight text-white" data-index-faq-trigger>
+          <span>Can sliders be generated from WordPress content?</span>
+          <span class="grid h-8 w-8 shrink-0 place-items-center rounded bg-white/10 text-lg transition group-open:rotate-45 group-open:bg-[var(--landing-bright)] group-open:text-[var(--landing-dark)]">+</span>
+        </summary>
+        <div class="max-h-0 overflow-hidden opacity-0 transition-[max-height,opacity] duration-500 ease-[cubic-bezier(.22,1,.36,1)]" data-index-faq-panel>
+          <p class="mb-0 max-w-3xl px-5 pb-5 text-md font-medium leading-7 text-white/45">Yes. ZoroSlider supports <em><strong>manual builder slides</em></strong>, <em><strong>WordPress posts</em></strong>, <em><strong>JSON imports</em></strong> and <em><strong>YouTube playlists</em></strong>, with placeholders for dynamic titles, excerpts, links, images, video data and custom fields.</p>
+        </div>
+      </details>
+      
+      <details class="group border-b border-white/10 bg-[var(--landing-dark-2)] transition-colors duration-500 last:border-b-0 open:bg-[var(--landing-dark-3)]" data-index-faq>
+        <summary class="flex cursor-pointer list-none items-center justify-between gap-5 px-5 py-5 font-display text-xl font-black leading-tight text-white" data-index-faq-trigger>
+          <span>Does ZoroSlider support videos and audio?</span>
+          <span class="grid h-8 w-8 shrink-0 place-items-center rounded bg-white/10 text-lg transition group-open:rotate-45 group-open:bg-[var(--landing-bright)] group-open:text-[var(--landing-dark)]">+</span>
+        </summary>
+        <div class="max-h-0 overflow-hidden opacity-0 transition-[max-height,opacity] duration-500 ease-[cubic-bezier(.22,1,.36,1)]" data-index-faq-panel>
+          <p class="mb-0 max-w-3xl px-5 pb-5 text-md font-medium leading-7 text-white/45">Yes. It supports background <em><strong>videos</em></strong>, <em><strong>video layers</em></strong>, <em><strong>audio layers</em></strong> and <em><strong>media events</em></strong>, including behavior that avoids interrupting playing media during autoplay transitions.</p>
+        </div>
+      </details>
+      
+      <details class="group border-b border-white/10 bg-[var(--landing-dark-2)] transition-colors duration-500 last:border-b-0 open:bg-[var(--landing-dark-3)]" data-index-faq>
+        <summary class="flex cursor-pointer list-none items-center justify-between gap-5 px-5 py-5 font-display text-xl font-black leading-tight text-white" data-index-faq-trigger>
+          <span>Can developers still customize the published slider?</span>
+          <span class="grid h-8 w-8 shrink-0 place-items-center rounded bg-white/10 text-lg transition group-open:rotate-45 group-open:bg-[var(--landing-bright)] group-open:text-[var(--landing-dark)]">+</span>
+        </summary>
+        <div class="max-h-0 overflow-hidden opacity-0 transition-[max-height,opacity] duration-500 ease-[cubic-bezier(.22,1,.36,1)]" data-index-faq-panel>
+          <p class="mb-0 max-w-3xl px-5 pb-5 text-md font-medium leading-7 text-white/45">Yes. Public methods and <em><strong>zoroslider:*</em></strong> events let developers control navigation, autoplay, layout refresh, layers, media and slide state from custom UI or project-specific scripts.</p>
+        </div>
+      </details>
+      
+      <details class="group border-b border-white/10 bg-[var(--landing-dark-2)] transition-colors duration-500 last:border-b-0 open:bg-[var(--landing-dark-3)]" data-index-faq>
+        <summary class="flex cursor-pointer list-none items-center justify-between gap-5 px-5 py-5 font-display text-xl font-black leading-tight text-white" data-index-faq-trigger>
+          <span>Can ZoroSlider work on CSS-heavy WordPress themes?</span>
+          <span class="grid h-8 w-8 shrink-0 place-items-center rounded bg-white/10 text-lg transition group-open:rotate-45 group-open:bg-[var(--landing-bright)] group-open:text-[var(--landing-dark)]">+</span>
+        </summary>
+        <div class="max-h-0 overflow-hidden opacity-0 transition-[max-height,opacity] duration-500 ease-[cubic-bezier(.22,1,.36,1)]" data-index-faq-panel>
+          <p class="mb-0 max-w-3xl px-5 pb-5 text-md font-medium leading-7 text-white/45">Yes. The frontend output uses scoped slider CSS and has been hardened against common framework, reset and theme conflicts.</p>
+        </div>
+      </details>
+      
+    </div>
+    <div class="mt-10 flex flex-wrap justify-center gap-3" data-aos="zoom-in" data-aos-duration="1600">
+      <a class="inline-flex min-h-11 items-center justify-center rounded-md bg-[var(--landing-bright)] px-5 font-black text-[var(--landing-dark)] no-underline transition hover:bg-[var(--landing-bright-hover)]" href="https://themecresthq.xyz/plugins/zoroslider/wp/docs">Read full docs</a>
+      <a class="inline-flex min-h-11 items-center justify-center rounded-md border border-white/20 px-5 font-black text-white/80 no-underline transition hover:border-[var(--landing-bright)] hover:text-[var(--landing-bright)]" href="api/index.html">View API</a>
+    </div>
+  </div>
+</section>
+
+  <section id="final-cta" class="border-t border-[var(--landing-line)] bg-[var(--landing-soft)] px-0 py-20 md:py-24">
+  <div class="mx-auto grid w-[min(1180px,calc(100%_-_36px))] overflow-hidden rounded-2xl border border-[var(--landing-line)] bg-[var(--landing-dark)] text-white shadow-demo lg:grid-cols-[1.08fr_0.92fr]" data-aos="fade-up" data-aos-duration="1600">
+    <div class="flex min-h-[360px] flex-col justify-between gap-10 border-b border-white/10 p-8 md:p-12 lg:border-b-0 lg:border-r">
+      <div>
+        <p class="mb-5 flex items-center gap-3 font-mono text-xs font-black uppercase tracking-[0.2em] text-[var(--landing-bright)] before:h-0.5 before:w-6 before:bg-[var(--landing-bright)]">Ready to build</p>
+        <h2 class="max-w-3xl font-display text-4xl font-black leading-[0.98] tracking-[-0.05em] md:text-6xl">
+          For teams that need control <em class="text-[var(--landing-pale)]">after</em> the demo looks good.
+        </h2>
+        <p class="mt-6 max-w-2xl text-base font-medium leading-8 text-white/55 md:text-lg">
+          One WordPress plugin for site owners, designers and developers. Built for repeatable production work, not one-off sliders.
+        </p>
+      </div>
+      <div class="flex flex-wrap gap-3">
+        <a class="inline-flex min-h-12 items-center justify-center rounded-md bg-[var(--landing-bright)] px-6 font-black text-[var(--landing-dark)] no-underline transition hover:bg-[var(--landing-bright-hover)]" href="demos/index.html">View live demos</a>
+        <a class="inline-flex min-h-12 items-center justify-center rounded-md border border-white/20 px-6 font-black text-white no-underline transition hover:border-[var(--landing-bright)] hover:text-[var(--landing-bright)]" href="https://themecresthq.xyz/plugins/zoroslider/wp/docs">Read documentation</a>
+      </div>
+    </div>
+    <div class="relative bg-[var(--landing-accent)] p-6 md:p-8">
+      <div class="grid h-full content-center gap-4">
+        
+        <article class="group rounded-xl border border-white/12 bg-white/[0.075] p-5 backdrop-blur transition hover:border-[var(--landing-bright-line)] hover:bg-white/[0.11]" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="0">
+          <strong class="block font-display text-xl font-black leading-none tracking-[-0.03em] text-white">Site owners</strong>
+          <span class="mt-3 block text-md font-medium leading-7 text-white/55 transition group-hover:text-white/70">Visual builder, templates, source types and admin workflows with no code required.</span>
+        </article>
+        
+        <article class="group rounded-xl border border-white/12 bg-white/[0.075] p-5 backdrop-blur transition hover:border-[var(--landing-bright-line)] hover:bg-white/[0.11]" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="100">
+          <strong class="block font-display text-xl font-black leading-none tracking-[-0.03em] text-white">Designers</strong>
+          <span class="mt-3 block text-md font-medium leading-7 text-white/55 transition group-hover:text-white/70">Layered composition, responsive scaling, Ken Burns effects and 50+ transition choices.</span>
+        </article>
+        
+        <article class="group rounded-xl border border-white/12 bg-white/[0.075] p-5 backdrop-blur transition hover:border-[var(--landing-bright-line)] hover:bg-white/[0.11]" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="200">
+          <strong class="block font-display text-xl font-black leading-none tracking-[-0.03em] text-white">Developers</strong>
+          <span class="mt-3 block text-md font-medium leading-7 text-white/55 transition group-hover:text-white/70">Shortcode and PHP embeds, scoped CSS, public API events and addon architecture.</span>
+        </article>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+
+  <footer>
+    <div class="footer-cta">
+      <div class="footer-cta-inner">
+        <div class="footer-cta-text">
+          <h2>Ready to use beautiful sliders?</h2>
+          <p>One-time purchase. Lifetime updates. Zero overhead.</p>
+        </div>
+        <div class="cta-actions">
+          <a href="https://codedilaz.com/code/zoroslider-premium-wordpress-slider-builder/313/" class="btn-buy">Get ZoroSlider</a>
+          <a href="https://themecresthq.xyz/plugins/zoroslider/wp/docs" class="btn-docs">Documentation</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-main-shell">
+      <div class="footer-main">
+        <div>
+          <a class="footer-brand-logo" href="index.html" aria-label="ZoroSlider demos home">
+            <img src="assets/images/zoro-slider-light-logo.png" alt="ZoroSlider">
+          </a>
+          <div class="footer-tagline">Premium layer slider for modern web projects.</div>
+        </div>
+        <div>
+          <div class="footer-col-title">Product</div>
+          <ul class="footer-links">
+            <li><a href="index.html#feature-hierarchy">Features</a></li>
+            <li><a href="demos/index.html">Demos</a></li>
+            <li><a href="examples/index.html">Examples</a></li>
+            <li><a href="wp/docs/changelog">Changelog</a></li>
+            
+            
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-title">Resources</div>
+          <ul class="footer-links">
+            <li><a href="https://themecresthq.xyz/plugins/zoroslider/wp/docs">Documentation</a></li>
+            <li><a href="api/index.html">API Reference</a></li>
+            
+            
+            
+            
+            
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-title">Company</div>
+          <ul class="footer-links">
+            
+            
+            <li><a href="support.html">Support</a></li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-bottom-inner">
+        <div class="footer-copy">© 2025 ZoroSlider. All rights reserved.</div>
+        <div class="footer-bottom-links">
+          <a href="privacy.html">Privacy</a>
+          <a href="terms.html">Terms</a>
+          
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox HTML -->
+  <div id="lightbox" class="lightbox-overlay">
+    <span class="lightbox-close">&times;</span>
+    <span class="lightbox-nav prev">&#10094;</span>
+    <span class="lightbox-nav next">&#10095;</span>
+    <img id="lightbox-img" src="" alt="Enlarged view" />
+  </div>
+
+  <script src="vendor/zoroslider/js/libs/jquery-3.6.0.min.js"></script>
+  <script src="vendor/zoroslider/js/libs/jquery-migrate-3.3.2.min.js"></script>
+  <script src="vendor/zoroslider/js/libs/plyr/plyr.min.js"></script>
+  <script type="module" src="vendor/zoroslider/js/zoroslider.jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-markup.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
+  <script src="assets/js/aos.js"></script>
+  <script>AOS.init();</script>
+  <script defer src="assets/js/demo.js"></script>
+</body>
+</html>

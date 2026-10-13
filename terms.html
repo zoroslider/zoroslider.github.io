@@ -1,0 +1,1090 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZoroSlider Demos</title>
+  <meta name="description" content="Public demo layouts for validating ZoroSlider in realistic launch-ready pages.">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+  <link rel="shortcut icon" href="assets/images/favicon.ico">
+  <link rel="manifest" href="assets/images/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abel:wght@400;700&family=Bebas+Neue&family=Inter:wght@400;600;800&family=Montserrat:wght@600;800&family=Oswald:wght@500;700&family=Butcherman&display=swap">
+  <link rel="stylesheet" href="assets/css/tailwind.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+  <link rel="stylesheet" href="vendor/zoroslider/css/zoroslider.vendor.min.css">
+  <link rel="stylesheet" href="vendor/zoroslider/css/zoroslider.core.min.css">
+  <link rel="stylesheet" href="assets/css/aos.css">
+  <link rel="stylesheet" href="assets/css/demo.css">
+</head>
+
+
+
+
+<body class="min-h-screen bg-slate-100 text-slate-900 antialiased" style="--demo-accent: #0f766e">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="quicklinks text-slate-200" data-quicklinks aria-hidden="true">
+    <button class="quicklinks-backdrop" type="button" data-quicklinks-close aria-label="Close quicklinks"></button>
+    <aside class="quicklinks-drawer bg-slate-900" aria-label="Shortcut links">
+      <div class="quicklinks-inner">
+      <div class="mb-5 flex items-center justify-between gap-4">
+        <strong class="font-display text-xl font-black" data-quicklinks-title>Quicklinks</strong>
+        <button class="rounded-full border border-white/20 px-4 py-2 text-sm font-black text-white transition hover:bg-white hover:text-slate-900 cursor-pointer" type="button" data-quicklinks-close><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-x"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M18 6l-12 12" /><path d="M6 6l12 12" /></svg></button>
+      </div>
+      <div class="quicklinks-scroll">
+        <div class="quicklinks-panel grid gap-3" data-quicklinks-panel="demos">
+          <a class="quicklinks-index-btn" href="demos/index.html">Go to Demos Page</a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #ca8a04" href="demos/auto-1.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/auto-1-html-bundle_2026-07-14_10.34.40/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Automotive</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Auto 1</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #ca8a04" href="demos/auto-2.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/auto-2-html-bundle_2026-07-14_10.34.32/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Automotive</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Auto 2</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="demos/beauty-1.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/beauty-1-html-bundle_2026-07-14_10.35.12/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Beauty</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Beauty 1</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="demos/beauty-2.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/beauty-2-html-bundle_2026-07-14_10.35.01/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Beauty</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Beauty 2</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="demos/beauty-3.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/beauty-3-html-bundle_2026-07-14_10.34.51/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Beauty</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Beauty 3</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #1e40af" href="demos/charity-1.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/charity-1-html-bundle_2026-07-14_10.35.45/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Charity</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Charity 1</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #1e40af" href="demos/charity-2.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/charity-2-html-bundle_2026-07-14_10.35.35/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Charity</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Charity 2</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #1e40af" href="demos/charity-3.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/charity-3-html-bundle_2026-07-14_10.35.23/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Charity</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Charity 3</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #f97316" href="demos/corporate-1.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/corporate-1-html-bundle_2026-07-14_10.36.28/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Corporate</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Corporate 1</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #f97316" href="demos/corporate-2.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/corporate-2-html-bundle_2026-07-14_10.36.17/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Corporate</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Corporate 2</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #f97316" href="demos/corporate-3.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/corporate-3-html-bundle_2026-07-14_10.36.07/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Corporate</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Corporate 3</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #2563eb" href="demos/travel-1.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/travel-1-html-bundle_2026-07-14_10.35.57/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Travel</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Travel 1</strong>
+              
+            </span>
+          </a>
+          
+        </div>
+        <div class="quicklinks-panel grid gap-3" data-quicklinks-panel="examples">
+          <a class="quicklinks-index-btn" href="examples/index.html">Go to Examples Page</a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0f766e" href="examples/basic-boxed.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/basic-boxed.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Layouts</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Basic Boxed Slider</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0f766e" href="examples/responsive-default.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/responsive-default.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Layouts</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Responsive Default Layout</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0f766e" href="examples/fixed-layout.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/fixed-layout.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Layouts</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Fixed Layout</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0f766e" href="examples/fullwidth-layout.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/fullwidth-layout.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Layouts</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Viewport Full Width</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0f766e" href="examples/fullwidth-scoped-layout.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/fullwidth-scoped-layout.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Layouts</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Parent Scoped Full Width</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0f766e" href="examples/fullscreen-layout.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/fullscreen-layout.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Layouts</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Fullscreen Layout</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #2563eb" href="examples/thumbnail-navigation.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/thumbnail-navigation.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Navigation</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Thumbnail Navigation</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #2563eb" href="examples/dot-navigation-styles.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/dot-navigation-styles.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Navigation</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Dot Navigation Styles</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #2563eb" href="examples/number-navigation-tooltip.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/number-navigation-tooltip.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Navigation</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Number Navigation Tooltip</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #8fca2f" href="examples/control-style-gallery.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/control-style-gallery.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Controls</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Control Style Gallery</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #db2777" href="examples/progress-indicators.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/progress-indicators.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Progress</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Progress Indicators</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #15803d" href="examples/kenburns-backgrounds.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/kenburns-backgrounds.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Backgrounds</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Ken Burns Backgrounds</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0891b2" href="examples/background-video.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/background-video.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Media</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Background Video</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0891b2" href="examples/media-layers.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/media-layers.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Media</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Audio And Video Layers</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="examples/carousel-normal.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/carousel-normal.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Carousel</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Carousel Normal</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="examples/carousel-showcase.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/carousel-showcase.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Carousel</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Carousel Showcase</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="examples/carousel-gallery3d.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/carousel-gallery3d.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Carousel</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Carousel Gallery3D</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="examples/carousel-gallery3d-full-screen.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/carousel-gallery3d-full-screen.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Carousel</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Carousel Gallery3D Full Screen</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #ea580c" href="examples/grid-transitions.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/grid-transitions.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Transitions</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Grid Transitions</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #ea580c" href="examples/slicebox-transitions.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/slicebox-transitions.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Transitions</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">SliceBox Transitions</strong>
+              
+            </span>
+          </a>
+          
+        </div>
+      </div>
+      </div>
+    </aside>
+  </div>
+  
+  <header class="top-0 z-50 w-full border-b border-black/10 bg-demoPaper/90 px-5 py-4 backdrop-blur-xl" data-demo-site-header>
+    <div class="flex mx-auto w-[min(1180px,100%)] items-center justify-between gap-4 lg:grid lg:grid-cols-[minmax(160px,1fr)_auto_minmax(160px,1fr)]">
+
+      <a class="demo-site-logo no-underline shrink-0" href="index.html" aria-label="ZoroSlider demos home">
+        <img class="h-7 w-auto lg:h-9" src="assets/images/zoro-slider-dark-logo.png" alt="ZoroSlider">
+      </a>
+
+      <!-- Desktop nav (unchanged logic, just hidden below lg) -->
+      <nav class="hidden justify-center gap-9 font-black lg:flex" aria-label="Demo navigation">
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] " href="play.html">Play</a>
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] " href="transitions/index.html">Transitions</a>
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] " href="controls/index.html">Controls</a>
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] " href="dots/index.html">Dots</a>
+        
+        <a class="demo-nav-link toggle-quicklinks demo-link-toggle no-underline hover:text-[var(--demo-accent)] " href="demos/index.html" data-quicklinks-toggle="demos">Demos</a>
+        <a class="demo-nav-link toggle-quicklinks example-link-toggle no-underline hover:text-[var(--demo-accent)] " href="examples/index.html" data-quicklinks-toggle="examples">Examples</a>
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] " href="api/index.html">API</a>
+        <div class="!hidden demo-nav-link demo-nav-more ">
+          <button class="demo-nav-link demo-nav-more-toggle no-underline hover:text-[var(--demo-accent)] " type="button" aria-haspopup="true" aria-expanded="false">
+            More
+            <span aria-hidden="true">⌄</span>
+          </button>
+          <div class="demo-nav-more-menu" role="menu">
+            <a class="" href="release-notes.html" role="menuitem">Releases</a>
+            <a class="" href="roadmap.html" role="menuitem">Roadmap</a>
+            <a class="" href="support.html" role="menuitem">Support</a>
+          </div>
+        </div>
+        
+      </nav>
+
+      <!-- Desktop CTA -->
+      <div class="hidden justify-end lg:flex">
+        <a class="inline-flex min-h-11 items-center justify-center rounded-full bg-demoDark px-5 pb-1 font-black text-white no-underline transition hover:bg-[var(--demo-accent)]" href="https://codedilaz.com/code/zoroslider-premium-wordpress-slider-builder/313/"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-target-arrow text-[#facc56] mr-2"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M12 7a5 5 0 1 0 5 5" /><path d="M13 3.055a9 9 0 1 0 7.941 7.945" /><path d="M15 6v3h3l3 -3h-3v-3l-3 3" /><path d="M15 9l-3 3" /></svg> Get It Now</a>
+      </div>
+
+      <!-- Hamburger toggle (below lg only) -->
+      <button
+        type="button"
+        class="demo-nav-hamburger relative flex h-10 w-10 shrink-0 flex-col items-center justify-center gap-[5px] lg:hidden cursor-pointer"
+        aria-label="Toggle menu"
+        aria-expanded="false"
+        aria-controls="demo-mobile-menu"
+        data-mobile-menu-toggle
+      >
+        <span class="block h-[3px] w-6 origin-center rounded-full bg-demoDark transition-transform duration-200" data-hamburger-bar="top"></span>
+        <span class="block h-[3px] w-6 rounded-full bg-demoDark transition-opacity duration-150" data-hamburger-bar="mid"></span>
+        <span class="block h-[3px] w-6 origin-center rounded-full bg-demoDark transition-transform duration-200" data-hamburger-bar="bottom"></span>
+      </button>
+    </div>
+
+    <!-- Mobile menu panel -->
+    <div
+      id="demo-mobile-menu"
+      class="grid grid-rows-[0fr] opacity-0 transition-[grid-template-rows,opacity] duration-300 ease-in-out lg:hidden"
+      data-mobile-menu
+      aria-hidden="true"
+      >
+      <div class="overflow-hidden">
+        <nav class="mx-auto flex w-[min(1180px,100%)] flex-col gap-1 py-4 font-black" aria-label="Demo navigation mobile">
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="play.html">Play</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="transitions/index.html">Transitions</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="controls/index.html">Controls</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="dots/index.html">Dots</a>
+          
+          <a class="demo-nav-link toggle-quicklinks demo-link-toggle block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="demos/index.html" data-quicklinks-toggle="demos">Demos</a>
+          <a class="demo-nav-link toggle-quicklinks example-link-toggle block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="examples/index.html" data-quicklinks-toggle="examples">Examples</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="api/index.html">API</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="release-notes.html">Releases</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="roadmap.html">Roadmap</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="support.html">Support</a>
+          
+
+          <a class="mt-3 inline-flex min-h-11 items-center justify-center rounded-full bg-demoDark px-5 pb-1 font-black text-white no-underline transition hover:bg-[var(--demo-accent)]" href="https://codedilaz.com/code/zoroslider-premium-wordpress-slider-builder/313/"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-target-arrow text-[#facc56] mr-2"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M12 7a5 5 0 1 0 5 5" /><path d="M13 3.055a9 9 0 1 0 7.941 7.945" /><path d="M15 6v3h3l3 -3h-3v-3l-3 3" /><path d="M15 9l-3 3" /></svg> Get It Now</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <script>
+    (function () {
+      var toggle = document.querySelector('[data-mobile-menu-toggle]');
+      var menu = document.querySelector('[data-mobile-menu]');
+      if (!toggle || !menu) return;
+
+      toggle.addEventListener('click', function () {
+        var isOpen = menu.classList.contains('is-open');
+        menu.classList.toggle('is-open', !isOpen);
+        menu.setAttribute('aria-hidden', String(isOpen));
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+        toggle.setAttribute('aria-label', !isOpen ? 'Close menu' : 'Toggle menu');
+      });
+    })();
+  </script>
+
+  
+
+  <style>
+
+    .meta {
+      color: #6b7280;
+      font-size: 0.95rem;
+      margin-top: 0.25rem;
+      margin-bottom: 1.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: #0d0d1a;
+      margin-top: 2.2rem;
+      margin-bottom: 0.75rem;
+      padding-top: 0.25rem;
+    }
+
+    h3 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #1f2937;
+      margin-top: 1.6rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+      color: #374151;
+    }
+
+    ol,
+    ul {
+      margin: 0.5rem 0 1.2rem 1.8rem;
+      color: #374151;
+    }
+
+    li {
+      margin-bottom: 0.4rem;
+    }
+
+    ul {
+      list-style: disc;
+      padding-left: 1.5rem;
+    }
+
+    ul li {
+      padding-left: 0;
+    }
+
+    ul li::before {
+      display: none;
+    }
+
+    .code-block {
+      background: #f1f3f5;
+      padding: 0.75rem 1.2rem;
+      border-radius: 6px;
+      font-family: "SF Mono", "Menlo", "Monaco", "Consolas", monospace;
+      font-size: 0.9rem;
+      color: #1e293b;
+      margin: 0.5rem 0 1.2rem;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+
+    .code-block span {
+      display: block;
+    }
+
+    .placeholder-box {
+      background: #f3f4f6;
+      border-left: 4px solid #9ca3af;
+      padding: 0.75rem 1.2rem;
+      margin: 0.75rem 0 1.2rem;
+      border-radius: 4px;
+      font-size: 0.95rem;
+      color: #4b5563;
+    }
+
+    .placeholder-box strong {
+      color: #1f2937;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #e5e7eb;
+      margin: 2.5rem 0;
+    }
+
+    @media (max-width: 640px) {
+      h1 {
+        font-size: 1.6rem;
+      }
+
+      h2 {
+        font-size: 1.2rem;
+      }
+
+      ol,
+      ul {
+        margin-left: 1.2rem;
+      }
+
+      .code-block {
+        font-size: 0.8rem;
+        padding: 0.5rem 0.8rem;
+        white-space: normal;
+        word-break: break-all;
+      }
+    }
+  </style>
+
+  <main class="demo-other-page support-page">
+    <section class="relative overflow-hidden border-b border-slate-200 bg-white py-16 md:py-24" style="--demo-accent: #2563eb">
+      <div class="demo-hero-gradient"></div>
+      <div class="relative z-10 mx-auto grid w-[min(1180px,calc(100%_-_36px))] gap-10 lg:grid-cols-[1fr_380px] lg:items-end">
+        <div>
+          <p class="demo-eyebrow">Terms of Service</p>
+          <h1 class="max-w-5xl font-display text-6xl font-black leading-[0.86] tracking-[-0.075em] text-demoDark md:text-7xl">ZoroSlider Terms of Service</h1>
+          <p class="mt-6 max-w-3xl text-lg leading-8 text-demoMuted md:text-xl">Understand the rules and guidelines for using ZoroSlider, including license terms, permitted use, and your rights and responsibilities.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mx-auto flex w-[min(800px,calc(100%_-_36px))] flex-col items-center gap-6 py-14 md:py-20">
+      <div class="support-form-card">
+
+        <div class="meta">
+          <strong>Last updated:</strong> 2026-06-09
+        </div>
+
+        <p>
+            These Terms of Service ("Terms") govern access to and use of ZoroSlider websites, documentation, software, templates, add-ons, update services, license services, support services, downloadable files, and related services (collectively, the "Services").
+        </p>
+
+        <p>
+            In these Terms, "ZoroSlider", "we", "us", and "our" refer to the owner/operator of ZoroSlider. "Customer", "Buyer", "User", and "you" refer to the person or organization using the Services or purchasing/downloading ZoroSlider products.
+        </p>
+
+        <!-- ============================== -->
+        <h2>1. Acceptance of Terms</h2>
+
+        <p>
+            By accessing our website, installing ZoroSlider, purchasing a license, downloading a template, using an add-on, requesting support, or using any related Service, you agree to these Terms and any additional policies referenced here.
+        </p>
+
+        <p>If you do not agree to these Terms, do not use the Services.</p>
+
+        <!-- ============================== -->
+        <h2>2. Related Documents</h2>
+
+        <p>These Terms should be read together with:</p>
+
+        <ul>
+          <li>ZoroSlider Privacy Policy</li>
+          <li>ZoroSlider Legal Information</li>
+          <li>ZoroSlider product documentation</li>
+          <li>any marketplace license terms where you purchased the product</li>
+          <li>any specific license, refund, support, or pricing terms shown at checkout</li>
+        </ul>
+
+        <p>
+            If you purchase through a third-party marketplace such as CodeCanyon, the marketplace license and purchase rules also apply. If there is a conflict, the marketplace rules apply to marketplace-specific rights and obligations, while these Terms apply to ZoroSlider-operated Services unless prohibited by the marketplace terms.
+        </p>
+
+        <!-- ============================== -->
+        <h2>3. Software License</h2>
+
+        <p>
+            ZoroSlider is a WordPress plugin. The PHP portions and WordPress-integrated parts are distributed under the GNU General Public License version 2 or later, unless stated otherwise in the applicable product files.
+        </p>
+
+        <p>
+            Some bundled assets, libraries, templates, images, icons, JavaScript, CSS, demo content, or third-party components may be governed by their own licenses. These third-party licenses apply to those components.
+        </p>
+
+        <p>
+            Purchasing or downloading ZoroSlider does not transfer ownership of the ZoroSlider brand, product identity, templates, documentation, website content, premium services, license systems, or proprietary assets.
+        </p>
+
+        <!-- ============================== -->
+        <h2>4. Permitted Use</h2>
+
+        <p>Subject to the applicable license, you may:</p>
+
+        <ul>
+          <li>install and use ZoroSlider on websites covered by your license</li>
+          <li>create sliders, galleries, templates, and visual content for your own site or your client's site</li>
+          <li>modify your own slider content, settings, and templates</li>
+          <li>use exported slider files in accordance with the feature's intended purpose and applicable license</li>
+          <li>transfer a completed client website where the license terms permit that transfer</li>
+        </ul>
+
+        <p>
+            Each paid license may be limited to a specific number of sites, domains, seats, or installations. Your account, invoice, marketplace purchase page, or license dashboard will define the applicable limits.
+        </p>
+
+        <!-- ============================== -->
+        <h2>5. Prohibited Use</h2>
+
+        <p>You must not:</p>
+
+        <ul>
+          <li>share, publish, resell, lease, rent, sublicense, or distribute a license key except as expressly allowed</li>
+          <li>use one single-site license on multiple unrelated websites</li>
+          <li>redistribute ZoroSlider, premium templates, add-ons, or downloadable assets as a standalone product</li>
+          <li>create a competing slider, animation, page-builder, template-store, or website-builder product by extracting ZoroSlider components</li>
+          <li>remove or misrepresent ZoroSlider branding, authorship, copyright notices, or license notices where they are required</li>
+          <li>bypass license checks, update checks, template access controls, or premium feature restrictions</li>
+          <li>use automated scraping, excessive requests, or abusive download behavior against our servers</li>
+          <li>use the Services for unlawful, misleading, infringing, defamatory, abusive, or harmful content</li>
+          <li>upload or import files that contain malware, unsafe code, or material you do not have the right to use</li>
+        </ul>
+
+        <!-- ============================== -->
+        <h2>6. Accounts, License Keys, and Access Credentials</h2>
+
+        <p>
+            If ZoroSlider provides accounts, license keys, API keys, buyer verification, or download credentials, you are responsible for keeping them secure.
+        </p>
+
+        <p>
+            You are responsible for all activity under your account or license key. If you believe your credentials have been compromised, contact us promptly.
+        </p>
+
+        <p>
+            We may suspend, restrict, or disable access if we reasonably believe a license key, account, or Service is being abused, shared publicly, used fraudulently, used beyond the purchased limits, or used in breach of these Terms.
+        </p>
+
+        <!-- ============================== -->
+        <h2>7. Updates</h2>
+
+        <p>
+            Updates may include bug fixes, security patches, compatibility improvements, new features, changed behavior, or removed/deprecated functionality.
+        </p>
+
+        <p>Access to updates may depend on:</p>
+
+        <ul>
+          <li>your license type</li>
+          <li>the marketplace where you purchased</li>
+          <li>whether your support/update period is active</li>
+          <li>whether the product is a free, paid, bundled, or add-on version</li>
+          <li>whether a major version is included in your plan</li>
+        </ul>
+
+        <p>
+            We may stop supporting older versions after reasonable notice, except where required by applicable law or by marketplace rules.
+        </p>
+
+        <!-- ============================== -->
+        <h2>8. Support</h2>
+
+        <p>
+            Support eligibility depends on your license, marketplace purchase rules, and current support period.
+        </p>
+
+        <p>Support generally includes:</p>
+
+        <ul>
+          <li>guidance on installing and using ZoroSlider</li>
+          <li>help with product features documented by ZoroSlider</li>
+          <li>help diagnosing bugs in ZoroSlider</li>
+          <li>reasonable guidance for compatibility issues</li>
+          <li>access to documentation and troubleshooting resources</li>
+        </ul>
+
+        <p>Support does not normally include:</p>
+
+        <ul>
+          <li>custom development</li>
+          <li>building sliders for you</li>
+          <li>writing custom CSS, PHP, or JavaScript</li>
+          <li>fixing unrelated themes, plugins, server issues, malware, or hosting problems</li>
+          <li>configuring third-party APIs on your behalf</li>
+          <li>support for modified or outdated plugin copies</li>
+          <li>guaranteed resolution of conflicts caused by third-party code</li>
+        </ul>
+
+        <p>
+            We may still provide guidance outside the formal support scope at our discretion.
+        </p>
+
+        <!-- ============================== -->
+        <h2>9. Pricing, Payments, and Renewals</h2>
+
+        <p>
+            Prices, renewal terms, discounts, and included features may change over time.
+        </p>
+
+        <p>
+            If subscriptions or renewals are offered, renewal charges will follow the terms disclosed at checkout or in your account. You may cancel recurring renewals according to the instructions provided by the payment provider or marketplace.
+        </p>
+
+        <p>
+            Payment processing may be handled by a third-party marketplace or payment processor. We do not control every part of third-party checkout systems and may not receive or store full payment card details.
+        </p>
+
+        <!-- ============================== -->
+        <h2>10. Refunds</h2>
+
+        <p>
+            Refund eligibility depends on where you purchased ZoroSlider.
+        </p>
+
+        <p>
+            If you purchased through a marketplace, that marketplace's refund policy applies.
+        </p>
+
+        <p>
+            If you purchased directly from ZoroSlider, the refund policy shown at checkout or on our refund page applies. Unless a different policy is stated, refund requests may be reviewed based on purchase date, license activation, download history, technical issue details, and misuse prevention.
+        </p>
+
+        <p>
+            After a refund, the related license may be disabled, access to updates/support may end, and any recurring renewal may be canceled.
+        </p>
+
+        <!-- ============================== -->
+        <h2>11. Demo Templates, Remote Downloads, and Premium Content</h2>
+
+        <p>
+            ZoroSlider may offer demo templates, remote template imports, premium templates, add-ons, or downloadable content.
+        </p>
+
+        <p>
+            Free templates may be available without a paid license. Pro templates or premium files may require valid buyer verification, license validation, or an active entitlement.
+        </p>
+
+        <p>
+            To protect our servers and licensed buyers, we may use caching, duplicate-import prevention, rate limits, anti-abuse checks, and license validation before allowing downloads.
+        </p>
+
+        <p>
+            You are responsible for verifying that demo content, images, fonts, videos, links, and placeholders are suitable for your project before publishing them.
+        </p>
+
+        <!-- ============================== -->
+        <h2>12. Third-Party Services and External Content</h2>
+
+        <p>
+            ZoroSlider can integrate with third-party services when you choose features that require them. Examples may include:
+        </p>
+
+        <ul>
+          <li>Google Fonts</li>
+          <li>YouTube Playlist source</li>
+          <li>JSON import from a configured URL</li>
+          <li>Vimeo video embeds</li>
+          <li>external image, video, or media URLs</li>
+          <li>future add-ons or source integrations</li>
+        </ul>
+
+        <p>
+            Third-party services operate under their own terms, privacy policies, API limits, and availability rules. We are not responsible for third-party outages, API changes, rate limits, pricing changes, content removals, privacy practices, or account restrictions.
+        </p>
+
+        <p>
+            If you use third-party services through ZoroSlider, you are responsible for obtaining any required API keys, permissions, licenses, and user consent.
+        </p>
+
+        <!-- ============================== -->
+        <h2>13. User Content</h2>
+
+        <p>
+            You remain responsible for content you create, upload, import, embed, or display using ZoroSlider.
+        </p>
+
+        <p>
+            You represent that you have the rights needed to use your content, including text, images, videos, audio, fonts, trademarks, names, likenesses, and other materials.
+        </p>
+
+        <p>
+            You must not use ZoroSlider to publish content that violates applicable law or infringes the rights of others.
+        </p>
+
+        <!-- ============================== -->
+        <h2>14. Intellectual Property</h2>
+
+        <p>
+            ZoroSlider websites, product names, logos, documentation, templates, screenshots, marketing materials, UI designs, and proprietary assets are protected by copyright, trademark, and other intellectual property laws.
+        </p>
+
+        <p>
+            Except where an open-source license expressly grants rights, no rights are granted beyond the rights necessary to use the Services under these Terms and the applicable license.
+        </p>
+
+        <!-- ============================== -->
+        <h2>15. Warranty Disclaimer</h2>
+
+        <p>
+            The Services are provided "as is" and "as available" to the maximum extent allowed by law.
+        </p>
+
+        <p>
+            We do not guarantee that ZoroSlider will be error-free, uninterrupted, compatible with every theme/plugin/browser/server, or suitable for every use case.
+        </p>
+
+        <p>
+            We aim to maintain compatibility with supported WordPress and PHP versions, but website environments vary widely and may include conflicts outside our control.
+        </p>
+
+        <!-- ============================== -->
+        <h2>16. Limitation of Liability</h2>
+
+        <p>
+            To the maximum extent allowed by law, ZoroSlider and its owners, contributors, suppliers, and service providers will not be liable for indirect, incidental, special, consequential, exemplary, or punitive damages, including loss of profits, loss of data, business interruption, reputational harm, or loss caused by third-party services.
+        </p>
+
+        <p>
+            Where liability cannot be excluded, our total liability will be limited to the amount you paid for the affected ZoroSlider license or Service during the relevant purchase period, unless applicable law requires otherwise.
+        </p>
+
+        <!-- ============================== -->
+        <h2>17. Indemnity</h2>
+
+        <p>
+            You agree to defend, indemnify, and hold ZoroSlider harmless from claims, damages, losses, liabilities, costs, and expenses arising from:
+        </p>
+
+        <ul>
+          <li>your use of the Services</li>
+          <li>your content</li>
+          <li>your breach of these Terms</li>
+          <li>your violation of law</li>
+          <li>your infringement of third-party rights</li>
+          <li>your misuse of license keys, templates, add-ons, or remote services</li>
+        </ul>
+
+        <!-- ============================== -->
+        <h2>18. Termination</h2>
+
+        <p>
+            These Terms remain effective until terminated.
+        </p>
+
+        <p>
+            We may suspend or terminate your access to Services if you materially breach these Terms, misuse the Services, violate license limits, attempt to bypass access controls, abuse support/download systems, or use the Services unlawfully.
+        </p>
+
+        <p>
+            Upon termination, you must stop using any Services or files for which your rights have ended. Open-source rights that cannot legally be terminated except under their own license terms remain governed by the applicable open-source license.
+        </p>
+
+        <!-- ============================== -->
+        <h2>19. Changes to the Services or Terms</h2>
+
+        <p>
+            We may update the Services and these Terms from time to time.
+        </p>
+
+        <p>
+            The current version will be posted on the ZoroSlider website or included in the relevant documentation. Continued use of the Services after changes become effective means you accept the updated Terms.
+        </p>
+
+        <!-- ============================== -->
+        
+
+        <!-- ============================== -->
+        
+
+      </div>
+
+    </section>
+  </main>
+
+
+
+  <footer>
+    <div class="footer-cta">
+      <div class="footer-cta-inner">
+        <div class="footer-cta-text">
+          <h2>Ready to use beautiful sliders?</h2>
+          <p>One-time purchase. Lifetime updates. Zero overhead.</p>
+        </div>
+        <div class="cta-actions">
+          <a href="https://codedilaz.com/code/zoroslider-premium-wordpress-slider-builder/313/" class="btn-buy">Get ZoroSlider</a>
+          <a href="https://themecresthq.xyz/plugins/zoroslider/wp/docs" class="btn-docs">Documentation</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-main-shell">
+      <div class="footer-main">
+        <div>
+          <a class="footer-brand-logo" href="index.html" aria-label="ZoroSlider demos home">
+            <img src="assets/images/zoro-slider-light-logo.png" alt="ZoroSlider">
+          </a>
+          <div class="footer-tagline">Premium layer slider for modern web projects.</div>
+        </div>
+        <div>
+          <div class="footer-col-title">Product</div>
+          <ul class="footer-links">
+            <li><a href="index.html#feature-hierarchy">Features</a></li>
+            <li><a href="demos/index.html">Demos</a></li>
+            <li><a href="examples/index.html">Examples</a></li>
+            <li><a href="wp/docs/changelog">Changelog</a></li>
+            
+            
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-title">Resources</div>
+          <ul class="footer-links">
+            <li><a href="https://themecresthq.xyz/plugins/zoroslider/wp/docs">Documentation</a></li>
+            <li><a href="api/index.html">API Reference</a></li>
+            
+            
+            
+            
+            
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-title">Company</div>
+          <ul class="footer-links">
+            
+            
+            <li><a href="support.html">Support</a></li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-bottom-inner">
+        <div class="footer-copy">© 2025 ZoroSlider. All rights reserved.</div>
+        <div class="footer-bottom-links">
+          <a href="privacy.html">Privacy</a>
+          <a href="terms.html">Terms</a>
+          
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox HTML -->
+  <div id="lightbox" class="lightbox-overlay">
+    <span class="lightbox-close">&times;</span>
+    <span class="lightbox-nav prev">&#10094;</span>
+    <span class="lightbox-nav next">&#10095;</span>
+    <img id="lightbox-img" src="" alt="Enlarged view" />
+  </div>
+
+  <script src="vendor/zoroslider/js/libs/jquery-3.6.0.min.js"></script>
+  <script src="vendor/zoroslider/js/libs/jquery-migrate-3.3.2.min.js"></script>
+  <script src="vendor/zoroslider/js/libs/plyr/plyr.min.js"></script>
+  <script type="module" src="vendor/zoroslider/js/zoroslider.jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-markup.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
+  <script src="assets/js/aos.js"></script>
+  <script>AOS.init();</script>
+  <script defer src="assets/js/demo.js"></script>
+</body>
+</html>

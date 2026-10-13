@@ -1,0 +1,1811 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>API | ZoroSlider Demos</title>
+  <meta name="description" content="Public demo layouts for validating ZoroSlider in realistic launch-ready pages.">
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon-16x16.png">
+  <link rel="shortcut icon" href="../assets/images/favicon.ico">
+  <link rel="manifest" href="../assets/images/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abel:wght@400;700&family=Bebas+Neue&family=Inter:wght@400;600;800&family=Montserrat:wght@600;800&family=Oswald:wght@500;700&family=Butcherman&display=swap">
+  <link rel="stylesheet" href="../assets/css/tailwind.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+  <link rel="stylesheet" href="../vendor/zoroslider/css/zoroslider.vendor.min.css">
+  <link rel="stylesheet" href="../vendor/zoroslider/css/zoroslider.core.min.css">
+  <link rel="stylesheet" href="../assets/css/aos.css">
+  <link rel="stylesheet" href="../assets/css/demo.css">
+</head>
+
+
+
+  
+
+
+<body class="min-h-screen bg-slate-100 text-slate-900 antialiased" style="--demo-accent: #dc2626">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="quicklinks text-slate-200" data-quicklinks aria-hidden="true">
+    <button class="quicklinks-backdrop" type="button" data-quicklinks-close aria-label="Close quicklinks"></button>
+    <aside class="quicklinks-drawer bg-slate-900" aria-label="Shortcut links">
+      <div class="quicklinks-inner">
+      <div class="mb-5 flex items-center justify-between gap-4">
+        <strong class="font-display text-xl font-black" data-quicklinks-title>Quicklinks</strong>
+        <button class="rounded-full border border-white/20 px-4 py-2 text-sm font-black text-white transition hover:bg-white hover:text-slate-900 cursor-pointer" type="button" data-quicklinks-close><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-x"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M18 6l-12 12" /><path d="M6 6l12 12" /></svg></button>
+      </div>
+      <div class="quicklinks-scroll">
+        <div class="quicklinks-panel grid gap-3" data-quicklinks-panel="demos">
+          <a class="quicklinks-index-btn" href="../demos/index.html">Go to Demos Page</a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #ca8a04" href="../demos/auto-1.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="../demos/auto-1-html-bundle_2026-07-14_10.34.40/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Automotive</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Auto 1</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #ca8a04" href="../demos/auto-2.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="../demos/auto-2-html-bundle_2026-07-14_10.34.32/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Automotive</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Auto 2</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="../demos/beauty-1.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="../demos/beauty-1-html-bundle_2026-07-14_10.35.12/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Beauty</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Beauty 1</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="../demos/beauty-2.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="../demos/beauty-2-html-bundle_2026-07-14_10.35.01/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Beauty</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Beauty 2</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="../demos/beauty-3.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="../demos/beauty-3-html-bundle_2026-07-14_10.34.51/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Beauty</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Beauty 3</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #1e40af" href="../demos/charity-1.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="../demos/charity-1-html-bundle_2026-07-14_10.35.45/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Charity</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Charity 1</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #1e40af" href="../demos/charity-2.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="../demos/charity-2-html-bundle_2026-07-14_10.35.35/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Charity</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Charity 2</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #1e40af" href="../demos/charity-3.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="../demos/charity-3-html-bundle_2026-07-14_10.35.23/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Charity</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Charity 3</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #f97316" href="../demos/corporate-1.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="../demos/corporate-1-html-bundle_2026-07-14_10.36.28/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Corporate</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Corporate 1</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #f97316" href="../demos/corporate-2.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="../demos/corporate-2-html-bundle_2026-07-14_10.36.17/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Corporate</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Corporate 2</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #f97316" href="../demos/corporate-3.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="../demos/corporate-3-html-bundle_2026-07-14_10.36.07/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Corporate</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Corporate 3</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #2563eb" href="../demos/travel-1.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="../demos/travel-1-html-bundle_2026-07-14_10.35.57/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Travel</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Travel 1</strong>
+              
+            </span>
+          </a>
+          
+        </div>
+        <div class="quicklinks-panel grid gap-3" data-quicklinks-panel="examples">
+          <a class="quicklinks-index-btn" href="../examples/index.html">Go to Examples Page</a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0f766e" href="../examples/basic-boxed.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/basic-boxed.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Layouts</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Basic Boxed Slider</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0f766e" href="../examples/responsive-default.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/responsive-default.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Layouts</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Responsive Default Layout</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0f766e" href="../examples/fixed-layout.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/fixed-layout.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Layouts</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Fixed Layout</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0f766e" href="../examples/fullwidth-layout.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/fullwidth-layout.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Layouts</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Viewport Full Width</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0f766e" href="../examples/fullwidth-scoped-layout.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/fullwidth-scoped-layout.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Layouts</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Parent Scoped Full Width</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0f766e" href="../examples/fullscreen-layout.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/fullscreen-layout.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Layouts</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Fullscreen Layout</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #2563eb" href="../examples/thumbnail-navigation.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/thumbnail-navigation.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Navigation</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Thumbnail Navigation</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #2563eb" href="../examples/dot-navigation-styles.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/dot-navigation-styles.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Navigation</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Dot Navigation Styles</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #2563eb" href="../examples/number-navigation-tooltip.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/number-navigation-tooltip.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Navigation</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Number Navigation Tooltip</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #8fca2f" href="../examples/control-style-gallery.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/control-style-gallery.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Controls</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Control Style Gallery</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #db2777" href="../examples/progress-indicators.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/progress-indicators.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Progress</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Progress Indicators</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #15803d" href="../examples/kenburns-backgrounds.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/kenburns-backgrounds.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Backgrounds</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Ken Burns Backgrounds</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0891b2" href="../examples/background-video.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/background-video.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Media</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Background Video</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0891b2" href="../examples/media-layers.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/media-layers.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Media</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Audio And Video Layers</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="../examples/carousel-normal.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/carousel-normal.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Carousel</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Carousel Normal</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="../examples/carousel-showcase.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/carousel-showcase.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Carousel</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Carousel Showcase</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="../examples/carousel-gallery3d.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/carousel-gallery3d.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Carousel</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Carousel Gallery3D</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="../examples/carousel-gallery3d-full-screen.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/carousel-gallery3d-full-screen.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Carousel</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Carousel Gallery3D Full Screen</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #ea580c" href="../examples/grid-transitions.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/grid-transitions.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Transitions</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Grid Transitions</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #ea580c" href="../examples/slicebox-transitions.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="../assets/images/examples/slicebox-transitions.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Transitions</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">SliceBox Transitions</strong>
+              
+            </span>
+          </a>
+          
+        </div>
+      </div>
+      </div>
+    </aside>
+  </div>
+  
+  <header class="top-0 z-50 w-full border-b border-black/10 bg-demoPaper/90 px-5 py-4 backdrop-blur-xl" data-demo-site-header>
+    <div class="flex mx-auto w-[min(1180px,100%)] items-center justify-between gap-4 lg:grid lg:grid-cols-[minmax(160px,1fr)_auto_minmax(160px,1fr)]">
+
+      <a class="demo-site-logo no-underline shrink-0" href="../index.html" aria-label="ZoroSlider demos home">
+        <img class="h-7 w-auto lg:h-9" src="../assets/images/zoro-slider-dark-logo.png" alt="ZoroSlider">
+      </a>
+
+      <!-- Desktop nav (unchanged logic, just hidden below lg) -->
+      <nav class="hidden justify-center gap-9 font-black lg:flex" aria-label="Demo navigation">
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] " href="../play.html">Play</a>
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] " href="../transitions/index.html">Transitions</a>
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] " href="../controls/index.html">Controls</a>
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] " href="../dots/index.html">Dots</a>
+        
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] " href="../demos/index.html">Demos</a>
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] " href="../examples/index.html">Examples</a>
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] is-active" href="../api/index.html">API</a>
+        <div class="!hidden demo-nav-link demo-nav-more ">
+          <button class="demo-nav-link demo-nav-more-toggle no-underline hover:text-[var(--demo-accent)] " type="button" aria-haspopup="true" aria-expanded="false">
+            More
+            <span aria-hidden="true">⌄</span>
+          </button>
+          <div class="demo-nav-more-menu" role="menu">
+            <a class="" href="../release-notes.html" role="menuitem">Releases</a>
+            <a class="" href="../roadmap.html" role="menuitem">Roadmap</a>
+            <a class="" href="../support.html" role="menuitem">Support</a>
+          </div>
+        </div>
+        
+      </nav>
+
+      <!-- Desktop CTA -->
+      <div class="hidden justify-end lg:flex">
+        <a class="inline-flex min-h-11 items-center justify-center rounded-full bg-demoDark px-5 pb-1 font-black text-white no-underline transition hover:bg-[var(--demo-accent)]" href="https://codedilaz.com/code/zoroslider-premium-wordpress-slider-builder/313/"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-target-arrow text-[#facc56] mr-2"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M12 7a5 5 0 1 0 5 5" /><path d="M13 3.055a9 9 0 1 0 7.941 7.945" /><path d="M15 6v3h3l3 -3h-3v-3l-3 3" /><path d="M15 9l-3 3" /></svg> Get It Now</a>
+      </div>
+
+      <!-- Hamburger toggle (below lg only) -->
+      <button
+        type="button"
+        class="demo-nav-hamburger relative flex h-10 w-10 shrink-0 flex-col items-center justify-center gap-[5px] lg:hidden cursor-pointer"
+        aria-label="Toggle menu"
+        aria-expanded="false"
+        aria-controls="demo-mobile-menu"
+        data-mobile-menu-toggle
+      >
+        <span class="block h-[3px] w-6 origin-center rounded-full bg-demoDark transition-transform duration-200" data-hamburger-bar="top"></span>
+        <span class="block h-[3px] w-6 rounded-full bg-demoDark transition-opacity duration-150" data-hamburger-bar="mid"></span>
+        <span class="block h-[3px] w-6 origin-center rounded-full bg-demoDark transition-transform duration-200" data-hamburger-bar="bottom"></span>
+      </button>
+    </div>
+
+    <!-- Mobile menu panel -->
+    <div
+      id="demo-mobile-menu"
+      class="grid grid-rows-[0fr] opacity-0 transition-[grid-template-rows,opacity] duration-300 ease-in-out lg:hidden"
+      data-mobile-menu
+      aria-hidden="true"
+      >
+      <div class="overflow-hidden">
+        <nav class="mx-auto flex w-[min(1180px,100%)] flex-col gap-1 py-4 font-black" aria-label="Demo navigation mobile">
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="../play.html">Play</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="../transitions/index.html">Transitions</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="../controls/index.html">Controls</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="../dots/index.html">Dots</a>
+          
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="../demos/index.html">Demos</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="../examples/index.html">Examples</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] is-active" href="../api/index.html">API</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="../release-notes.html">Releases</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="../roadmap.html">Roadmap</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="../support.html">Support</a>
+          
+
+          <a class="mt-3 inline-flex min-h-11 items-center justify-center rounded-full bg-demoDark px-5 pb-1 font-black text-white no-underline transition hover:bg-[var(--demo-accent)]" href="https://codedilaz.com/code/zoroslider-premium-wordpress-slider-builder/313/"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-target-arrow text-[#facc56] mr-2"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M12 7a5 5 0 1 0 5 5" /><path d="M13 3.055a9 9 0 1 0 7.941 7.945" /><path d="M15 6v3h3l3 -3h-3v-3l-3 3" /><path d="M15 9l-3 3" /></svg> Get It Now</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <script>
+    (function () {
+      var toggle = document.querySelector('[data-mobile-menu-toggle]');
+      var menu = document.querySelector('[data-mobile-menu]');
+      if (!toggle || !menu) return;
+
+      toggle.addEventListener('click', function () {
+        var isOpen = menu.classList.contains('is-open');
+        menu.classList.toggle('is-open', !isOpen);
+        menu.setAttribute('aria-hidden', String(isOpen));
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+        toggle.setAttribute('aria-label', !isOpen ? 'Close menu' : 'Toggle menu');
+      });
+    })();
+  </script>
+
+  
+<main data-demo-ajax-root>
+  <section class="relative bg-white border-b border-slate-200 overflow-hidden w-full pb-10 pt-0 md:pb-16 md:pt-0" style="--demo-accent: #dc2626">
+    <div class="demo-hero-gradient"></div>
+    <div class="relative z-10 mx-auto mt-5 w-[min(1180px,calc(100%_-_36px))]">
+      <div id="demo-slider-api" class="demo-slider api-showcase-hidden-layers" data-zoro-demo data-api-showcase>
+        <ul class="zoro-slider">
+          
+          <li data-bg-image="../vendor/zoroslider/img/a01.jpg">
+            
+            <div class="zoro-slider-layer demo-layer demo-layer-text "
+              data-layer-type="text"
+              data-x="left"
+              data-y="top"
+              data-x-offset="56"
+              data-y-offset="56"
+              data-z="10"
+              data-anim-in-type="fadeInDown"
+              data-anim-in-delay="450"
+              data-anim-in-speed="900"
+              
+              data-anim-out-type="fadeOutUp"
+              data-anim-out-delay="500"
+              data-anim-out-speed="800"
+              
+              data-style="width:220px;"
+              data-device-visibility='{"desktop":true,"tablet":true,"mobile":true}'>
+              
+              API showcase
+              
+            </div>
+            
+            <div class="zoro-slider-layer demo-layer demo-layer-text "
+              data-layer-type="text"
+              data-x="left"
+              data-y="center"
+              data-x-offset="56"
+              data-y-offset="-24"
+              data-z="10"
+              data-anim-in-type="fadeInUp"
+              data-anim-in-delay="450"
+              data-anim-in-speed="900"
+              
+              data-anim-out-type="fadeOutDown"
+              data-anim-out-delay="500"
+              data-anim-out-speed="800"
+              
+              data-style="width:470px;"
+              data-device-visibility='{"desktop":true,"tablet":true,"mobile":true}'>
+              
+              API motion on a fresh slider state
+              
+            </div>
+            
+            <div class="zoro-slider-layer demo-layer demo-layer-text "
+              data-layer-type="text"
+              data-x="left"
+              data-y="center"
+              data-x-offset="56"
+              data-y-offset="72"
+              data-z="10"
+              data-anim-in-type="fadeInUp"
+              data-anim-in-delay="520"
+              data-anim-in-speed="900"
+              
+              data-anim-out-type="fadeOutDown"
+              data-anim-out-delay="500"
+              data-anim-out-speed="800"
+              
+              data-style="width:450px;"
+              data-device-visibility='{"desktop":true,"tablet":true,"mobile":true}'>
+              
+              Use the method buttons below to execute real public slider API commands.
+              
+            </div>
+            
+          </li>
+          
+          <li data-bg-image="../vendor/zoroslider/img/a02.jpg">
+            
+            <div class="zoro-slider-layer demo-layer demo-layer-text "
+              data-layer-type="text"
+              data-x="left"
+              data-y="top"
+              data-x-offset="56"
+              data-y-offset="56"
+              data-z="10"
+              data-anim-in-type="fadeInDown"
+              data-anim-in-delay="450"
+              data-anim-in-speed="900"
+              
+              data-anim-out-type="fadeOutUp"
+              data-anim-out-delay="500"
+              data-anim-out-speed="800"
+              
+              data-style="width:220px;"
+              data-device-visibility='{"desktop":true,"tablet":true,"mobile":true}'>
+              
+              API showcase
+              
+            </div>
+            
+            <div class="zoro-slider-layer demo-layer demo-layer-text "
+              data-layer-type="text"
+              data-x="left"
+              data-y="center"
+              data-x-offset="56"
+              data-y-offset="-24"
+              data-z="10"
+              data-anim-in-type="fadeInUp"
+              data-anim-in-delay="450"
+              data-anim-in-speed="900"
+              
+              data-anim-out-type="fadeOutDown"
+              data-anim-out-delay="500"
+              data-anim-out-speed="800"
+              
+              data-style="width:470px;"
+              data-device-visibility='{"desktop":true,"tablet":true,"mobile":true}'>
+              
+              Navigation methods should react immediately
+              
+            </div>
+            
+            <div class="zoro-slider-layer demo-layer demo-layer-text "
+              data-layer-type="text"
+              data-x="left"
+              data-y="center"
+              data-x-offset="56"
+              data-y-offset="72"
+              data-z="10"
+              data-anim-in-type="fadeInUp"
+              data-anim-in-delay="520"
+              data-anim-in-speed="900"
+              
+              data-anim-out-type="fadeOutDown"
+              data-anim-out-delay="500"
+              data-anim-out-speed="800"
+              
+              data-style="width:450px;"
+              data-device-visibility='{"desktop":true,"tablet":true,"mobile":true}'>
+              
+              Every click reloads a clean slider state first, then runs the chosen method.
+              
+            </div>
+            
+          </li>
+          
+          <li data-bg-image="../vendor/zoroslider/img/a03.jpg">
+            
+            <div class="zoro-slider-layer demo-layer demo-layer-text "
+              data-layer-type="text"
+              data-x="left"
+              data-y="top"
+              data-x-offset="56"
+              data-y-offset="56"
+              data-z="10"
+              data-anim-in-type="fadeInDown"
+              data-anim-in-delay="450"
+              data-anim-in-speed="900"
+              
+              data-anim-out-type="fadeOutUp"
+              data-anim-out-delay="500"
+              data-anim-out-speed="800"
+              
+              data-style="width:220px;"
+              data-device-visibility='{"desktop":true,"tablet":true,"mobile":true}'>
+              
+              API showcase
+              
+            </div>
+            
+            <div class="zoro-slider-layer demo-layer demo-layer-text "
+              data-layer-type="text"
+              data-x="left"
+              data-y="center"
+              data-x-offset="56"
+              data-y-offset="-24"
+              data-z="10"
+              data-anim-in-type="fadeInUp"
+              data-anim-in-delay="450"
+              data-anim-in-speed="900"
+              
+              data-anim-out-type="fadeOutDown"
+              data-anim-out-delay="500"
+              data-anim-out-speed="800"
+              
+              data-style="width:470px;"
+              data-device-visibility='{"desktop":true,"tablet":true,"mobile":true}'>
+              
+              Autoplay methods should stay visible
+              
+            </div>
+            
+            <div class="zoro-slider-layer demo-layer demo-layer-text "
+              data-layer-type="text"
+              data-x="left"
+              data-y="center"
+              data-x-offset="56"
+              data-y-offset="72"
+              data-z="10"
+              data-anim-in-type="fadeInUp"
+              data-anim-in-delay="520"
+              data-anim-in-speed="900"
+              
+              data-anim-out-type="fadeOutDown"
+              data-anim-out-delay="500"
+              data-anim-out-speed="800"
+              
+              data-style="width:450px;"
+              data-device-visibility='{"desktop":true,"tablet":true,"mobile":true}'>
+              
+              Progress stays on so autoplay commands are easy to verify visually.
+              
+            </div>
+            
+          </li>
+          
+          <li data-bg-image="../vendor/zoroslider/img/a04.jpg">
+            
+            <div class="zoro-slider-layer demo-layer demo-layer-text "
+              data-layer-type="text"
+              data-x="left"
+              data-y="top"
+              data-x-offset="56"
+              data-y-offset="56"
+              data-z="10"
+              data-anim-in-type="fadeInDown"
+              data-anim-in-delay="450"
+              data-anim-in-speed="900"
+              
+              data-anim-out-type="fadeOutUp"
+              data-anim-out-delay="500"
+              data-anim-out-speed="800"
+              
+              data-style="width:220px;"
+              data-device-visibility='{"desktop":true,"tablet":true,"mobile":true}'>
+              
+              API showcase
+              
+            </div>
+            
+            <div class="zoro-slider-layer demo-layer demo-layer-text "
+              data-layer-type="text"
+              data-x="left"
+              data-y="center"
+              data-x-offset="56"
+              data-y-offset="-24"
+              data-z="10"
+              data-anim-in-type="fadeInUp"
+              data-anim-in-delay="450"
+              data-anim-in-speed="900"
+              
+              data-anim-out-type="fadeOutDown"
+              data-anim-out-delay="500"
+              data-anim-out-speed="800"
+              
+              data-style="width:470px;"
+              data-device-visibility='{"desktop":true,"tablet":true,"mobile":true}'>
+              
+              goTo methods should land predictably
+              
+            </div>
+            
+            <div class="zoro-slider-layer demo-layer demo-layer-text "
+              data-layer-type="text"
+              data-x="left"
+              data-y="center"
+              data-x-offset="56"
+              data-y-offset="72"
+              data-z="10"
+              data-anim-in-type="fadeInUp"
+              data-anim-in-delay="520"
+              data-anim-in-speed="900"
+              
+              data-anim-out-type="fadeOutDown"
+              data-anim-out-delay="500"
+              data-anim-out-speed="800"
+              
+              data-style="width:450px;"
+              data-device-visibility='{"desktop":true,"tablet":true,"mobile":true}'>
+              
+              The same slide set is reused so API behavior is easier to compare.
+              
+            </div>
+            
+          </li>
+          
+          <li data-bg-image="../vendor/zoroslider/img/a05.jpg">
+            
+            <div class="zoro-slider-layer demo-layer demo-layer-text "
+              data-layer-type="text"
+              data-x="left"
+              data-y="top"
+              data-x-offset="56"
+              data-y-offset="56"
+              data-z="10"
+              data-anim-in-type="fadeInDown"
+              data-anim-in-delay="450"
+              data-anim-in-speed="900"
+              
+              data-anim-out-type="fadeOutUp"
+              data-anim-out-delay="500"
+              data-anim-out-speed="800"
+              
+              data-style="width:220px;"
+              data-device-visibility='{"desktop":true,"tablet":true,"mobile":true}'>
+              
+              API showcase
+              
+            </div>
+            
+            <div class="zoro-slider-layer demo-layer demo-layer-text "
+              data-layer-type="text"
+              data-x="left"
+              data-y="center"
+              data-x-offset="56"
+              data-y-offset="-24"
+              data-z="10"
+              data-anim-in-type="fadeInUp"
+              data-anim-in-delay="450"
+              data-anim-in-speed="900"
+              
+              data-anim-out-type="fadeOutDown"
+              data-anim-out-delay="500"
+              data-anim-out-speed="800"
+              
+              data-style="width:470px;"
+              data-device-visibility='{"desktop":true,"tablet":true,"mobile":true}'>
+              
+              Control skins randomize on every action
+              
+            </div>
+            
+            <div class="zoro-slider-layer demo-layer demo-layer-text "
+              data-layer-type="text"
+              data-x="left"
+              data-y="center"
+              data-x-offset="56"
+              data-y-offset="72"
+              data-z="10"
+              data-anim-in-type="fadeInUp"
+              data-anim-in-delay="520"
+              data-anim-in-speed="900"
+              
+              data-anim-out-type="fadeOutDown"
+              data-anim-out-delay="500"
+              data-anim-out-speed="800"
+              
+              data-style="width:450px;"
+              data-device-visibility='{"desktop":true,"tablet":true,"mobile":true}'>
+              
+              Control style, control icon, and dots style are randomized every time.
+              
+            </div>
+            
+          </li>
+          
+          <li data-bg-image="../vendor/zoroslider/img/a06.jpg">
+            
+            <div class="zoro-slider-layer demo-layer demo-layer-text "
+              data-layer-type="text"
+              data-x="left"
+              data-y="top"
+              data-x-offset="56"
+              data-y-offset="56"
+              data-z="10"
+              data-anim-in-type="fadeInDown"
+              data-anim-in-delay="450"
+              data-anim-in-speed="900"
+              
+              data-anim-out-type="fadeOutUp"
+              data-anim-out-delay="500"
+              data-anim-out-speed="800"
+              
+              data-style="width:220px;"
+              data-device-visibility='{"desktop":true,"tablet":true,"mobile":true}'>
+              
+              API showcase
+              
+            </div>
+            
+            <div class="zoro-slider-layer demo-layer demo-layer-text "
+              data-layer-type="text"
+              data-x="left"
+              data-y="center"
+              data-x-offset="56"
+              data-y-offset="-24"
+              data-z="10"
+              data-anim-in-type="fadeInUp"
+              data-anim-in-delay="450"
+              data-anim-in-speed="900"
+              
+              data-anim-out-type="fadeOutDown"
+              data-anim-out-delay="500"
+              data-anim-out-speed="800"
+              
+              data-style="width:470px;"
+              data-device-visibility='{"desktop":true,"tablet":true,"mobile":true}'>
+              
+              Dots and icons change with each command
+              
+            </div>
+            
+            <div class="zoro-slider-layer demo-layer demo-layer-text "
+              data-layer-type="text"
+              data-x="left"
+              data-y="center"
+              data-x-offset="56"
+              data-y-offset="72"
+              data-z="10"
+              data-anim-in-type="fadeInUp"
+              data-anim-in-delay="520"
+              data-anim-in-speed="900"
+              
+              data-anim-out-type="fadeOutDown"
+              data-anim-out-delay="500"
+              data-anim-out-speed="800"
+              
+              data-style="width:450px;"
+              data-device-visibility='{"desktop":true,"tablet":true,"mobile":true}'>
+              
+              This exposes UI combinations while you test the runtime methods.
+              
+            </div>
+            
+          </li>
+          
+          <li data-bg-image="../vendor/zoroslider/img/a07.jpg">
+            
+            <div class="zoro-slider-layer demo-layer demo-layer-text "
+              data-layer-type="text"
+              data-x="left"
+              data-y="top"
+              data-x-offset="56"
+              data-y-offset="56"
+              data-z="10"
+              data-anim-in-type="fadeInDown"
+              data-anim-in-delay="450"
+              data-anim-in-speed="900"
+              
+              data-anim-out-type="fadeOutUp"
+              data-anim-out-delay="500"
+              data-anim-out-speed="800"
+              
+              data-style="width:220px;"
+              data-device-visibility='{"desktop":true,"tablet":true,"mobile":true}'>
+              
+              API showcase
+              
+            </div>
+            
+            <div class="zoro-slider-layer demo-layer demo-layer-text "
+              data-layer-type="text"
+              data-x="left"
+              data-y="center"
+              data-x-offset="56"
+              data-y-offset="-24"
+              data-z="10"
+              data-anim-in-type="fadeInUp"
+              data-anim-in-delay="450"
+              data-anim-in-speed="900"
+              
+              data-anim-out-type="fadeOutDown"
+              data-anim-out-delay="500"
+              data-anim-out-speed="800"
+              
+              data-style="width:470px;"
+              data-device-visibility='{"desktop":true,"tablet":true,"mobile":true}'>
+              
+              Full Width Scoped stays fixed for comparison
+              
+            </div>
+            
+            <div class="zoro-slider-layer demo-layer demo-layer-text "
+              data-layer-type="text"
+              data-x="left"
+              data-y="center"
+              data-x-offset="56"
+              data-y-offset="72"
+              data-z="10"
+              data-anim-in-type="fadeInUp"
+              data-anim-in-delay="520"
+              data-anim-in-speed="900"
+              
+              data-anim-out-type="fadeOutDown"
+              data-anim-out-delay="500"
+              data-anim-out-speed="800"
+              
+              data-style="width:450px;"
+              data-device-visibility='{"desktop":true,"tablet":true,"mobile":true}'>
+              
+              The layout stays locked to fullWidthScoped for consistency.
+              
+            </div>
+            
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+
+    <div class="relative z-10 mx-auto mt-6 w-[min(1180px,calc(100%_-_36px))] rounded-xl border border-demoLine bg-white/90 p-4 shadow-demoSoft" data-api-button-bar>
+      <div class="mb-6 flex flex-col gap-2 md:flex-row md:items-end md:justify-between">
+        <div>
+          <p class="demo-eyebrow m-0">API method selection</p>
+          <h2 class="m-0 font-display text-3xl font-black leading-none tracking-[-0.05em] md:text-4xl">Trigger a public method</h2>
+        </div>
+        <p class="m-0 max-w-xl text-sm leading-6 text-demoMuted">Each button runs one real public API method on the current slider instance.</p>
+      </div>
+      <div class="transition-button-grid" data-api-buttons>
+        
+        <button class="transition-chip" type="button" data-api-value="next">
+          next()
+        </button>
+        
+        <button class="transition-chip" type="button" data-api-value="previous">
+          previous()
+        </button>
+        
+        <button class="transition-chip" type="button" data-api-value="goToFirst">
+          goToFirst()
+        </button>
+        
+        <button class="transition-chip" type="button" data-api-value="goToLast">
+          goToLast()
+        </button>
+        
+        <button class="transition-chip" type="button" data-api-value="goTo4">
+          goTo(4)
+        </button>
+        
+        <button class="transition-chip" type="button" data-api-value="startAutoplay">
+          startAutoplay()
+        </button>
+        
+        <button class="transition-chip" type="button" data-api-value="pauseAutoplay">
+          pauseAutoplay()
+        </button>
+        
+        <button class="transition-chip" type="button" data-api-value="resumeAutoplay">
+          resumeAutoplay()
+        </button>
+        
+        <button class="transition-chip" type="button" data-api-value="stopAutoplay">
+          stopAutoplay()
+        </button>
+        
+        <button class="transition-chip" type="button" data-api-value="restartAutoplay">
+          restartAutoplay()
+        </button>
+        
+        <button class="transition-chip" type="button" data-api-value="refreshLayout">
+          refreshLayout()
+        </button>
+        
+      </div>
+    </div>
+
+    <div class="relative z-10 mx-auto mt-10 w-[min(1180px,calc(100%_-_36px))]">
+      <p class="demo-eyebrow">Runtime controls</p>
+      <h1 class="max-w-5xl font-display text-5xl font-black leading-[0.9] tracking-[-0.07em] md:text-5xl lg:text-6xl">API</h1>
+      <p class="mt-6 max-w-3xl text-lg leading-8 text-demoMuted md:text-xl">Trigger real ZoroSlider public methods on a clean slider state.</p>
+    </div>
+  </section>
+
+  <section class="mx-auto w-[min(1180px,calc(100%_-_36px))] py-16 md:py-24" id="api-reference">
+    <div class="grid gap-10">
+      <div>
+        <p class="demo-eyebrow">API reference</p>
+        <h2 class="font-display text-4xl font-black leading-none tracking-[-0.05em] md:text-5xl">Public methods and events</h2>
+        <p class="mt-5 max-w-3xl leading-8 text-demoMuted">Use the public API to control slide navigation, autoplay, layers, media, layout refresh, and runtime option access.</p>
+      </div>
+
+      <article class="rounded-3xl border border-demoLine bg-white p-6 shadow-demoSoft md:p-8">
+        <h3 class="font-display text-2xl font-black tracking-[-0.03em]">Public methods</h3>
+        <div class="mt-5 grid gap-3 md:grid-cols-2 xl:grid-cols-3">
+          
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">next()</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">previous()</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">goTo(index)</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">goToFirst()</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">goToLast()</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">getCurrentIndex()</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">getPreviousIndex()</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">getSlideCount()</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">getCurrentSlide()</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">getSlide(index)</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">isAnimating()</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">isPaused()</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">isAutoplayEnabled()</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">startAutoplay()</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">pauseAutoplay()</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">resumeAutoplay()</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">stopAutoplay()</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">restartAutoplay()</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">destroy()</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">refresh()</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">update()</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">showLayer(layer)</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">hideLayer(layer)</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">toggleLayer(layer)</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">removeLayer(layer)</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">addLayer(configOrElement)</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">animateLayerIn(layer, delay)</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">animateLayerOut(layer, delay)</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">toggleLayerAnimation(layer, inDelay, outDelay)</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">triggerLayerClick(layer)</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">playMedia(selectorOrLayer)</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">pauseMedia(selectorOrLayer)</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">stopMedia(selectorOrLayer)</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">muteMedia(selectorOrLayer)</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">unmuteMedia(selectorOrLayer)</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">setMediaVolume(selectorOrLayer, volume)</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">refreshLayout()</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">setLayout(layout)</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">getLayout()</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">getDevice()</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">scrollToSliderTop(offset)</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">scrollToSliderBottom(offset)</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">scrollToPageTop(offset)</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">scrollToPageBottom(offset)</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">scrollToElement(element, offset)</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">getOption(name)</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">setOption(name, value)</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">getOptions()</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">getSlides()</div>
+          
+          <div class="rounded-md border border-demoLine bg-slate-50 px-3 py-2 font-mono text-sm font-semibold text-slate-800">getApi()</div>
+          
+        </div>
+
+        <div class="mt-10 border-t border-demoLine pt-8">
+          <h3 class="font-display text-2xl font-black tracking-[-0.03em]">Example</h3>
+          <div class="mt-5">
+            <pre class="language-javascript mt-5"><code class="language-javascript">const api = $('#my-slider').data('zorosliderapi');
+api.goTo(3);
+api.pauseAutoplay();</code></pre>
+          </div>
+        </div>
+
+        <div class="mt-10 border-t border-demoLine pt-8">
+          <h3 class="font-display text-2xl font-black tracking-[-0.03em]">Event groups</h3>
+          <p class="mt-4 leading-8 text-demoMuted">ZoroSlider emits <strong>zoroslider:*</strong> events for lifecycle, navigation, autoplay, layers, transitions, responsive changes, carousel movement, and media state.</p>
+        </div>
+
+        <div class="mt-10 border-t border-demoLine pt-8">
+          <div class="grid gap-8 md:grid-cols-2">
+            <div>
+              <h3 class="font-display text-2xl font-black tracking-[-0.03em]">Lifecycle events</h3>
+              <ul class="mt-5 space-y-1 text-sm leading-7 text-slate-700">
+                <li><code>zoroslider:init</code></li>
+                <li><code>zoroslider:ready</code></li>
+                <li><code>zoroslider:destroy</code></li>
+                <li><code>zoroslider:error</code></li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="font-display text-2xl font-black tracking-[-0.03em]">Slide navigation events</h3>
+              <ul class="mt-5 space-y-1 text-sm leading-7 text-slate-700">
+                <li><code>zoroslider:before-slide-change</code></li>
+                <li><code>zoroslider:slide-change-start</code></li>
+                <li><code>zoroslider:slide-change</code></li>
+                <li><code>zoroslider:slide-change-end</code></li>
+                <li><code>zoroslider:slide-change-cancel</code></li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="font-display text-2xl font-black tracking-[-0.03em]">Autoplay events</h3>
+              <ul class="mt-5 space-y-1 text-sm leading-7 text-slate-700">
+                <li><code>zoroslider:autoplay-start</code></li>
+                <li><code>zoroslider:autoplay-stop</code></li>
+                <li><code>zoroslider:autoplay-pause</code></li>
+                <li><code>zoroslider:autoplay-resume</code></li>
+                <li><code>zoroslider:autoplay-progress</code></li>
+                <li><code>zoroslider:autoplay-complete</code></li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="font-display text-2xl font-black tracking-[-0.03em]">Interaction events</h3>
+              <ul class="mt-5 space-y-1 text-sm leading-7 text-slate-700">
+                <li><code>zoroslider:next</code></li>
+                <li><code>zoroslider:previous</code></li>
+                <li><code>zoroslider:slide-to</code></li>
+                <li><code>zoroslider:swipe</code></li>
+                <li><code>zoroslider:keyboard-navigation</code></li>
+                <li><code>zoroslider:control-click</code></li>
+                <li><code>zoroslider:dot-click</code></li>
+                <li><code>zoroslider:thumb-click</code></li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="font-display text-2xl font-black tracking-[-0.03em]">Layer events</h3>
+              <ul class="mt-5 space-y-1 text-sm leading-7 text-slate-700">
+                <li><code>zoroslider:layer-before-in</code></li>
+                <li><code>zoroslider:layer-after-in</code></li>
+                <li><code>zoroslider:layer-before-out</code></li>
+                <li><code>zoroslider:layer-after-out</code></li>
+                <li><code>zoroslider:layer-click</code></li>
+                <li><code>zoroslider:layer-show</code></li>
+                <li><code>zoroslider:layer-hide</code></li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="font-display text-2xl font-black tracking-[-0.03em]">Transition events</h3>
+              <ul class="mt-5 space-y-1 text-sm leading-7 text-slate-700">
+                <li><code>zoroslider:transition-start</code></li>
+                <li><code>zoroslider:transition-end</code></li>
+                <li><code>zoroslider:transition-cancel</code></li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="font-display text-2xl font-black tracking-[-0.03em]">Responsive events</h3>
+              <ul class="mt-5 space-y-1 text-sm leading-7 text-slate-700">
+                <li><code>zoroslider:resize</code></li>
+                <li><code>zoroslider:layout-change</code></li>
+                <li><code>zoroslider:device-change</code></li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="font-display text-2xl font-black tracking-[-0.03em]">Carousel events</h3>
+              <ul class="mt-5 space-y-1 text-sm leading-7 text-slate-700">
+                <li><code>zoroslider:carousel-move</code></li>
+                <li><code>zoroslider:carousel-moved</code></li>
+                <li><code>zoroslider:carousel-item-click</code></li>
+              </ul>
+            </div>
+
+            <div class="md:col-span-2">
+              <h3 class="font-display text-2xl font-black tracking-[-0.03em]">Media events</h3>
+              <ul class="mt-5 grid gap-x-8 gap-y-2 text-sm leading-7 text-slate-700 md:grid-cols-2">
+                <li><code>zoroslider:media-ready</code></li>
+                <li><code>zoroslider:media-play</code></li>
+                <li><code>zoroslider:media-playing</code></li>
+                <li><code>zoroslider:media-pause</code></li>
+                <li><code>zoroslider:media-ended</code></li>
+                <li><code>zoroslider:media-error</code></li>
+                <li><code>zoroslider:media-time-update</code></li>
+                <li><code>zoroslider:media-seeked</code></li>
+                <li><code>zoroslider:media-volume-change</code></li>
+                <li><code>zoroslider:video-enter-fullscreen</code></li>
+                <li><code>zoroslider:video-exit-fullscreen</code></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-10 border-t border-demoLine pt-8">
+          <h3 class="font-display text-2xl font-black tracking-[-0.03em]">Listening for events</h3>
+          <div class="mt-5">
+            <pre class="language-javascript mt-5"><code class="language-javascript">$('#my-slider').on('zoroslider:after-slide-change', (e) => {
+  const detail = e.originalEvent.detail;
+  console.log(detail.currentIndex);
+});</code></pre>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+</main>
+
+<script type="application/json" data-demo-config-json data-demo-config-type="demo">{
+  "slug": "api",
+  "title": "API",
+  "eyebrow": "Runtime controls",
+  "summary": "Trigger real ZoroSlider public methods on a clean slider state.",
+  "accent": "#dc2626",
+  "slides": [
+    {
+      "image": "a01.jpg",
+      "layers": [
+        {
+          "type": "text",
+          "x": "left",
+          "y": "top",
+          "xOffset": 56,
+          "yOffset": 56,
+          "width": 220,
+          "role": "Eyebrow label",
+          "text": "API showcase",
+          "inType": "fadeInDown",
+          "outType": "fadeOutUp"
+        },
+        {
+          "type": "text",
+          "x": "left",
+          "y": "center",
+          "xOffset": 56,
+          "yOffset": -24,
+          "width": 470,
+          "role": "Headline",
+          "text": "API motion on a fresh slider state",
+          "inType": "fadeInUp",
+          "outType": "fadeOutDown"
+        },
+        {
+          "type": "text",
+          "x": "left",
+          "y": "center",
+          "xOffset": 56,
+          "yOffset": 72,
+          "width": 450,
+          "role": "Supporting copy",
+          "text": "Use the method buttons below to execute real public slider API commands.",
+          "inType": "fadeInUp",
+          "outType": "fadeOutDown",
+          "inDelay": 520
+        }
+      ]
+    },
+    {
+      "image": "a02.jpg",
+      "layers": [
+        {
+          "type": "text",
+          "x": "left",
+          "y": "top",
+          "xOffset": 56,
+          "yOffset": 56,
+          "width": 220,
+          "role": "Eyebrow label",
+          "text": "API showcase",
+          "inType": "fadeInDown",
+          "outType": "fadeOutUp"
+        },
+        {
+          "type": "text",
+          "x": "left",
+          "y": "center",
+          "xOffset": 56,
+          "yOffset": -24,
+          "width": 470,
+          "role": "Headline",
+          "text": "Navigation methods should react immediately",
+          "inType": "fadeInUp",
+          "outType": "fadeOutDown"
+        },
+        {
+          "type": "text",
+          "x": "left",
+          "y": "center",
+          "xOffset": 56,
+          "yOffset": 72,
+          "width": 450,
+          "role": "Supporting copy",
+          "text": "Every click reloads a clean slider state first, then runs the chosen method.",
+          "inType": "fadeInUp",
+          "outType": "fadeOutDown",
+          "inDelay": 520
+        }
+      ]
+    },
+    {
+      "image": "a03.jpg",
+      "layers": [
+        {
+          "type": "text",
+          "x": "left",
+          "y": "top",
+          "xOffset": 56,
+          "yOffset": 56,
+          "width": 220,
+          "role": "Eyebrow label",
+          "text": "API showcase",
+          "inType": "fadeInDown",
+          "outType": "fadeOutUp"
+        },
+        {
+          "type": "text",
+          "x": "left",
+          "y": "center",
+          "xOffset": 56,
+          "yOffset": -24,
+          "width": 470,
+          "role": "Headline",
+          "text": "Autoplay methods should stay visible",
+          "inType": "fadeInUp",
+          "outType": "fadeOutDown"
+        },
+        {
+          "type": "text",
+          "x": "left",
+          "y": "center",
+          "xOffset": 56,
+          "yOffset": 72,
+          "width": 450,
+          "role": "Supporting copy",
+          "text": "Progress stays on so autoplay commands are easy to verify visually.",
+          "inType": "fadeInUp",
+          "outType": "fadeOutDown",
+          "inDelay": 520
+        }
+      ]
+    },
+    {
+      "image": "a04.jpg",
+      "layers": [
+        {
+          "type": "text",
+          "x": "left",
+          "y": "top",
+          "xOffset": 56,
+          "yOffset": 56,
+          "width": 220,
+          "role": "Eyebrow label",
+          "text": "API showcase",
+          "inType": "fadeInDown",
+          "outType": "fadeOutUp"
+        },
+        {
+          "type": "text",
+          "x": "left",
+          "y": "center",
+          "xOffset": 56,
+          "yOffset": -24,
+          "width": 470,
+          "role": "Headline",
+          "text": "goTo methods should land predictably",
+          "inType": "fadeInUp",
+          "outType": "fadeOutDown"
+        },
+        {
+          "type": "text",
+          "x": "left",
+          "y": "center",
+          "xOffset": 56,
+          "yOffset": 72,
+          "width": 450,
+          "role": "Supporting copy",
+          "text": "The same slide set is reused so API behavior is easier to compare.",
+          "inType": "fadeInUp",
+          "outType": "fadeOutDown",
+          "inDelay": 520
+        }
+      ]
+    },
+    {
+      "image": "a05.jpg",
+      "layers": [
+        {
+          "type": "text",
+          "x": "left",
+          "y": "top",
+          "xOffset": 56,
+          "yOffset": 56,
+          "width": 220,
+          "role": "Eyebrow label",
+          "text": "API showcase",
+          "inType": "fadeInDown",
+          "outType": "fadeOutUp"
+        },
+        {
+          "type": "text",
+          "x": "left",
+          "y": "center",
+          "xOffset": 56,
+          "yOffset": -24,
+          "width": 470,
+          "role": "Headline",
+          "text": "Control skins randomize on every action",
+          "inType": "fadeInUp",
+          "outType": "fadeOutDown"
+        },
+        {
+          "type": "text",
+          "x": "left",
+          "y": "center",
+          "xOffset": 56,
+          "yOffset": 72,
+          "width": 450,
+          "role": "Supporting copy",
+          "text": "Control style, control icon, and dots style are randomized every time.",
+          "inType": "fadeInUp",
+          "outType": "fadeOutDown",
+          "inDelay": 520
+        }
+      ]
+    },
+    {
+      "image": "a06.jpg",
+      "layers": [
+        {
+          "type": "text",
+          "x": "left",
+          "y": "top",
+          "xOffset": 56,
+          "yOffset": 56,
+          "width": 220,
+          "role": "Eyebrow label",
+          "text": "API showcase",
+          "inType": "fadeInDown",
+          "outType": "fadeOutUp"
+        },
+        {
+          "type": "text",
+          "x": "left",
+          "y": "center",
+          "xOffset": 56,
+          "yOffset": -24,
+          "width": 470,
+          "role": "Headline",
+          "text": "Dots and icons change with each command",
+          "inType": "fadeInUp",
+          "outType": "fadeOutDown"
+        },
+        {
+          "type": "text",
+          "x": "left",
+          "y": "center",
+          "xOffset": 56,
+          "yOffset": 72,
+          "width": 450,
+          "role": "Supporting copy",
+          "text": "This exposes UI combinations while you test the runtime methods.",
+          "inType": "fadeInUp",
+          "outType": "fadeOutDown",
+          "inDelay": 520
+        }
+      ]
+    },
+    {
+      "image": "a07.jpg",
+      "layers": [
+        {
+          "type": "text",
+          "x": "left",
+          "y": "top",
+          "xOffset": 56,
+          "yOffset": 56,
+          "width": 220,
+          "role": "Eyebrow label",
+          "text": "API showcase",
+          "inType": "fadeInDown",
+          "outType": "fadeOutUp"
+        },
+        {
+          "type": "text",
+          "x": "left",
+          "y": "center",
+          "xOffset": 56,
+          "yOffset": -24,
+          "width": 470,
+          "role": "Headline",
+          "text": "Full Width Scoped stays fixed for comparison",
+          "inType": "fadeInUp",
+          "outType": "fadeOutDown"
+        },
+        {
+          "type": "text",
+          "x": "left",
+          "y": "center",
+          "xOffset": 56,
+          "yOffset": 72,
+          "width": 450,
+          "role": "Supporting copy",
+          "text": "The layout stays locked to fullWidthScoped for consistency.",
+          "inType": "fadeInUp",
+          "outType": "fadeOutDown",
+          "inDelay": 520
+        }
+      ]
+    }
+  ],
+  "sliderOptions": {
+    "width": 1180,
+    "height": 560,
+    "layout": "fullWidthScoped",
+    "transition": "flipHorizontal",
+    "transitionDelay": 5200,
+    "autoPlay": true,
+    "pauseOnHover": true,
+    "controls": true,
+    "controlStyle": "thumbFlip",
+    "controlIcon": "1",
+    "dotsNav": true,
+    "dotsStyle": "drawcircle",
+    "thumbsNav": false,
+    "numbersNav": false,
+    "progressBar": true,
+    "radialProgress": false,
+    "responsive": true,
+    "manualLayerExitDelay": 100,
+    "manualLayerExitSpeed": 500,
+    "transitionSpeed": 800
+  },
+  "apiButtons": [
+    {
+      "value": "next",
+      "label": "next()"
+    },
+    {
+      "value": "previous",
+      "label": "previous()"
+    },
+    {
+      "value": "goToFirst",
+      "label": "goToFirst()"
+    },
+    {
+      "value": "goToLast",
+      "label": "goToLast()"
+    },
+    {
+      "value": "goTo4",
+      "label": "goTo(4)"
+    },
+    {
+      "value": "startAutoplay",
+      "label": "startAutoplay()"
+    },
+    {
+      "value": "pauseAutoplay",
+      "label": "pauseAutoplay()"
+    },
+    {
+      "value": "resumeAutoplay",
+      "label": "resumeAutoplay()"
+    },
+    {
+      "value": "stopAutoplay",
+      "label": "stopAutoplay()"
+    },
+    {
+      "value": "restartAutoplay",
+      "label": "restartAutoplay()"
+    },
+    {
+      "value": "refreshLayout",
+      "label": "refreshLayout()"
+    }
+  ],
+  "markupCode": ""
+}</script>
+
+
+  <footer>
+    <div class="footer-cta">
+      <div class="footer-cta-inner">
+        <div class="footer-cta-text">
+          <h2>Ready to use beautiful sliders?</h2>
+          <p>One-time purchase. Lifetime updates. Zero overhead.</p>
+        </div>
+        <div class="cta-actions">
+          <a href="https://codedilaz.com/code/zoroslider-premium-wordpress-slider-builder/313/" class="btn-buy">Get ZoroSlider</a>
+          <a href="https://themecresthq.xyz/plugins/zoroslider/wp/docs" class="btn-docs">Documentation</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-main-shell">
+      <div class="footer-main">
+        <div>
+          <a class="footer-brand-logo" href="../index.html" aria-label="ZoroSlider demos home">
+            <img src="../assets/images/zoro-slider-light-logo.png" alt="ZoroSlider">
+          </a>
+          <div class="footer-tagline">Premium layer slider for modern web projects.</div>
+        </div>
+        <div>
+          <div class="footer-col-title">Product</div>
+          <ul class="footer-links">
+            <li><a href="../index.html#feature-hierarchy">Features</a></li>
+            <li><a href="../demos/index.html">Demos</a></li>
+            <li><a href="../examples/index.html">Examples</a></li>
+            <li><a href="../wp/docs/changelog">Changelog</a></li>
+            
+            
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-title">Resources</div>
+          <ul class="footer-links">
+            <li><a href="https://themecresthq.xyz/plugins/zoroslider/wp/docs">Documentation</a></li>
+            <li><a href="../api/index.html">API Reference</a></li>
+            
+            
+            
+            
+            
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-title">Company</div>
+          <ul class="footer-links">
+            
+            
+            <li><a href="../support.html">Support</a></li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-bottom-inner">
+        <div class="footer-copy">© 2025 ZoroSlider. All rights reserved.</div>
+        <div class="footer-bottom-links">
+          <a href="../privacy.html">Privacy</a>
+          <a href="../terms.html">Terms</a>
+          
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox HTML -->
+  <div id="lightbox" class="lightbox-overlay">
+    <span class="lightbox-close">&times;</span>
+    <span class="lightbox-nav prev">&#10094;</span>
+    <span class="lightbox-nav next">&#10095;</span>
+    <img id="lightbox-img" src="" alt="Enlarged view" />
+  </div>
+
+  <script src="../vendor/zoroslider/js/libs/jquery-3.6.0.min.js"></script>
+  <script src="../vendor/zoroslider/js/libs/jquery-migrate-3.3.2.min.js"></script>
+  <script src="../vendor/zoroslider/js/libs/plyr/plyr.min.js"></script>
+  <script type="module" src="../vendor/zoroslider/js/zoroslider.jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-markup.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
+  <script src="../assets/js/aos.js"></script>
+  <script>AOS.init();</script>
+  <script defer src="../assets/js/demo.js"></script>
+</body>
+</html>

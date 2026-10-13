@@ -1,0 +1,1771 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Play Ground | ZoroSlider Demos</title>
+  <meta name="description" content="Public demo layouts for validating ZoroSlider in realistic launch-ready pages.">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+  <link rel="shortcut icon" href="assets/images/favicon.ico">
+  <link rel="manifest" href="assets/images/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abel:wght@400;700&family=Bebas+Neue&family=Inter:wght@400;600;800&family=Montserrat:wght@600;800&family=Oswald:wght@500;700&family=Butcherman&display=swap">
+  <link rel="stylesheet" href="assets/css/tailwind.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+  <link rel="stylesheet" href="vendor/zoroslider/css/zoroslider.vendor.min.css">
+  <link rel="stylesheet" href="vendor/zoroslider/css/zoroslider.core.min.css">
+  <link rel="stylesheet" href="assets/css/aos.css">
+  <link rel="stylesheet" href="assets/css/demo.css">
+</head>
+
+
+
+  
+
+
+<body class="min-h-screen bg-slate-100 text-slate-900 antialiased" style="--demo-accent: #7c3aed">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="quicklinks text-slate-200" data-quicklinks aria-hidden="true">
+    <button class="quicklinks-backdrop" type="button" data-quicklinks-close aria-label="Close quicklinks"></button>
+    <aside class="quicklinks-drawer bg-slate-900" aria-label="Shortcut links">
+      <div class="quicklinks-inner">
+      <div class="mb-5 flex items-center justify-between gap-4">
+        <strong class="font-display text-xl font-black" data-quicklinks-title>Quicklinks</strong>
+        <button class="rounded-full border border-white/20 px-4 py-2 text-sm font-black text-white transition hover:bg-white hover:text-slate-900 cursor-pointer" type="button" data-quicklinks-close><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-x"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M18 6l-12 12" /><path d="M6 6l12 12" /></svg></button>
+      </div>
+      <div class="quicklinks-scroll">
+        <div class="quicklinks-panel grid gap-3" data-quicklinks-panel="demos">
+          <a class="quicklinks-index-btn" href="demos/index.html">Go to Demos Page</a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #ca8a04" href="demos/auto-1.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/auto-1-html-bundle_2026-07-14_10.34.40/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Automotive</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Auto 1</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #ca8a04" href="demos/auto-2.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/auto-2-html-bundle_2026-07-14_10.34.32/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Automotive</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Auto 2</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="demos/beauty-1.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/beauty-1-html-bundle_2026-07-14_10.35.12/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Beauty</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Beauty 1</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="demos/beauty-2.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/beauty-2-html-bundle_2026-07-14_10.35.01/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Beauty</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Beauty 2</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="demos/beauty-3.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/beauty-3-html-bundle_2026-07-14_10.34.51/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Beauty</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Beauty 3</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #1e40af" href="demos/charity-1.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/charity-1-html-bundle_2026-07-14_10.35.45/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Charity</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Charity 1</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #1e40af" href="demos/charity-2.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/charity-2-html-bundle_2026-07-14_10.35.35/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Charity</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Charity 2</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #1e40af" href="demos/charity-3.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/charity-3-html-bundle_2026-07-14_10.35.23/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Charity</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Charity 3</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #f97316" href="demos/corporate-1.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/corporate-1-html-bundle_2026-07-14_10.36.28/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Corporate</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Corporate 1</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #f97316" href="demos/corporate-2.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/corporate-2-html-bundle_2026-07-14_10.36.17/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Corporate</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Corporate 2</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #f97316" href="demos/corporate-3.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/corporate-3-html-bundle_2026-07-14_10.36.07/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Corporate</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Corporate 3</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #2563eb" href="demos/travel-1.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              
+              <img data-quicklinks-lazy-img data-src="demos/travel-1-html-bundle_2026-07-14_10.35.57/assets/images/slider-preview.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+              
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Travel</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Travel 1</strong>
+              
+            </span>
+          </a>
+          
+        </div>
+        <div class="quicklinks-panel grid gap-3" data-quicklinks-panel="examples">
+          <a class="quicklinks-index-btn" href="examples/index.html">Go to Examples Page</a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0f766e" href="examples/basic-boxed.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/basic-boxed.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Layouts</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Basic Boxed Slider</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0f766e" href="examples/responsive-default.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/responsive-default.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Layouts</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Responsive Default Layout</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0f766e" href="examples/fixed-layout.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/fixed-layout.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Layouts</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Fixed Layout</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0f766e" href="examples/fullwidth-layout.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/fullwidth-layout.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Layouts</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Viewport Full Width</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0f766e" href="examples/fullwidth-scoped-layout.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/fullwidth-scoped-layout.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Layouts</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Parent Scoped Full Width</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0f766e" href="examples/fullscreen-layout.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/fullscreen-layout.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Layouts</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Fullscreen Layout</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #2563eb" href="examples/thumbnail-navigation.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/thumbnail-navigation.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Navigation</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Thumbnail Navigation</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #2563eb" href="examples/dot-navigation-styles.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/dot-navigation-styles.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Navigation</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Dot Navigation Styles</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #2563eb" href="examples/number-navigation-tooltip.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/number-navigation-tooltip.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Navigation</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Number Navigation Tooltip</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #8fca2f" href="examples/control-style-gallery.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/control-style-gallery.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Controls</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Control Style Gallery</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #db2777" href="examples/progress-indicators.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/progress-indicators.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Progress</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Progress Indicators</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #15803d" href="examples/kenburns-backgrounds.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/kenburns-backgrounds.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Backgrounds</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Ken Burns Backgrounds</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0891b2" href="examples/background-video.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/background-video.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Media</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Background Video</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #0891b2" href="examples/media-layers.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/media-layers.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Media</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Audio And Video Layers</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="examples/carousel-normal.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/carousel-normal.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Carousel</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Carousel Normal</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="examples/carousel-showcase.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/carousel-showcase.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Carousel</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Carousel Showcase</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="examples/carousel-gallery3d.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/carousel-gallery3d.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Carousel</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Carousel Gallery3D</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #9333ea" href="examples/carousel-gallery3d-full-screen.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/carousel-gallery3d-full-screen.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Carousel</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Carousel Gallery3D Full Screen</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #ea580c" href="examples/grid-transitions.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/grid-transitions.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Transitions</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">Grid Transitions</strong>
+              
+            </span>
+          </a>
+          
+          <a class="quicklinks-link relative flex flex-col place-items-start place-content-start" style="--demo-accent: #ea580c" href="examples/slicebox-transitions.html">
+            <span class="quicklinks-thumb" aria-hidden="true">
+              <img data-quicklinks-lazy-img data-src="assets/images/examples/slicebox-transitions.png" alt="" loading="lazy" decoding="async" onerror="this.closest('.quicklinks-thumb').classList.add('is-empty');this.remove()">
+            </span>
+            <span class="m-0 mb-0.5 text-[0.6rem] p-[0.1rem] px-[0.3rem] font-medium uppercase rounded-sm inline-block tracking-[0.12em] bg-[var(--demo-accent)] text-white">Transitions</span>
+            <span class="quicklinks-title-row">
+              <strong class="!font-bold">SliceBox Transitions</strong>
+              
+            </span>
+          </a>
+          
+        </div>
+      </div>
+      </div>
+    </aside>
+  </div>
+  
+  <header class="top-0 z-50 w-full border-b border-black/10 bg-demoPaper/90 px-5 py-4 backdrop-blur-xl" data-demo-site-header>
+    <div class="flex mx-auto w-[min(1180px,100%)] items-center justify-between gap-4 lg:grid lg:grid-cols-[minmax(160px,1fr)_auto_minmax(160px,1fr)]">
+
+      <a class="demo-site-logo no-underline shrink-0" href="index.html" aria-label="ZoroSlider demos home">
+        <img class="h-7 w-auto lg:h-9" src="assets/images/zoro-slider-dark-logo.png" alt="ZoroSlider">
+      </a>
+
+      <!-- Desktop nav (unchanged logic, just hidden below lg) -->
+      <nav class="hidden justify-center gap-9 font-black lg:flex" aria-label="Demo navigation">
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] is-active" href="play.html">Play</a>
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] " href="transitions/index.html">Transitions</a>
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] " href="controls/index.html">Controls</a>
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] " href="dots/index.html">Dots</a>
+        
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] " href="demos/index.html">Demos</a>
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] " href="examples/index.html">Examples</a>
+        <a class="demo-nav-link no-underline hover:text-[var(--demo-accent)] " href="api/index.html">API</a>
+        <div class="!hidden demo-nav-link demo-nav-more ">
+          <button class="demo-nav-link demo-nav-more-toggle no-underline hover:text-[var(--demo-accent)] " type="button" aria-haspopup="true" aria-expanded="false">
+            More
+            <span aria-hidden="true">⌄</span>
+          </button>
+          <div class="demo-nav-more-menu" role="menu">
+            <a class="" href="release-notes.html" role="menuitem">Releases</a>
+            <a class="" href="roadmap.html" role="menuitem">Roadmap</a>
+            <a class="" href="support.html" role="menuitem">Support</a>
+          </div>
+        </div>
+        
+      </nav>
+
+      <!-- Desktop CTA -->
+      <div class="hidden justify-end lg:flex">
+        <a class="inline-flex min-h-11 items-center justify-center rounded-full bg-demoDark px-5 pb-1 font-black text-white no-underline transition hover:bg-[var(--demo-accent)]" href="https://codedilaz.com/code/zoroslider-premium-wordpress-slider-builder/313/"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-target-arrow text-[#facc56] mr-2"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M12 7a5 5 0 1 0 5 5" /><path d="M13 3.055a9 9 0 1 0 7.941 7.945" /><path d="M15 6v3h3l3 -3h-3v-3l-3 3" /><path d="M15 9l-3 3" /></svg> Get It Now</a>
+      </div>
+
+      <!-- Hamburger toggle (below lg only) -->
+      <button
+        type="button"
+        class="demo-nav-hamburger relative flex h-10 w-10 shrink-0 flex-col items-center justify-center gap-[5px] lg:hidden cursor-pointer"
+        aria-label="Toggle menu"
+        aria-expanded="false"
+        aria-controls="demo-mobile-menu"
+        data-mobile-menu-toggle
+      >
+        <span class="block h-[3px] w-6 origin-center rounded-full bg-demoDark transition-transform duration-200" data-hamburger-bar="top"></span>
+        <span class="block h-[3px] w-6 rounded-full bg-demoDark transition-opacity duration-150" data-hamburger-bar="mid"></span>
+        <span class="block h-[3px] w-6 origin-center rounded-full bg-demoDark transition-transform duration-200" data-hamburger-bar="bottom"></span>
+      </button>
+    </div>
+
+    <!-- Mobile menu panel -->
+    <div
+      id="demo-mobile-menu"
+      class="grid grid-rows-[0fr] opacity-0 transition-[grid-template-rows,opacity] duration-300 ease-in-out lg:hidden"
+      data-mobile-menu
+      aria-hidden="true"
+      >
+      <div class="overflow-hidden">
+        <nav class="mx-auto flex w-[min(1180px,100%)] flex-col gap-1 py-4 font-black" aria-label="Demo navigation mobile">
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] is-active" href="play.html">Play</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="transitions/index.html">Transitions</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="controls/index.html">Controls</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="dots/index.html">Dots</a>
+          
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="demos/index.html">Demos</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="examples/index.html">Examples</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="api/index.html">API</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="release-notes.html">Releases</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="roadmap.html">Roadmap</a>
+          <a class="demo-nav-link block rounded-lg px-2 py-2 no-underline hover:text-[var(--demo-accent)] " href="support.html">Support</a>
+          
+
+          <a class="mt-3 inline-flex min-h-11 items-center justify-center rounded-full bg-demoDark px-5 pb-1 font-black text-white no-underline transition hover:bg-[var(--demo-accent)]" href="https://codedilaz.com/code/zoroslider-premium-wordpress-slider-builder/313/"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-target-arrow text-[#facc56] mr-2"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M12 7a5 5 0 1 0 5 5" /><path d="M13 3.055a9 9 0 1 0 7.941 7.945" /><path d="M15 6v3h3l3 -3h-3v-3l-3 3" /><path d="M15 9l-3 3" /></svg> Get It Now</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <script>
+    (function () {
+      var toggle = document.querySelector('[data-mobile-menu-toggle]');
+      var menu = document.querySelector('[data-mobile-menu]');
+      if (!toggle || !menu) return;
+
+      toggle.addEventListener('click', function () {
+        var isOpen = menu.classList.contains('is-open');
+        menu.classList.toggle('is-open', !isOpen);
+        menu.setAttribute('aria-hidden', String(isOpen));
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+        toggle.setAttribute('aria-label', !isOpen ? 'Close menu' : 'Toggle menu');
+      });
+    })();
+  </script>
+
+  
+<main data-demo-ajax-root>
+  <section class="relative bg-white border-b border-slate-200 overflow-hidden w-full pb-10 pt-0 md:pb-16 md:pt-0" style="--demo-accent: #7c3aed">
+    <div class="demo-hero-gradient"></div>
+    <div class="relative z-10 mx-auto mt-5 w-[min(1180px,calc(100%_-_36px))]">
+      <div id="demo-slider-play" class="demo-slider transition-showcase-hidden-layers" data-zoro-demo>
+        <ul class="zoro-slider">
+          
+          <li data-bg-image="vendor/zoroslider/img/a01.jpg">
+            
+            <div class="zoro-slider-layer demo-layer demo-layer-text "
+              data-layer-type="text"
+              data-x="left"
+              data-y="top"
+              data-x-offset="56"
+              data-y-offset="56"
+              data-z="10"
+              data-anim-in-type="fadeInDown"
+              data-anim-in-delay="450"
+              data-anim-in-speed="900"
+              
+              data-anim-out-type="fadeOutUp"
+              data-anim-out-delay="500"
+              data-anim-out-speed="800"
+              
+              data-style="width:220px;"
+              data-device-visibility='{"desktop":true,"tablet":true,"mobile":true}'>
+              
+              Transition showcase
+              
+            </div>
+            
+            <div class="zoro-slider-layer demo-layer demo-layer-text "
+              data-layer-type="text"
+              data-x="left"
+              data-y="center"
+              data-x-offset="56"
+              data-y-offset="-24"
+              data-z="10"
+              data-anim-in-type="fadeInUp"
+              data-anim-in-delay="450"
+              data-anim-in-speed="900"
+              
+              data-anim-out-type="fadeOutDown"
+              data-anim-out-delay="500"
+              data-anim-out-speed="800"
+              
+              data-style="width:430px;"
+              data-device-visibility='{"desktop":true,"tablet":true,"mobile":true}'>
+              
+              Motion-first transitions demo
+              
+            </div>
+            
+            <div class="zoro-slider-layer demo-layer demo-layer-text "
+              data-layer-type="text"
+              data-x="left"
+              data-y="center"
+              data-x-offset="56"
+              data-y-offset="70"
+              data-z="10"
+              data-anim-in-type="fadeInUp"
+              data-anim-in-delay="540"
+              data-anim-in-speed="900"
+              
+              data-anim-out-type="fadeOutDown"
+              data-anim-out-delay="500"
+              data-anim-out-speed="800"
+              
+              data-style="width:420px;"
+              data-device-visibility='{"desktop":true,"tablet":true,"mobile":true}'>
+              
+              Use the buttons below to swap the slide transition without reloading the page.
+              
+            </div>
+            
+            <div class="zoro-slider-layer demo-layer demo-layer-shell demo-layer-button "
+              data-layer-type="button"
+              data-x="left"
+              data-y="bottom"
+              data-x-offset="56"
+              data-y-offset="-56"
+              data-z="10"
+              data-anim-in-type="fadeInUp"
+              data-anim-in-delay="700"
+              data-anim-in-speed="900"
+              
+              data-anim-out-type="fadeOutDown"
+              data-anim-out-delay="500"
+              data-anim-out-speed="800"
+              
+              data-style="width:210px;"
+              data-device-visibility='{"desktop":true,"tablet":true,"mobile":true}'>
+              
+              Preview next transition
+              
+            </div>
+            
+          </li>
+          
+          <li data-bg-image="vendor/zoroslider/img/a02.jpg">
+            
+            <div class="zoro-slider-layer demo-layer demo-layer-text "
+              data-layer-type="text"
+              data-x="left"
+              data-y="top"
+              data-x-offset="56"
+              data-y-offset="56"
+              data-z="10"
+              data-anim-in-type="fadeInDown"
+              data-anim-in-delay="450"
+              data-anim-in-speed="900"
+              
+              data-anim-out-type="fadeOutUp"
+              data-anim-out-delay="500"
+              data-anim-out-speed="800"
+              
+              data-style="width:220px;"
+              data-device-visibility='{"desktop":true,"tablet":true,"mobile":true}'>
+              
+              Transition showcase
+              
+            </div>
+            
+            <div class="zoro-slider-layer demo-layer demo-layer-text "
+              data-layer-type="text"
+              data-x="left"
+              data-y="center"
+              data-x-offset="56"
+              data-y-offset="-24"
+              data-z="10"
+              data-anim-in-type="fadeInUp"
+              data-anim-in-delay="450"
+              data-anim-in-speed="900"
+              
+              data-anim-out-type="fadeOutDown"
+              data-anim-out-delay="500"
+              data-anim-out-speed="800"
+              
+              data-style="width:430px;"
+              data-device-visibility='{"desktop":true,"tablet":true,"mobile":true}'>
+              
+              Compare every visual change clearly
+              
+            </div>
+            
+            <div class="zoro-slider-layer demo-layer demo-layer-text "
+              data-layer-type="text"
+              data-x="left"
+              data-y="center"
+              data-x-offset="56"
+              data-y-offset="70"
+              data-z="10"
+              data-anim-in-type="fadeInUp"
+              data-anim-in-delay="540"
+              data-anim-in-speed="900"
+              
+              data-anim-out-type="fadeOutDown"
+              data-anim-out-delay="500"
+              data-anim-out-speed="800"
+              
+              data-style="width:420px;"
+              data-device-visibility='{"desktop":true,"tablet":true,"mobile":true}'>
+              
+              The slider keeps the same image set so the transition itself stays easy to evaluate.
+              
+            </div>
+            
+            <div class="zoro-slider-layer demo-layer demo-layer-shell demo-layer-button "
+              data-layer-type="button"
+              data-x="left"
+              data-y="bottom"
+              data-x-offset="56"
+              data-y-offset="-56"
+              data-z="10"
+              data-anim-in-type="fadeInUp"
+              data-anim-in-delay="700"
+              data-anim-in-speed="900"
+              
+              data-anim-out-type="fadeOutDown"
+              data-anim-out-delay="500"
+              data-anim-out-speed="800"
+              
+              data-style="width:210px;"
+              data-device-visibility='{"desktop":true,"tablet":true,"mobile":true}'>
+              
+              Preview next transition
+              
+            </div>
+            
+          </li>
+          
+          <li data-bg-image="vendor/zoroslider/img/a03.jpg">
+            
+            <div class="zoro-slider-layer demo-layer demo-layer-text "
+              data-layer-type="text"
+              data-x="left"
+              data-y="top"
+              data-x-offset="56"
+              data-y-offset="56"
+              data-z="10"
+              data-anim-in-type="fadeInDown"
+              data-anim-in-delay="450"
+              data-anim-in-speed="900"
+              
+              data-anim-out-type="fadeOutUp"
+              data-anim-out-delay="500"
+              data-anim-out-speed="800"
+              
+              data-style="width:220px;"
+              data-device-visibility='{"desktop":true,"tablet":true,"mobile":true}'>
+              
+              Transition showcase
+              
+            </div>
+            
+            <div class="zoro-slider-layer demo-layer demo-layer-text "
+              data-layer-type="text"
+              data-x="left"
+              data-y="center"
+              data-x-offset="56"
+              data-y-offset="-24"
+              data-z="10"
+              data-anim-in-type="fadeInUp"
+              data-anim-in-delay="450"
+              data-anim-in-speed="900"
+              
+              data-anim-out-type="fadeOutDown"
+              data-anim-out-delay="500"
+              data-anim-out-speed="800"
+              
+              data-style="width:430px;"
+              data-device-visibility='{"desktop":true,"tablet":true,"mobile":true}'>
+              
+              Randomized controls on each transition
+              
+            </div>
+            
+            <div class="zoro-slider-layer demo-layer demo-layer-text "
+              data-layer-type="text"
+              data-x="left"
+              data-y="center"
+              data-x-offset="56"
+              data-y-offset="70"
+              data-z="10"
+              data-anim-in-type="fadeInUp"
+              data-anim-in-delay="540"
+              data-anim-in-speed="900"
+              
+              data-anim-out-type="fadeOutDown"
+              data-anim-out-delay="500"
+              data-anim-out-speed="800"
+              
+              data-style="width:420px;"
+              data-device-visibility='{"desktop":true,"tablet":true,"mobile":true}'>
+              
+              Control styles and dot styles are randomized each time to stress-test the UI combinations.
+              
+            </div>
+            
+            <div class="zoro-slider-layer demo-layer demo-layer-shell demo-layer-button "
+              data-layer-type="button"
+              data-x="left"
+              data-y="bottom"
+              data-x-offset="56"
+              data-y-offset="-56"
+              data-z="10"
+              data-anim-in-type="fadeInUp"
+              data-anim-in-delay="700"
+              data-anim-in-speed="900"
+              
+              data-anim-out-type="fadeOutDown"
+              data-anim-out-delay="500"
+              data-anim-out-speed="800"
+              
+              data-style="width:210px;"
+              data-device-visibility='{"desktop":true,"tablet":true,"mobile":true}'>
+              
+              Preview next transition
+              
+            </div>
+            
+          </li>
+          
+          <li data-bg-image="vendor/zoroslider/img/a04.jpg">
+            
+            <div class="zoro-slider-layer demo-layer demo-layer-text "
+              data-layer-type="text"
+              data-x="left"
+              data-y="top"
+              data-x-offset="56"
+              data-y-offset="56"
+              data-z="10"
+              data-anim-in-type="fadeInDown"
+              data-anim-in-delay="450"
+              data-anim-in-speed="900"
+              
+              data-anim-out-type="fadeOutUp"
+              data-anim-out-delay="500"
+              data-anim-out-speed="800"
+              
+              data-style="width:220px;"
+              data-device-visibility='{"desktop":true,"tablet":true,"mobile":true}'>
+              
+              Transition showcase
+              
+            </div>
+            
+            <div class="zoro-slider-layer demo-layer demo-layer-text "
+              data-layer-type="text"
+              data-x="left"
+              data-y="center"
+              data-x-offset="56"
+              data-y-offset="-24"
+              data-z="10"
+              data-anim-in-type="fadeInUp"
+              data-anim-in-delay="450"
+              data-anim-in-speed="900"
+              
+              data-anim-out-type="fadeOutDown"
+              data-anim-out-delay="500"
+              data-anim-out-speed="800"
+              
+              data-style="width:430px;"
+              data-device-visibility='{"desktop":true,"tablet":true,"mobile":true}'>
+              
+              Full Width Scoped presentation only
+              
+            </div>
+            
+            <div class="zoro-slider-layer demo-layer demo-layer-text "
+              data-layer-type="text"
+              data-x="left"
+              data-y="center"
+              data-x-offset="56"
+              data-y-offset="70"
+              data-z="10"
+              data-anim-in-type="fadeInUp"
+              data-anim-in-delay="540"
+              data-anim-in-speed="900"
+              
+              data-anim-out-type="fadeOutDown"
+              data-anim-out-delay="500"
+              data-anim-out-speed="800"
+              
+              data-style="width:420px;"
+              data-device-visibility='{"desktop":true,"tablet":true,"mobile":true}'>
+              
+              This page stays fixed to fullWidthScoped so the transition test remains consistent.
+              
+            </div>
+            
+            <div class="zoro-slider-layer demo-layer demo-layer-shell demo-layer-button "
+              data-layer-type="button"
+              data-x="left"
+              data-y="bottom"
+              data-x-offset="56"
+              data-y-offset="-56"
+              data-z="10"
+              data-anim-in-type="fadeInUp"
+              data-anim-in-delay="700"
+              data-anim-in-speed="900"
+              
+              data-anim-out-type="fadeOutDown"
+              data-anim-out-delay="500"
+              data-anim-out-speed="800"
+              
+              data-style="width:210px;"
+              data-device-visibility='{"desktop":true,"tablet":true,"mobile":true}'>
+              
+              Preview next transition
+              
+            </div>
+            
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+
+    
+    <form class="relative z-10 mx-auto mt-6 grid w-[min(1180px,calc(100%_-_36px))] gap-3 rounded-xl border border-demoLine bg-white/90 p-4 shadow-demoSoft md:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-5" data-demo-controls>
+  <label class="grid gap-2">
+    <span class="text-xs font-black uppercase text-demoMuted">Layout</span>
+    <select class="min-h-11 w-full rounded-lg border border-demoLine bg-white px-3 font-semibold" name="layout">
+      
+      <option value="default" >Default</option>
+      
+      <option value="fullWidthScoped" selected>Full Width Scoped</option>
+      
+      <option value="fullWidth" >Full Width</option>
+      
+      <option value="fullScreen" >Full Screen</option>
+      
+      <option value="carouselNormal" >Carousel Normal</option>
+      
+      <option value="carouselShowcase" >Carousel Showcase</option>
+      
+      <option value="carouselGallery3d" >Carousel Gallery3D</option>
+      
+    </select>
+  </label>
+  <label class="grid gap-2">
+    <span class="text-xs font-black uppercase text-demoMuted">Transition</span>
+    <select class="min-h-11 w-full rounded-lg border border-demoLine bg-white px-3 font-semibold" name="transition">
+      
+      <option value="moveHorizontal" selected>Move Horizontal</option>
+      
+      <option value="moveVertical" >Move Vertical</option>
+      
+      <option value="fadeSlideHorizontal" >Fade Slide Horizontal</option>
+      
+      <option value="fadeSlideVertical" >Fade Slide Vertical</option>
+      
+      <option value="flipHorizontal" >Flip Horizontal</option>
+      
+      <option value="flipVertical" >Flip Vertical</option>
+      
+      <option value="cubeHorizontal" >Cube Horizontal</option>
+      
+      <option value="cubeVertical" >Cube Vertical</option>
+      
+      <option value="roomHorizontal" >Room Horizontal</option>
+      
+      <option value="roomVertical" >Room Vertical</option>
+      
+      <option value="newspaper" >Newspaper</option>
+      
+      <option value="sides" >Sides</option>
+      
+      <option value="slide" >Slide</option>
+      
+      <option value="glueHorizontal" >Glue Horizontal</option>
+      
+      <option value="glueVertical" >Glue Vertical</option>
+      
+      <option value="foldHorizontal" >Fold Horizontal</option>
+      
+      <option value="foldVertical" >Fold Vertical</option>
+      
+      <option value="unfoldHorizontal" >Unfold Horizontal</option>
+      
+      <option value="unfoldVertical" >Unfold Vertical</option>
+      
+      <option value="carouselHorizontal" >Carousel Horizontal</option>
+      
+      <option value="carouselVertical" >Carousel Vertical</option>
+      
+      <option value="scale" >Scale</option>
+      
+      <option value="scaleUpHorizontal" >Scale Up Horizontal</option>
+      
+      <option value="scaleUpVertical" >Scale Up Vertical</option>
+      
+      <option value="scaleDownUp" >Scale Down Up</option>
+      
+      <option value="prismCube" >Prism Cube</option>
+      
+      <option value="prismCubeVertical" >Prism Cube Vertical</option>
+      
+      <option value="barShutter" >Bar Shutter</option>
+      
+      <option value="stripWave" >Strip Wave</option>
+      
+      <option value="blindFold" >Blind Fold</option>
+      
+      <option value="glassSweep" >Glass Sweep</option>
+      
+      <option value="blockZoom" >Block Zoom</option>
+      
+      <option value="tubeTwist" >Tube Twist</option>
+      
+      <option value="hardCut" >Hard Cut</option>
+      
+      <option value="gridFlipDown" >Grid Flip Down</option>
+      
+      <option value="gridFlipRight" >Grid Flip Right</option>
+      
+      <option value="gridFlipRandom" >Grid Flip Random</option>
+      
+      <option value="gridFlipReverseDiagonal" >Grid Flip Reverse Diagonal</option>
+      
+      <option value="gridFlipDiagonal" >Grid Flip Diagonal</option>
+      
+      <option value="gridFlipUpRight" >Grid Flip Up Right</option>
+      
+      <option value="gridFlipDownLeft" >Grid Flip Down Left</option>
+      
+      <option value="gridFlipCenterLine" >Grid Flip Center Line</option>
+      
+      <option value="gridFlipOuterLine" >Grid Flip Outer Line</option>
+      
+      <option value="gridFlipCosine" >Grid Flip Cosine</option>
+      
+      <option value="gridFlipCrossA" >Grid Flip Cross A</option>
+      
+      <option value="gridFlipCrossB" >Grid Flip Cross B</option>
+      
+      <option value="gridFlipCenterOut" >Grid Flip Center Out</option>
+      
+      <option value="gridFlipEdgeIn" >Grid Flip Edge In</option>
+      
+      <option value="sliceBox" >Slice Box</option>
+      
+      <option value="sliceBoxVertical" >Slice Box Vertical</option>
+      
+      <option value="sliceBoxHorizontal" >Slice Box Horizontal</option>
+      
+      <option value="sliceBoxRandom" >Slice Box Random</option>
+      
+    </select>
+  </label>
+  <label class="grid gap-2">
+    <span class="text-xs font-black uppercase text-demoMuted">Thumbs</span>
+    <select class="min-h-11 w-full rounded-lg border border-demoLine bg-white px-3 font-semibold" name="thumbsNav">
+      <option value="true" >Visible</option>
+      <option value="false" selected>Hidden</option>
+    </select>
+  </label>
+  <label class="grid gap-2">
+    <span class="text-xs font-black uppercase text-demoMuted">Dots</span>
+    <select class="min-h-11 w-full rounded-lg border border-demoLine bg-white px-3 font-semibold" name="dotsNav">
+      <option value="true" selected>Visible</option>
+      <option value="false" >Hidden</option>
+    </select>
+  </label>
+  <label class="grid gap-2">
+    <span class="text-xs font-black uppercase text-demoMuted">Dot Style</span>
+    <select class="min-h-11 w-full rounded-lg border border-demoLine bg-white px-3 font-semibold" name="dotsStyle">
+      
+      <option value="fillup" >Fill Up</option>
+      
+      <option value="scaleup" >Scale Up</option>
+      
+      <option value="stroke" >Stroke</option>
+      
+      <option value="fillin" >Fill In</option>
+      
+      <option value="circlegrow" >Circle Grow</option>
+      
+      <option value="dotstroke" >Dot Stroke</option>
+      
+      <option value="drawcircle" >Draw Circle</option>
+      
+      <option value="smalldotstroke" >Small Dot Stroke</option>
+      
+      <option value="puff" selected>Puff</option>
+      
+      <option value="flip" >Flip</option>
+      
+      <option value="tooltip" >Tooltip</option>
+      
+      <option value="hop" >Hop</option>
+      
+      <option value="fall" >Fall</option>
+      
+    </select>
+  </label>
+  <label class="grid gap-2">
+    <span class="text-xs font-black uppercase text-demoMuted">Numbers Nav</span>
+    <select class="min-h-11 w-full rounded-lg border border-demoLine bg-white px-3 font-semibold" name="numbersNav">
+      <option value="true" >True</option>
+      <option value="false" selected>False</option>
+    </select>
+  </label>
+  <label class="grid gap-2">
+    <span class="text-xs font-black uppercase text-demoMuted">Numbers Style</span>
+    <select class="min-h-11 w-full rounded-lg border border-demoLine bg-white px-3 font-semibold" name="numbersStyle">
+      
+      <option value="" selected>Default</option>
+      
+      <option value="fillup" >Fill Up</option>
+      
+      <option value="scaleup" >Scale Up</option>
+      
+      <option value="stroke" >Stroke</option>
+      
+      <option value="fillin" >Fill In</option>
+      
+      <option value="circlegrow" >Circle Grow</option>
+      
+      <option value="dotstroke" >Dot Stroke</option>
+      
+      <option value="drawcircle" >Draw Circle</option>
+      
+      <option value="puff" >Puff</option>
+      
+      <option value="flip" >Flip</option>
+      
+      <option value="tooltip" >Tooltip</option>
+      
+      <option value="hop" >Hop</option>
+      
+      <option value="fall" >Fall</option>
+      
+    </select>
+  </label>
+  <label class="grid gap-2">
+    <span class="text-xs font-black uppercase text-demoMuted">Control Style</span>
+    <select class="min-h-11 w-full rounded-lg border border-demoLine bg-white px-3 font-semibold" name="controlStyle">
+      
+      <option value="slide" >Slide</option>
+      
+      <option value="imageBar" >Image Bar</option>
+      
+      <option value="roundSlide" >Round Slide</option>
+      
+      <option value="roundSlideImage" >Round Slide Image</option>
+      
+      <option value="navSlit" >Nav Slit</option>
+      
+      <option value="navReveal" >Nav Reveal</option>
+      
+      <option value="thumbFlip" >Thumb Flip</option>
+      
+      <option value="circleSlide" >Circle Slide</option>
+      
+      <option value="growPop" >Grow Pop</option>
+      
+      <option value="diamond" selected>Diamond</option>
+      
+      <option value="multiThumb" >Multi Thumb</option>
+      
+    </select>
+  </label>
+  <label class="grid gap-2">
+    <span class="text-xs font-black uppercase text-demoMuted">Control Icon</span>
+    <select class="min-h-11 w-full rounded-lg border border-demoLine bg-white px-3 font-semibold" name="controlIcon">
+      
+      <option value="1" >Icon 1</option>
+      
+      <option value="2" selected>Icon 2</option>
+      
+      <option value="3" >Icon 3</option>
+      
+      <option value="4" >Icon 4</option>
+      
+      <option value="5" >Icon 5</option>
+      
+      <option value="6" >Icon 6</option>
+      
+      <option value="7" >Icon 7</option>
+      
+      <option value="8" >Icon 8</option>
+      
+      <option value="9" >Icon 9</option>
+      
+    </select>
+  </label>
+  <label class="grid gap-2">
+    <span class="text-xs font-black uppercase text-demoMuted">Progress</span>
+    <select class="min-h-11 w-full rounded-lg border border-demoLine bg-white px-3 font-semibold" name="progressMode">
+      
+      <option value="both" >Linear + Graph</option>
+      
+      <option value="linear" >Linear Only</option>
+      
+      <option value="radial" >Graph Only</option>
+      
+      <option value="off" selected>Off</option>
+      
+    </select>
+  </label>
+  <button class="inline-flex min-h-11 items-center justify-center rounded-full bg-demoDark px-5 font-black text-white cursor-pointer" type="submit">Apply</button>
+</form>
+
+
+    <div class="relative z-10 mx-auto mt-10 w-[min(1180px,calc(100%_-_36px))]">
+      <p class="demo-eyebrow">Live playground</p>
+      <h1 class="max-w-5xl font-display text-5xl font-black leading-[0.9] tracking-[-0.07em] md:text-5xl lg:text-6xl">Play Ground</h1>
+      <p class="mt-6 max-w-3xl text-lg leading-8 text-demoMuted md:text-xl">Adjust layout, transition, navigation, controls, progress and other slider options from one page, then view the result immediately.</p>
+    </div>
+  </section>
+</main>
+
+<script type="application/json" data-demo-config-json data-demo-config-type="demo">{
+  "slug": "play",
+  "title": "Play Ground",
+  "eyebrow": "Live playground",
+  "summary": "Adjust layout, transition, navigation, controls, progress and other slider options from one page, then view the result immediately.",
+  "accent": "#7c3aed",
+  "slides": [
+    {
+      "image": "a01.jpg",
+      "layers": [
+        {
+          "type": "text",
+          "x": "left",
+          "y": "top",
+          "xOffset": 56,
+          "yOffset": 56,
+          "width": 220,
+          "role": "Eyebrow label",
+          "text": "Transition showcase",
+          "inType": "fadeInDown",
+          "outType": "fadeOutUp"
+        },
+        {
+          "type": "text",
+          "x": "left",
+          "y": "center",
+          "xOffset": 56,
+          "yOffset": -24,
+          "width": 430,
+          "role": "Headline",
+          "text": "Motion-first transitions demo",
+          "inType": "fadeInUp",
+          "outType": "fadeOutDown"
+        },
+        {
+          "type": "text",
+          "x": "left",
+          "y": "center",
+          "xOffset": 56,
+          "yOffset": 70,
+          "width": 420,
+          "role": "Supporting copy",
+          "text": "Use the buttons below to swap the slide transition without reloading the page.",
+          "inType": "fadeInUp",
+          "outType": "fadeOutDown",
+          "inDelay": 540
+        },
+        {
+          "type": "button",
+          "x": "left",
+          "y": "bottom",
+          "xOffset": 56,
+          "yOffset": -56,
+          "width": 210,
+          "role": "CTA button",
+          "text": "Preview next transition",
+          "inType": "fadeInUp",
+          "outType": "fadeOutDown",
+          "inDelay": 700
+        }
+      ]
+    },
+    {
+      "image": "a02.jpg",
+      "layers": [
+        {
+          "type": "text",
+          "x": "left",
+          "y": "top",
+          "xOffset": 56,
+          "yOffset": 56,
+          "width": 220,
+          "role": "Eyebrow label",
+          "text": "Transition showcase",
+          "inType": "fadeInDown",
+          "outType": "fadeOutUp"
+        },
+        {
+          "type": "text",
+          "x": "left",
+          "y": "center",
+          "xOffset": 56,
+          "yOffset": -24,
+          "width": 430,
+          "role": "Headline",
+          "text": "Compare every visual change clearly",
+          "inType": "fadeInUp",
+          "outType": "fadeOutDown"
+        },
+        {
+          "type": "text",
+          "x": "left",
+          "y": "center",
+          "xOffset": 56,
+          "yOffset": 70,
+          "width": 420,
+          "role": "Supporting copy",
+          "text": "The slider keeps the same image set so the transition itself stays easy to evaluate.",
+          "inType": "fadeInUp",
+          "outType": "fadeOutDown",
+          "inDelay": 540
+        },
+        {
+          "type": "button",
+          "x": "left",
+          "y": "bottom",
+          "xOffset": 56,
+          "yOffset": -56,
+          "width": 210,
+          "role": "CTA button",
+          "text": "Preview next transition",
+          "inType": "fadeInUp",
+          "outType": "fadeOutDown",
+          "inDelay": 700
+        }
+      ]
+    },
+    {
+      "image": "a03.jpg",
+      "layers": [
+        {
+          "type": "text",
+          "x": "left",
+          "y": "top",
+          "xOffset": 56,
+          "yOffset": 56,
+          "width": 220,
+          "role": "Eyebrow label",
+          "text": "Transition showcase",
+          "inType": "fadeInDown",
+          "outType": "fadeOutUp"
+        },
+        {
+          "type": "text",
+          "x": "left",
+          "y": "center",
+          "xOffset": 56,
+          "yOffset": -24,
+          "width": 430,
+          "role": "Headline",
+          "text": "Randomized controls on each transition",
+          "inType": "fadeInUp",
+          "outType": "fadeOutDown"
+        },
+        {
+          "type": "text",
+          "x": "left",
+          "y": "center",
+          "xOffset": 56,
+          "yOffset": 70,
+          "width": 420,
+          "role": "Supporting copy",
+          "text": "Control styles and dot styles are randomized each time to stress-test the UI combinations.",
+          "inType": "fadeInUp",
+          "outType": "fadeOutDown",
+          "inDelay": 540
+        },
+        {
+          "type": "button",
+          "x": "left",
+          "y": "bottom",
+          "xOffset": 56,
+          "yOffset": -56,
+          "width": 210,
+          "role": "CTA button",
+          "text": "Preview next transition",
+          "inType": "fadeInUp",
+          "outType": "fadeOutDown",
+          "inDelay": 700
+        }
+      ]
+    },
+    {
+      "image": "a04.jpg",
+      "layers": [
+        {
+          "type": "text",
+          "x": "left",
+          "y": "top",
+          "xOffset": 56,
+          "yOffset": 56,
+          "width": 220,
+          "role": "Eyebrow label",
+          "text": "Transition showcase",
+          "inType": "fadeInDown",
+          "outType": "fadeOutUp"
+        },
+        {
+          "type": "text",
+          "x": "left",
+          "y": "center",
+          "xOffset": 56,
+          "yOffset": -24,
+          "width": 430,
+          "role": "Headline",
+          "text": "Full Width Scoped presentation only",
+          "inType": "fadeInUp",
+          "outType": "fadeOutDown"
+        },
+        {
+          "type": "text",
+          "x": "left",
+          "y": "center",
+          "xOffset": 56,
+          "yOffset": 70,
+          "width": 420,
+          "role": "Supporting copy",
+          "text": "This page stays fixed to fullWidthScoped so the transition test remains consistent.",
+          "inType": "fadeInUp",
+          "outType": "fadeOutDown",
+          "inDelay": 540
+        },
+        {
+          "type": "button",
+          "x": "left",
+          "y": "bottom",
+          "xOffset": 56,
+          "yOffset": -56,
+          "width": 210,
+          "role": "CTA button",
+          "text": "Preview next transition",
+          "inType": "fadeInUp",
+          "outType": "fadeOutDown",
+          "inDelay": 700
+        }
+      ]
+    }
+  ],
+  "sliderOptions": {
+    "width": 1180,
+    "height": 560,
+    "layout": "fullWidthScoped",
+    "transition": "moveHorizontal",
+    "transitionDelay": 5200,
+    "autoPlay": false,
+    "pauseOnHover": true,
+    "controls": true,
+    "controlStyle": "diamond",
+    "controlIcon": "2",
+    "dotsNav": true,
+    "dotsStyle": "puff",
+    "thumbsNav": false,
+    "numbersNav": false,
+    "progressBar": false,
+    "radialProgress": false,
+    "responsive": true,
+    "manualLayerExitDelay": 100,
+    "manualLayerExitSpeed": 500,
+    "transitionSpeed": 800
+  },
+  "transitionButtons": [
+    {
+      "value": "moveHorizontal",
+      "label": "Move Horizontal"
+    },
+    {
+      "value": "moveVertical",
+      "label": "Move Vertical"
+    },
+    {
+      "value": "fadeSlideHorizontal",
+      "label": "Fade Slide Horizontal"
+    },
+    {
+      "value": "fadeSlideVertical",
+      "label": "Fade Slide Vertical"
+    },
+    {
+      "value": "flipHorizontal",
+      "label": "Flip Horizontal"
+    },
+    {
+      "value": "flipVertical",
+      "label": "Flip Vertical"
+    },
+    {
+      "value": "cubeHorizontal",
+      "label": "Cube Horizontal"
+    },
+    {
+      "value": "cubeVertical",
+      "label": "Cube Vertical"
+    },
+    {
+      "value": "roomHorizontal",
+      "label": "Room Horizontal"
+    },
+    {
+      "value": "roomVertical",
+      "label": "Room Vertical"
+    },
+    {
+      "value": "newspaper",
+      "label": "Newspaper"
+    },
+    {
+      "value": "sides",
+      "label": "Sides"
+    },
+    {
+      "value": "slide",
+      "label": "Slide"
+    },
+    {
+      "value": "glueHorizontal",
+      "label": "Glue Horizontal"
+    },
+    {
+      "value": "glueVertical",
+      "label": "Glue Vertical"
+    },
+    {
+      "value": "foldHorizontal",
+      "label": "Fold Horizontal"
+    },
+    {
+      "value": "foldVertical",
+      "label": "Fold Vertical"
+    },
+    {
+      "value": "unfoldHorizontal",
+      "label": "Unfold Horizontal"
+    },
+    {
+      "value": "unfoldVertical",
+      "label": "Unfold Vertical"
+    },
+    {
+      "value": "carouselHorizontal",
+      "label": "Carousel Horizontal"
+    },
+    {
+      "value": "carouselVertical",
+      "label": "Carousel Vertical"
+    },
+    {
+      "value": "scale",
+      "label": "Scale"
+    },
+    {
+      "value": "scaleUpHorizontal",
+      "label": "Scale Up Horizontal"
+    },
+    {
+      "value": "scaleUpVertical",
+      "label": "Scale Up Vertical"
+    },
+    {
+      "value": "scaleDownUp",
+      "label": "Scale Down Up"
+    },
+    {
+      "value": "prismCube",
+      "label": "Prism Cube"
+    },
+    {
+      "value": "prismCubeVertical",
+      "label": "Prism Cube Vertical"
+    },
+    {
+      "value": "barShutter",
+      "label": "Bar Shutter"
+    },
+    {
+      "value": "stripWave",
+      "label": "Strip Wave"
+    },
+    {
+      "value": "blindFold",
+      "label": "Blind Fold"
+    },
+    {
+      "value": "glassSweep",
+      "label": "Glass Sweep"
+    },
+    {
+      "value": "blockZoom",
+      "label": "Block Zoom"
+    },
+    {
+      "value": "tubeTwist",
+      "label": "Tube Twist"
+    },
+    {
+      "value": "hardCut",
+      "label": "Hard Cut"
+    },
+    {
+      "value": "gridFlipDown",
+      "label": "Grid Flip Down"
+    },
+    {
+      "value": "gridFlipRight",
+      "label": "Grid Flip Right"
+    },
+    {
+      "value": "gridFlipRandom",
+      "label": "Grid Flip Random"
+    },
+    {
+      "value": "gridFlipReverseDiagonal",
+      "label": "Grid Flip Reverse Diagonal"
+    },
+    {
+      "value": "gridFlipDiagonal",
+      "label": "Grid Flip Diagonal"
+    },
+    {
+      "value": "gridFlipUpRight",
+      "label": "Grid Flip Up Right"
+    },
+    {
+      "value": "gridFlipDownLeft",
+      "label": "Grid Flip Down Left"
+    },
+    {
+      "value": "gridFlipCenterLine",
+      "label": "Grid Flip Center Line"
+    },
+    {
+      "value": "gridFlipOuterLine",
+      "label": "Grid Flip Outer Line"
+    },
+    {
+      "value": "gridFlipCosine",
+      "label": "Grid Flip Cosine"
+    },
+    {
+      "value": "gridFlipCrossA",
+      "label": "Grid Flip Cross A"
+    },
+    {
+      "value": "gridFlipCrossB",
+      "label": "Grid Flip Cross B"
+    },
+    {
+      "value": "gridFlipCenterOut",
+      "label": "Grid Flip Center Out"
+    },
+    {
+      "value": "gridFlipEdgeIn",
+      "label": "Grid Flip Edge In"
+    },
+    {
+      "value": "sliceBox",
+      "label": "Slice Box"
+    },
+    {
+      "value": "sliceBoxVertical",
+      "label": "Slice Box Vertical"
+    },
+    {
+      "value": "sliceBoxHorizontal",
+      "label": "Slice Box Horizontal"
+    },
+    {
+      "value": "sliceBoxRandom",
+      "label": "Slice Box Random"
+    }
+  ],
+  "controlUi": {
+    "layout": "fullWidthScoped",
+    "transition": "moveHorizontal",
+    "thumbsNav": "false",
+    "dotsNav": "true",
+    "dotsStyle": "puff",
+    "numbersNav": "false",
+    "numbersStyle": "",
+    "controlStyle": "diamond",
+    "controlIcon": "2",
+    "progressMode": "off"
+  },
+  "markupCode": ""
+}</script>
+
+
+  <footer>
+    <div class="footer-cta">
+      <div class="footer-cta-inner">
+        <div class="footer-cta-text">
+          <h2>Ready to use beautiful sliders?</h2>
+          <p>One-time purchase. Lifetime updates. Zero overhead.</p>
+        </div>
+        <div class="cta-actions">
+          <a href="https://codedilaz.com/code/zoroslider-premium-wordpress-slider-builder/313/" class="btn-buy">Get ZoroSlider</a>
+          <a href="https://themecresthq.xyz/plugins/zoroslider/wp/docs" class="btn-docs">Documentation</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-main-shell">
+      <div class="footer-main">
+        <div>
+          <a class="footer-brand-logo" href="index.html" aria-label="ZoroSlider demos home">
+            <img src="assets/images/zoro-slider-light-logo.png" alt="ZoroSlider">
+          </a>
+          <div class="footer-tagline">Premium layer slider for modern web projects.</div>
+        </div>
+        <div>
+          <div class="footer-col-title">Product</div>
+          <ul class="footer-links">
+            <li><a href="index.html#feature-hierarchy">Features</a></li>
+            <li><a href="demos/index.html">Demos</a></li>
+            <li><a href="examples/index.html">Examples</a></li>
+            <li><a href="wp/docs/changelog">Changelog</a></li>
+            
+            
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-title">Resources</div>
+          <ul class="footer-links">
+            <li><a href="https://themecresthq.xyz/plugins/zoroslider/wp/docs">Documentation</a></li>
+            <li><a href="api/index.html">API Reference</a></li>
+            
+            
+            
+            
+            
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-title">Company</div>
+          <ul class="footer-links">
+            
+            
+            <li><a href="support.html">Support</a></li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-bottom-inner">
+        <div class="footer-copy">© 2025 ZoroSlider. All rights reserved.</div>
+        <div class="footer-bottom-links">
+          <a href="privacy.html">Privacy</a>
+          <a href="terms.html">Terms</a>
+          
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox HTML -->
+  <div id="lightbox" class="lightbox-overlay">
+    <span class="lightbox-close">&times;</span>
+    <span class="lightbox-nav prev">&#10094;</span>
+    <span class="lightbox-nav next">&#10095;</span>
+    <img id="lightbox-img" src="" alt="Enlarged view" />
+  </div>
+
+  <script src="vendor/zoroslider/js/libs/jquery-3.6.0.min.js"></script>
+  <script src="vendor/zoroslider/js/libs/jquery-migrate-3.3.2.min.js"></script>
+  <script src="vendor/zoroslider/js/libs/plyr/plyr.min.js"></script>
+  <script type="module" src="vendor/zoroslider/js/zoroslider.jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-markup.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
+  <script src="assets/js/aos.js"></script>
+  <script>AOS.init();</script>
+  <script defer src="assets/js/demo.js"></script>
+</body>
+</html>
