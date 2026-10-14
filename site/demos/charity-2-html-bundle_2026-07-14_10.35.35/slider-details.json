@@ -1,0 +1,225 @@
+{
+    "manifest_version": "1.0.0",
+    "export_type": "zoro-slider-html-bundle",
+    "exported_at": "2026-07-14T10:35:35+00:00",
+    "slider": {
+        "id": 338,
+        "name": "Charity 2",
+        "alias": "zs-charity-2",
+        "category": "charity",
+        "category_label": "Charity",
+        "category_accent_color": "#1e40af",
+        "source_type": "manual",
+        "settings": {
+            "name": "Charity 2",
+            "alias": "zs-charity-2",
+            "category": "charity",
+            "screenshot": "charity2_1.png",
+            "layout": "fullWidth",
+            "width": 1280,
+            "height": 720,
+            "sourceType": "manual",
+            "sourcePostType": "post",
+            "sourceTerms": [],
+            "sourceSortBy": "date",
+            "sourceSortDirection": "DESC",
+            "sourceMaxPostsCount": 10,
+            "sourceExcerptLength": 24,
+            "sourceJsonUrl": "",
+            "sourceJsonDataPath": "slides",
+            "sourceJsonMaxItemsCount": 10,
+            "sourceJsonSortBy": "",
+            "sourceJsonSortDirection": "ASC",
+            "sourceJsonMapTitle": "title",
+            "sourceJsonMapExcerpt": "description",
+            "sourceJsonMapContent": "description",
+            "sourceJsonMapImage": "image_url",
+            "sourceJsonMapThumbnail": "thumbnail",
+            "sourceJsonMapLink": "link_url",
+            "sourceJsonMapButtonText": "button_text",
+            "sourceJsonMapVideo": "video_url",
+            "sourceJsonMapDate": "date",
+            "sourceJsonMapAuthor": "author",
+            "sourceJsonMapOrder": "order",
+            "sourceYouTubePlaylist": "",
+            "sourceYouTubeMaxVideos": 12,
+            "transitionStyle": "moveHorizontal",
+            "transitionSpeed": 1000,
+            "transitionDelay": 7000,
+            "autoPlay": 1,
+            "pauseOnHover": 1,
+            "loop": 0,
+            "responsive": 1,
+            "kenBurns": 0,
+            "sliceBoxOrientation": "vertical",
+            "sliceBoxPerspective": 1200,
+            "sliceBoxCuboidsCount": 5,
+            "sliceBoxCuboidsRandom": 0,
+            "sliceBoxMaxCuboidsCount": 5,
+            "sliceBoxDisperseFactor": 0,
+            "sliceBoxColorHiddenSides": "#222",
+            "sliceBoxSequentialFactor": 150,
+            "sliceBoxSpeed": 1000,
+            "sliceBoxEasing": "ease",
+            "sliceBoxAutoplay": 0,
+            "sliceBoxInterval": 3000,
+            "sliceBoxFallbackFadeSpeed": 300,
+            "controlsMain": 1,
+            "controlsCenter": 1,
+            "controlsNextText": "Next",
+            "controlsPrevText": "Prev",
+            "controlsStyle": "growPop",
+            "controlIcon": "1",
+            "thumbsNav": 0,
+            "thumbsNavCenter": 0,
+            "thumbsNavBoxed": 0,
+            "thumbsNavRewind": 0,
+            "thumbsMaxWidth": 0,
+            "thumbsCount": 2,
+            "thumbsHeight": 70,
+            "thumbsMinWidth": 100,
+            "numbersNav": 1,
+            "numbersNavCenter": 1,
+            "numbersStyle": "",
+            "numbersMainColor": "",
+            "numbersActiveColor": "",
+            "numbersTextColor": "",
+            "numbersTooltipStyle": "number",
+            "dotsNav": 1,
+            "dotsNavCenter": 1,
+            "dotsStyle": "fillup",
+            "dotsMainColor": "",
+            "dotsActiveColor": "",
+            "dotsTooltipStyle": "number",
+            "keyNav": 1,
+            "swiping": 1,
+            "randomStart": 0,
+            "randomShuffle": 0,
+            "progressBar": 0,
+            "progressBarPosition": "",
+            "progressBarThickness": 5,
+            "progressBarFillColor": "",
+            "progressBarBgColor": "",
+            "radialProgress": 0,
+            "radialProgressPosition": "",
+            "radialProgressRingThickness": 3,
+            "radialProgressOffset": 14,
+            "radialProgressFillColor": "",
+            "radialProgressBgColor": "",
+            "layerAnimInDefaultSpeed": 1000,
+            "layerAnimInDefaultDelay": 300,
+            "layerAnimOutDefaultSpeed": 1000,
+            "layerAnimOutDefaultDelay": 300,
+            "manualLayerExitSpeed": 500,
+            "manualLayerExitDelay": 100,
+            "carouselActive": 0,
+            "carouselType": "normal",
+            "carouselVisibleSlides": 3,
+            "carouselCenterMode": 0,
+            "loaderStyle": "line-scale",
+            "builderMemory": {
+                "workspace": {
+                    "slides": {
+                        "9viwmqiymxz4": {
+                            "guides": {
+                                "vertical": [
+                                    332
+                                ],
+                                "horizontal": []
+                            },
+                            "grid": {
+                                "enabled": false,
+                                "size": 0
+                            },
+                            "layouts": {
+                                "vertical": {
+                                    "enabled": false,
+                                    "breadth": 0,
+                                    "gutter": 0
+                                },
+                                "horizontal": {
+                                    "enabled": false,
+                                    "breadth": 0,
+                                    "gutter": 0
+                                }
+                            }
+                        },
+                        "g6rr6viz7cls": {
+                            "guides": {
+                                "vertical": [
+                                    332
+                                ],
+                                "horizontal": []
+                            },
+                            "grid": {
+                                "enabled": false,
+                                "size": 0
+                            },
+                            "layouts": {
+                                "vertical": {
+                                    "enabled": false,
+                                    "breadth": 0,
+                                    "gutter": 0
+                                },
+                                "horizontal": {
+                                    "enabled": false,
+                                    "breadth": 0,
+                                    "gutter": 0
+                                }
+                            }
+                        },
+                        "dpfuvrizc03w": {
+                            "guides": {
+                                "vertical": [
+                                    332
+                                ],
+                                "horizontal": []
+                            },
+                            "grid": {
+                                "enabled": false,
+                                "size": 0
+                            },
+                            "layouts": {
+                                "vertical": {
+                                    "enabled": false,
+                                    "breadth": 0,
+                                    "gutter": 0
+                                },
+                                "horizontal": {
+                                    "enabled": false,
+                                    "breadth": 0,
+                                    "gutter": 0
+                                }
+                            }
+                        },
+                        "lvv5byizk6f3": {
+                            "guides": {
+                                "vertical": [
+                                    332
+                                ],
+                                "horizontal": []
+                            },
+                            "grid": {
+                                "enabled": false,
+                                "size": 0
+                            },
+                            "layouts": {
+                                "vertical": {
+                                    "enabled": false,
+                                    "breadth": 0,
+                                    "gutter": 0
+                                },
+                                "horizontal": {
+                                    "enabled": false,
+                                    "breadth": 0,
+                                    "gutter": 0
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "categoryAccentColor": "#1e40af"
+        }
+    }
+}
