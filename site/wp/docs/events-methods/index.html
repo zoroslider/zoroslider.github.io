@@ -1,0 +1,357 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Learn how to integrate Zoro Slider with frontend runtime events, public methods, custom events, and callback functions."><meta name="theme-color" content="#0f172a"><link rel="icon" href="../assets/images/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="../assets/images/apple-touch-icon.png"><link rel="manifest" href="../assets/images/site.webmanifest"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;800&family=Fraunces:opsz,wght@9..144,300;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"><title>Events and Methods - Zoro Slider Docs</title><!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> --><link rel="stylesheet" href="../_astro/_slug_.BdqsTzW6.css"></head> <body> <div class="mobile-nav-backdrop hidden" data-mobile-nav-close aria-hidden="true"></div> <div class="page-frame"> <div class="shell"> <header class="site-header"> <div class="header-logo"> <button class="mobile-nav-toggle" type="button" data-mobile-nav-toggle aria-label="Open documentation navigation" aria-controls="docsSidebar" aria-expanded="false"> <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"> <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path> </svg> </button> <a href="../" class="logo-link" aria-label="Zoro Slider docs home"> <img src="../assets/images/zoro-slider-light-logo.png" alt="Zoro Slider" class="docs-logo docs-logo-light" width="168" height="34"> <img src="../assets/images/zoro-slider-dark-logo.png" alt="Zoro Slider" class="docs-logo docs-logo-dark" width="168" height="34"> </a> <span class="version-badge">v1.0.1</span> </div> <div class="header-search"> <div class="search-wrap"> <svg class="search-icon" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"> <circle cx="11" cy="11" r="8"></circle> <path d="M21 21l-4.35-4.35"></path> </svg> <input type="search" id="globalSearch" data-docs-search placeholder="Search docs..." autocomplete="off" spellcheck="false" aria-label="Search docs"> <button class="search-shortcut" type="button" data-search-shortcut aria-label="Open search with Control and K"> <span>Ctrl</span> <span>K</span> </button> <div id="searchResultsDropdown" data-search-results class="hidden"></div> </div> </div> <div class="header-actions"> <button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle light and dark theme"> <span class="toggle-track" aria-hidden="true"><span class="toggle-thumb"></span></span> <span class="toggle-label" data-theme-label>Light</span> </button> </div> </header> <aside class="sidebar" id="docsSidebar" data-docs-sidebar> <div class="sidebar-section-label">Docs</div>  <div class="sidebar-section-label">Start</div> <a class="sidebar-link" href="../"> <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"> <rect x="2" y="2" width="12" height="12" rx="3" stroke="currentColor" stroke-width="1.4"></rect> <path d="M5 8h6M8 5v6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path> </svg> <span>Overview</span> </a><a class="sidebar-link" href="../getting-started/"> <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"> <rect x="2" y="2" width="12" height="12" rx="3" stroke="currentColor" stroke-width="1.4"></rect> <path d="M5 8h6M8 5v6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path> </svg> <span>Getting Started</span> </a><a class="sidebar-link" href="../installation/"> <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"> <rect x="2" y="2" width="12" height="12" rx="3" stroke="currentColor" stroke-width="1.4"></rect> <path d="M5 8h6M8 5v6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path> </svg> <span>Installation</span> </a><a class="sidebar-link" href="../updating/"> <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"> <rect x="2" y="2" width="12" height="12" rx="3" stroke="currentColor" stroke-width="1.4"></rect> <path d="M5 8h6M8 5v6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path> </svg> <span>Updating</span> </a><a class="sidebar-link" href="../import-demo-sliders/"> <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"> <rect x="2" y="2" width="12" height="12" rx="3" stroke="currentColor" stroke-width="1.4"></rect> <path d="M5 8h6M8 5v6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path> </svg> <span>Import Demo Sliders</span> </a><a class="sidebar-link" href="../manage-sliders/"> <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"> <rect x="2" y="2" width="12" height="12" rx="3" stroke="currentColor" stroke-width="1.4"></rect> <path d="M5 8h6M8 5v6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path> </svg> <span>Manage Sliders</span> </a><a class="sidebar-link" href="../create-new-slider/"> <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"> <rect x="2" y="2" width="12" height="12" rx="3" stroke="currentColor" stroke-width="1.4"></rect> <path d="M5 8h6M8 5v6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path> </svg> <span>Create New Slider</span> </a><a class="sidebar-link" href="../create-new-slide/"> <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"> <rect x="2" y="2" width="12" height="12" rx="3" stroke="currentColor" stroke-width="1.4"></rect> <path d="M5 8h6M8 5v6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path> </svg> <span>Create New Slide</span> </a><a class="sidebar-link" href="../clone-new-slide/"> <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"> <rect x="2" y="2" width="12" height="12" rx="3" stroke="currentColor" stroke-width="1.4"></rect> <path d="M5 8h6M8 5v6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path> </svg> <span>Clone New Slide</span> </a><a class="sidebar-link" href="../add-layer-to-a-slide/"> <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"> <rect x="2" y="2" width="12" height="12" rx="3" stroke="currentColor" stroke-width="1.4"></rect> <path d="M5 8h6M8 5v6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path> </svg> <span>Add Layer to a Slide</span> </a><a class="sidebar-link" href="../clone-layer/"> <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"> <rect x="2" y="2" width="12" height="12" rx="3" stroke="currentColor" stroke-width="1.4"></rect> <path d="M5 8h6M8 5v6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path> </svg> <span>Clone Layer</span> </a><div class="sidebar-divider"></div>  <div class="sidebar-section-label">Builder</div> <a class="sidebar-link" href="../builder-workspace/"> <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"> <rect x="2" y="2" width="12" height="12" rx="3" stroke="currentColor" stroke-width="1.4"></rect> <path d="M5 8h6M8 5v6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path> </svg> <span>Builder Workspace</span> </a><a class="sidebar-link" href="../slides-and-layers/"> <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"> <rect x="2" y="2" width="12" height="12" rx="3" stroke="currentColor" stroke-width="1.4"></rect> <path d="M5 8h6M8 5v6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path> </svg> <span>Slides and Layers</span> </a><a class="sidebar-link" href="../slide-options/"> <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"> <rect x="2" y="2" width="12" height="12" rx="3" stroke="currentColor" stroke-width="1.4"></rect> <path d="M5 8h6M8 5v6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path> </svg> <span>Slide Options</span> </a><a class="sidebar-link" href="../layer-options/"> <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"> <rect x="2" y="2" width="12" height="12" rx="3" stroke="currentColor" stroke-width="1.4"></rect> <path d="M5 8h6M8 5v6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path> </svg> <span>Layer Options</span> </a><div class="sidebar-divider"></div>  <div class="sidebar-section-label">Media</div> <a class="sidebar-link" href="../media-and-integrations/"> <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"> <rect x="2" y="2" width="12" height="12" rx="3" stroke="currentColor" stroke-width="1.4"></rect> <path d="M5 8h6M8 5v6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path> </svg> <span>Media and Integrations</span> </a><div class="sidebar-divider"></div>  <div class="sidebar-section-label">Slider Options</div> <a class="sidebar-link" href="../slider-options/"> <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"> <rect x="2" y="2" width="12" height="12" rx="3" stroke="currentColor" stroke-width="1.4"></rect> <path d="M5 8h6M8 5v6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path> </svg> <span>Slider Options</span> </a><a class="sidebar-link" href="../manual-builder-slides-source/"> <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"> <rect x="2" y="2" width="12" height="12" rx="3" stroke="currentColor" stroke-width="1.4"></rect> <path d="M5 8h6M8 5v6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path> </svg> <span>Manual / Builder Slides</span> </a><a class="sidebar-link" href="../posts-source/"> <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"> <rect x="2" y="2" width="12" height="12" rx="3" stroke="currentColor" stroke-width="1.4"></rect> <path d="M5 8h6M8 5v6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path> </svg> <span>Posts Source</span> </a><a class="sidebar-link" href="../json-import-source/"> <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"> <rect x="2" y="2" width="12" height="12" rx="3" stroke="currentColor" stroke-width="1.4"></rect> <path d="M5 8h6M8 5v6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path> </svg> <span>JSON Import Source</span> </a><a class="sidebar-link" href="../youtube-playlist-source/"> <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"> <rect x="2" y="2" width="12" height="12" rx="3" stroke="currentColor" stroke-width="1.4"></rect> <path d="M5 8h6M8 5v6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path> </svg> <span>YouTube Playlist Source</span> </a><div class="sidebar-divider"></div>  <div class="sidebar-section-label">Other Options</div> <a class="sidebar-link" href="../navigation-and-progress/"> <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"> <rect x="2" y="2" width="12" height="12" rx="3" stroke="currentColor" stroke-width="1.4"></rect> <path d="M5 8h6M8 5v6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path> </svg> <span>Navigation and Progress</span> </a><a class="sidebar-link" href="../publishing-and-shortcodes/"> <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"> <rect x="2" y="2" width="12" height="12" rx="3" stroke="currentColor" stroke-width="1.4"></rect> <path d="M5 8h6M8 5v6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path> </svg> <span>Publishing and Shortcodes</span> </a><a class="sidebar-link" href="../import-and-export/"> <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"> <rect x="2" y="2" width="12" height="12" rx="3" stroke="currentColor" stroke-width="1.4"></rect> <path d="M5 8h6M8 5v6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path> </svg> <span>Import and Export</span> </a><a class="sidebar-link" href="../templates-library/"> <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"> <rect x="2" y="2" width="12" height="12" rx="3" stroke="currentColor" stroke-width="1.4"></rect> <path d="M5 8h6M8 5v6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path> </svg> <span>Templates Library</span> </a><a class="sidebar-link" href="../addons-and-licensing/"> <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"> <rect x="2" y="2" width="12" height="12" rx="3" stroke="currentColor" stroke-width="1.4"></rect> <path d="M5 8h6M8 5v6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path> </svg> <span>Addons and Licensing</span> </a><div class="sidebar-divider"></div>  <div class="sidebar-section-label">Reference</div> <a class="sidebar-link active-page" href="../events-methods/"> <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"> <rect x="2" y="2" width="12" height="12" rx="3" stroke="currentColor" stroke-width="1.4"></rect> <path d="M5 8h6M8 5v6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path> </svg> <span>Events and Methods</span> </a><a class="sidebar-link" href="../changelog/"> <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"> <rect x="2" y="2" width="12" height="12" rx="3" stroke="currentColor" stroke-width="1.4"></rect> <path d="M5 8h6M8 5v6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path> </svg> <span>Changelog</span> </a><div class="sidebar-divider"></div>  <div class="sidebar-section-label">Support</div> <a class="sidebar-link" href="../faq/"> <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"> <rect x="2" y="2" width="12" height="12" rx="3" stroke="currentColor" stroke-width="1.4"></rect> <path d="M5 8h6M8 5v6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path> </svg> <span>FAQ</span> </a><a class="sidebar-link" href="../external-services/"> <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"> <rect x="2" y="2" width="12" height="12" rx="3" stroke="currentColor" stroke-width="1.4"></rect> <path d="M5 8h6M8 5v6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path> </svg> <span>External Services</span> </a><div class="sidebar-divider"></div>  <div class="sidebar-footer"> <span>Zoro Slider WordPress plugin documentation.</span> </div> </aside> <main data-docs-main> <div class="content-inner">  <div class="breadcrumb"> <span>Docs</span> <span>/</span> <span>Events and Methods</span> </div> <article class="doc-surface"> <div class="doc-hero"> <h1>Events and Methods</h1> <p>Learn how to integrate Zoro Slider with frontend runtime events, public methods, custom events, and callback functions.</p> </div> <div class="doc-content"> <h1 id="events-and-methods">Events and Methods</h1>
+<p>Zoro Slider supports integration in three main ways:</p>
+<ol>
+<li>frontend runtime events emitted by the slider</li>
+<li>builder-configured layer actions such as custom events and callback functions</li>
+<li>public runtime methods you can call from your theme, plugin, or page scripts</li>
+</ol>
+<p>This page documents both the public frontend API exposed by the slider runtime and the layer-side integration patterns you can test immediately. For the full layer-side setup of custom events, callback functions, and advanced actions, also see <a href="/layer-options/#testing-a-custom-event/">Layer Options</a>.</p>
+<h2 id="frontend-runtime-events">Frontend Runtime Events</h2>
+<p>The frontend slider runtime emits <code>zoroslider:*</code> events that you can listen to from your page scripts.</p>
+<h2 id="lifecycle-events">Lifecycle events</h2>
+<ul>
+<li><code>zoroslider:init</code></li>
+<li><code>zoroslider:ready</code></li>
+<li><code>zoroslider:destroy</code></li>
+<li><code>zoroslider:error</code></li>
+</ul>
+<h2 id="slide-navigation-events">Slide navigation events</h2>
+<ul>
+<li><code>zoroslider:before-slide-change</code></li>
+<li><code>zoroslider:slide-change-start</code></li>
+<li><code>zoroslider:slide-change</code></li>
+<li><code>zoroslider:slide-change-end</code></li>
+<li><code>zoroslider:slide-change-cancel</code></li>
+<li><code>zoroslider:after-slide-change</code></li>
+</ul>
+<h2 id="autoplay-events">Autoplay events</h2>
+<ul>
+<li><code>zoroslider:autoplay-start</code></li>
+<li><code>zoroslider:autoplay-stop</code></li>
+<li><code>zoroslider:autoplay-pause</code></li>
+<li><code>zoroslider:autoplay-resume</code></li>
+<li><code>zoroslider:autoplay-progress</code></li>
+<li><code>zoroslider:autoplay-complete</code></li>
+</ul>
+<h2 id="interaction-events">Interaction events</h2>
+<ul>
+<li><code>zoroslider:next</code></li>
+<li><code>zoroslider:previous</code></li>
+<li><code>zoroslider:slide-to</code></li>
+<li><code>zoroslider:swipe</code></li>
+<li><code>zoroslider:keyboard-navigation</code></li>
+<li><code>zoroslider:control-click</code></li>
+<li><code>zoroslider:dot-click</code></li>
+<li><code>zoroslider:thumb-click</code></li>
+</ul>
+<h2 id="layer-events">Layer events</h2>
+<ul>
+<li><code>zoroslider:layer-before-in</code></li>
+<li><code>zoroslider:layer-after-in</code></li>
+<li><code>zoroslider:layer-before-out</code></li>
+<li><code>zoroslider:layer-after-out</code></li>
+<li><code>zoroslider:layer-click</code></li>
+<li><code>zoroslider:layer-show</code></li>
+<li><code>zoroslider:layer-hide</code></li>
+</ul>
+<h2 id="transition-events">Transition events</h2>
+<ul>
+<li><code>zoroslider:transition-start</code></li>
+<li><code>zoroslider:transition-end</code></li>
+<li><code>zoroslider:transition-cancel</code></li>
+</ul>
+<h2 id="responsive-events">Responsive events</h2>
+<ul>
+<li><code>zoroslider:resize</code></li>
+<li><code>zoroslider:layout-change</code></li>
+<li><code>zoroslider:device-change</code></li>
+</ul>
+<h2 id="carousel-events">Carousel events</h2>
+<ul>
+<li><code>zoroslider:carousel-move</code></li>
+<li><code>zoroslider:carousel-moved</code></li>
+<li><code>zoroslider:carousel-item-click</code></li>
+</ul>
+<h2 id="media-events">Media events</h2>
+<ul>
+<li><code>zoroslider:media-ready</code></li>
+<li><code>zoroslider:media-play</code></li>
+<li><code>zoroslider:media-playing</code></li>
+<li><code>zoroslider:media-pause</code></li>
+<li><code>zoroslider:media-ended</code></li>
+<li><code>zoroslider:media-time-update</code></li>
+<li><code>zoroslider:media-seeked</code></li>
+<li><code>zoroslider:media-volume-change</code></li>
+<li><code>zoroslider:media-error</code></li>
+</ul>
+<h2 id="video-specific-events">Video-specific events</h2>
+<ul>
+<li><code>zoroslider:video-ready</code></li>
+<li><code>zoroslider:video-play</code></li>
+<li><code>zoroslider:video-playing</code></li>
+<li><code>zoroslider:video-pause</code></li>
+<li><code>zoroslider:video-ended</code></li>
+<li><code>zoroslider:video-volume-change</code></li>
+<li><code>zoroslider:video-enter-fullscreen</code></li>
+<li><code>zoroslider:video-exit-fullscreen</code></li>
+<li><code>zoroslider:video-error</code></li>
+</ul>
+<h2 id="audio-specific-events">Audio-specific events</h2>
+<ul>
+<li><code>zoroslider:audio-ready</code></li>
+<li><code>zoroslider:audio-play</code></li>
+<li><code>zoroslider:audio-playing</code></li>
+<li><code>zoroslider:audio-pause</code></li>
+<li><code>zoroslider:audio-ended</code></li>
+<li><code>zoroslider:audio-volume-change</code></li>
+<li><code>zoroslider:audio-error</code></li>
+</ul>
+<h2 id="listening-for-runtime-events">Listening for runtime events</h2>
+<h3 id="example-1-using-jquery">Example 1: Using jQuery</h3>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="js"><code><span class="line"><span style="color:#B392F0">jQuery</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">'#my-slider'</span><span style="color:#E1E4E8">).</span><span style="color:#B392F0">on</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">'zoroslider:after-slide-change'</span><span style="color:#E1E4E8">, </span><span style="color:#F97583">function</span><span style="color:#E1E4E8"> (</span><span style="color:#FFAB70">e</span><span style="color:#E1E4E8">, </span><span style="color:#FFAB70">detail</span><span style="color:#E1E4E8">) {</span></span>
+<span class="line"><span style="color:#E1E4E8">  console.</span><span style="color:#B392F0">log</span><span style="color:#E1E4E8">(detail </span><span style="color:#F97583">&#x26;&#x26;</span><span style="color:#E1E4E8"> detail.currentIndex);</span></span>
+<span class="line"><span style="color:#E1E4E8">});</span></span></code></pre>
+<h3 id="example-1-using-vanilla-javascript">Example 1: Using Vanilla JavaScript</h3>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="js"><code><span class="line"><span style="color:#E1E4E8">document</span></span>
+<span class="line"><span style="color:#E1E4E8">  .</span><span style="color:#B392F0">getElementById</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">'my-slider'</span><span style="color:#E1E4E8">)</span></span>
+<span class="line"><span style="color:#E1E4E8">  .</span><span style="color:#B392F0">addEventListener</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">'zoroslider:after-slide-change'</span><span style="color:#E1E4E8">, </span><span style="color:#F97583">function</span><span style="color:#E1E4E8"> (</span><span style="color:#FFAB70">e</span><span style="color:#E1E4E8">) {</span></span>
+<span class="line"><span style="color:#F97583">    const</span><span style="color:#79B8FF"> detail</span><span style="color:#F97583"> =</span><span style="color:#E1E4E8"> e.detail;</span></span>
+<span class="line"><span style="color:#E1E4E8">    console.</span><span style="color:#B392F0">log</span><span style="color:#E1E4E8">(detail </span><span style="color:#F97583">&#x26;&#x26;</span><span style="color:#E1E4E8"> detail.currentIndex);</span></span>
+<span class="line"><span style="color:#E1E4E8">  });</span></span></code></pre>
+<h3 id="example-2-using-jquery">Example 2: Using jQuery</h3>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="js"><code><span class="line"><span style="color:#B392F0">$</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">'#my-slider'</span><span style="color:#E1E4E8">).</span><span style="color:#B392F0">on</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">'zoroslider:after-slide-change'</span><span style="color:#E1E4E8">, (</span><span style="color:#FFAB70">e</span><span style="color:#E1E4E8">) </span><span style="color:#F97583">=></span><span style="color:#E1E4E8"> {</span></span>
+<span class="line"><span style="color:#F97583">  const</span><span style="color:#79B8FF"> detail</span><span style="color:#F97583"> =</span><span style="color:#E1E4E8"> e.originalEvent.detail;</span></span>
+<span class="line"><span style="color:#E1E4E8">  console.</span><span style="color:#B392F0">log</span><span style="color:#E1E4E8">(detail.currentIndex);</span></span>
+<span class="line"><span style="color:#E1E4E8">});</span></span></code></pre>
+<h3 id="example-2-using-vanilla-javascript">Example 2: Using Vanilla JavaScript</h3>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="js"><code><span class="line"><span style="color:#F97583">const</span><span style="color:#79B8FF"> slider</span><span style="color:#F97583"> =</span><span style="color:#E1E4E8"> document.</span><span style="color:#B392F0">getElementById</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">'my-slider'</span><span style="color:#E1E4E8">);</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8">slider.</span><span style="color:#B392F0">addEventListener</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">'zoroslider:after-slide-change'</span><span style="color:#E1E4E8">, (</span><span style="color:#FFAB70">e</span><span style="color:#E1E4E8">) </span><span style="color:#F97583">=></span><span style="color:#E1E4E8"> {</span></span>
+<span class="line"><span style="color:#F97583">  const</span><span style="color:#79B8FF"> detail</span><span style="color:#F97583"> =</span><span style="color:#E1E4E8"> e.detail;</span></span>
+<span class="line"><span style="color:#E1E4E8">  console.</span><span style="color:#B392F0">log</span><span style="color:#E1E4E8">(detail.currentIndex);</span></span>
+<span class="line"><span style="color:#E1E4E8">});</span></span></code></pre>
+<p>Depending on the event source, detail may also be available through the event object. If you are wiring up custom logic, inspect the event once in the browser console first.</p>
+<h2 id="public-runtime-methods">Public Runtime Methods</h2>
+<p>The runtime stores a public API handle on the slider element as <code>zorosliderapi</code>.</p>
+<h3 id="example-using-jquery">Example Using jQuery</h3>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="js"><code><span class="line"><span style="color:#F97583">const</span><span style="color:#79B8FF"> api</span><span style="color:#F97583"> =</span><span style="color:#B392F0"> jQuery</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">'#my-slider'</span><span style="color:#E1E4E8">).</span><span style="color:#B392F0">data</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">'zorosliderapi'</span><span style="color:#E1E4E8">);</span></span></code></pre>
+<h3 id="example-using-vanilla-javascript">Example Using Vanilla JavaScript</h3>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="js"><code><span class="line"><span style="color:#F97583">const</span><span style="color:#79B8FF"> api</span><span style="color:#F97583"> =</span><span style="color:#E1E4E8"> document.</span><span style="color:#B392F0">getElementById</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">'my-slider'</span><span style="color:#E1E4E8">).dataset.zorosliderapi;</span></span></code></pre>
+<h2 id="navigation-methods">Navigation methods</h2>
+<ul>
+<li><code>next()</code></li>
+<li><code>previous()</code></li>
+<li><code>goTo(index)</code></li>
+<li><code>goToFirst()</code></li>
+<li><code>goToLast()</code></li>
+</ul>
+<h2 id="state-and-slide-information-methods">State and slide information methods</h2>
+<ul>
+<li><code>getCurrentIndex()</code></li>
+<li><code>getPreviousIndex()</code></li>
+<li><code>getSlideCount()</code></li>
+<li><code>getCurrentSlide()</code></li>
+<li><code>getSlide(index)</code></li>
+<li><code>isAnimating()</code></li>
+<li><code>isPaused()</code></li>
+<li><code>isAutoplayEnabled()</code></li>
+</ul>
+<h2 id="autoplay-methods">Autoplay methods</h2>
+<ul>
+<li><code>startAutoplay()</code></li>
+<li><code>pauseAutoplay()</code></li>
+<li><code>resumeAutoplay()</code></li>
+<li><code>stopAutoplay()</code></li>
+<li><code>restartAutoplay()</code></li>
+</ul>
+<h2 id="slider-lifecycle-and-layout-methods">Slider lifecycle and layout methods</h2>
+<ul>
+<li><code>destroy()</code></li>
+<li><code>refresh()</code></li>
+<li><code>update()</code></li>
+<li><code>refreshLayout()</code></li>
+<li><code>setLayout(layout)</code></li>
+<li><code>getLayout()</code></li>
+<li><code>getDevice()</code></li>
+</ul>
+<h2 id="layer-methods">Layer methods</h2>
+<ul>
+<li><code>showLayer(layer)</code></li>
+<li><code>hideLayer(layer)</code></li>
+<li><code>toggleLayer(layer)</code></li>
+<li><code>removeLayer(layer)</code></li>
+<li><code>addLayer(configOrElement)</code></li>
+<li><code>animateLayerIn(layer, delay)</code></li>
+<li><code>animateLayerOut(layer, delay)</code></li>
+<li><code>toggleLayerAnimation(layer, inDelay, outDelay)</code></li>
+<li><code>triggerLayerClick(layer)</code></li>
+</ul>
+<h2 id="media-methods">Media methods</h2>
+<ul>
+<li><code>playMedia(selectorOrLayer)</code></li>
+<li><code>pauseMedia(selectorOrLayer)</code></li>
+<li><code>stopMedia(selectorOrLayer)</code></li>
+<li><code>muteMedia(selectorOrLayer)</code></li>
+<li><code>unmuteMedia(selectorOrLayer)</code></li>
+<li><code>setMediaVolume(selectorOrLayer, volume)</code></li>
+</ul>
+<h2 id="scrolling-methods">Scrolling methods</h2>
+<ul>
+<li><code>scrollToSliderTop(offset)</code></li>
+<li><code>scrollToSliderBottom(offset)</code></li>
+<li><code>scrollToPageTop(offset)</code></li>
+<li><code>scrollToPageBottom(offset)</code></li>
+<li><code>scrollToElement(element, offset)</code></li>
+</ul>
+<h2 id="options-and-api-access-methods">Options and API access methods</h2>
+<ul>
+<li><code>getOption(name)</code></li>
+<li><code>setOption(name, value)</code></li>
+<li><code>getOptions()</code></li>
+<li><code>getSlides()</code></li>
+<li><code>getApi()</code></li>
+</ul>
+<h2 id="public-method-example">Public method example</h2>
+<h3 id="example-using-jquery-1">Example Using jQuery</h3>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="js"><code><span class="line"><span style="color:#F97583">const</span><span style="color:#79B8FF"> api</span><span style="color:#F97583"> =</span><span style="color:#B392F0"> jQuery</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">'#my-slider'</span><span style="color:#E1E4E8">).</span><span style="color:#B392F0">data</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">'zorosliderapi'</span><span style="color:#E1E4E8">);</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#F97583">if</span><span style="color:#E1E4E8"> (api) {</span></span>
+<span class="line"><span style="color:#E1E4E8">  api.</span><span style="color:#B392F0">goTo</span><span style="color:#E1E4E8">(</span><span style="color:#79B8FF">3</span><span style="color:#E1E4E8">);</span></span>
+<span class="line"><span style="color:#E1E4E8">  api.</span><span style="color:#B392F0">pauseAutoplay</span><span style="color:#E1E4E8">();</span></span>
+<span class="line"><span style="color:#E1E4E8">}</span></span></code></pre>
+<h3 id="example-using-vanilla-javascript-1">Example Using Vanilla JavaScript</h3>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="js"><code><span class="line"><span style="color:#F97583">const</span><span style="color:#79B8FF"> slider</span><span style="color:#F97583"> =</span><span style="color:#E1E4E8"> document.</span><span style="color:#B392F0">getElementById</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">'my-slider'</span><span style="color:#E1E4E8">);</span></span>
+<span class="line"><span style="color:#F97583">const</span><span style="color:#79B8FF"> api</span><span style="color:#F97583"> =</span><span style="color:#E1E4E8"> slider.dataset.zorosliderapi;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#F97583">if</span><span style="color:#E1E4E8"> (api </span><span style="color:#F97583">&#x26;&#x26;</span><span style="color:#F97583"> typeof</span><span style="color:#E1E4E8"> api.goTo </span><span style="color:#F97583">===</span><span style="color:#9ECBFF"> 'function'</span><span style="color:#F97583"> &#x26;&#x26;</span><span style="color:#F97583"> typeof</span><span style="color:#E1E4E8"> api.pauseAutoplay </span><span style="color:#F97583">===</span><span style="color:#9ECBFF"> 'function'</span><span style="color:#E1E4E8">) {</span></span>
+<span class="line"><span style="color:#E1E4E8">  api.</span><span style="color:#B392F0">goTo</span><span style="color:#E1E4E8">(</span><span style="color:#79B8FF">3</span><span style="color:#E1E4E8">);</span></span>
+<span class="line"><span style="color:#E1E4E8">  api.</span><span style="color:#B392F0">pauseAutoplay</span><span style="color:#E1E4E8">();</span></span>
+<span class="line"><span style="color:#E1E4E8">}</span></span></code></pre>
+<h2 id="recommended-integration-order">Recommended Integration Order</h2>
+<p>If you are adding custom behavior to a slider, use this order:</p>
+<ol>
+<li>build the slider and save it</li>
+<li>assign a stable layer ID in the layer settings</li>
+<li>configure the layer action in the builder</li>
+<li>test it on preview</li>
+<li>test it again on the frontend page where the slider is embedded</li>
+</ol>
+<p>This helps you separate builder configuration problems from theme or frontend script problems.</p>
+<h2 id="layer-custom-events">Layer Custom Events</h2>
+<p>The most reliable event-driven integration path is the layer <strong>Custom Event</strong> action.</p>
+<p>In the builder:</p>
+<ol>
+<li>select a layer</li>
+<li>open <code>Layer Settings</code></li>
+<li>go to the <code>Advanced</code> area</li>
+<li>add an action row</li>
+<li>set <code>Event</code> to <code>Custom Event</code></li>
+<li>enter an <code>Event Name</code> such as <code>promoOpen</code></li>
+<li>choose the action behavior you want to trigger</li>
+</ol>
+<h3 id="jquery-trigger-example">jQuery trigger example</h3>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="js"><code><span class="line"><span style="color:#B392F0">jQuery</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">'#your-layer-id'</span><span style="color:#E1E4E8">).</span><span style="color:#B392F0">trigger</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">'promoOpen'</span><span style="color:#E1E4E8">);</span></span></code></pre>
+<h3 id="jquery-button-to-layer-example">jQuery button-to-layer example</h3>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="js"><code><span class="line"><span style="color:#B392F0">jQuery</span><span style="color:#E1E4E8">(</span><span style="color:#F97583">function</span><span style="color:#E1E4E8"> (</span><span style="color:#FFAB70">$</span><span style="color:#E1E4E8">) {</span></span>
+<span class="line"><span style="color:#B392F0">  $</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">'#open-promo-button'</span><span style="color:#E1E4E8">).</span><span style="color:#B392F0">on</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">'click'</span><span style="color:#E1E4E8">, </span><span style="color:#F97583">function</span><span style="color:#E1E4E8"> () {</span></span>
+<span class="line"><span style="color:#B392F0">    $</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">'#your-layer-id'</span><span style="color:#E1E4E8">).</span><span style="color:#B392F0">trigger</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">'promoOpen'</span><span style="color:#E1E4E8">);</span></span>
+<span class="line"><span style="color:#E1E4E8">  });</span></span>
+<span class="line"><span style="color:#E1E4E8">});</span></span></code></pre>
+<h3 id="vanilla-javascript-trigger-example">Vanilla JavaScript trigger example</h3>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="js"><code><span class="line"><span style="color:#E1E4E8">document</span></span>
+<span class="line"><span style="color:#E1E4E8">  .</span><span style="color:#B392F0">getElementById</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">'your-layer-id'</span><span style="color:#E1E4E8">)</span></span>
+<span class="line"><span style="color:#E1E4E8">  .</span><span style="color:#B392F0">dispatchEvent</span><span style="color:#E1E4E8">(</span><span style="color:#F97583">new</span><span style="color:#B392F0"> Event</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">'promoOpen'</span><span style="color:#E1E4E8">, { bubbles: </span><span style="color:#79B8FF">true</span><span style="color:#E1E4E8"> }));</span></span></code></pre>
+<h3 id="vanilla-javascript-button-to-layer-example">Vanilla JavaScript button-to-layer example</h3>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="js"><code><span class="line"><span style="color:#E1E4E8">document.</span><span style="color:#B392F0">addEventListener</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">'DOMContentLoaded'</span><span style="color:#E1E4E8">, </span><span style="color:#F97583">function</span><span style="color:#E1E4E8"> () {</span></span>
+<span class="line"><span style="color:#F97583">  const</span><span style="color:#79B8FF"> button</span><span style="color:#F97583"> =</span><span style="color:#E1E4E8"> document.</span><span style="color:#B392F0">getElementById</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">'open-promo-button'</span><span style="color:#E1E4E8">);</span></span>
+<span class="line"><span style="color:#F97583">  const</span><span style="color:#79B8FF"> layer</span><span style="color:#F97583"> =</span><span style="color:#E1E4E8"> document.</span><span style="color:#B392F0">getElementById</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">'your-layer-id'</span><span style="color:#E1E4E8">);</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#F97583">  if</span><span style="color:#E1E4E8"> (</span><span style="color:#F97583">!</span><span style="color:#E1E4E8">button </span><span style="color:#F97583">||</span><span style="color:#F97583"> !</span><span style="color:#E1E4E8">layer) {</span></span>
+<span class="line"><span style="color:#F97583">    return</span><span style="color:#E1E4E8">;</span></span>
+<span class="line"><span style="color:#E1E4E8">  }</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8">  button.</span><span style="color:#B392F0">addEventListener</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">'click'</span><span style="color:#E1E4E8">, </span><span style="color:#F97583">function</span><span style="color:#E1E4E8"> () {</span></span>
+<span class="line"><span style="color:#E1E4E8">    layer.</span><span style="color:#B392F0">dispatchEvent</span><span style="color:#E1E4E8">(</span><span style="color:#F97583">new</span><span style="color:#B392F0"> Event</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">'promoOpen'</span><span style="color:#E1E4E8">, { bubbles: </span><span style="color:#79B8FF">true</span><span style="color:#E1E4E8"> }));</span></span>
+<span class="line"><span style="color:#E1E4E8">  });</span></span>
+<span class="line"><span style="color:#E1E4E8">});</span></span></code></pre>
+<h2 id="callback-function-actions">Callback Function Actions</h2>
+<p>Zoro Slider supports callback-driven actions from the layer action settings. Use them when a layer event should call custom JavaScript in your site.</p>
+<h2 id="inline-callback-type">Inline Callback Type</h2>
+<p>Use <code>Inline</code> when the callback logic is short and specific to one slider interaction.</p>
+<p>Example builder values:</p>
+<ul>
+<li><code>Callback Type</code>: <code>Inline</code></li>
+<li><code>Callback Function</code>:</li>
+</ul>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="js"><code><span class="line"><span style="color:#E1E4E8">console.</span><span style="color:#B392F0">log</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">'Inline callback fired for layer action'</span><span style="color:#E1E4E8">);</span></span>
+<span class="line"><span style="color:#E1E4E8">document.body.classList.</span><span style="color:#B392F0">add</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">'promo-open'</span><span style="color:#E1E4E8">);</span></span></code></pre>
+<p>Use inline callbacks for quick tests and one-off UI reactions. For reusable site logic, use <code>External</code> instead.</p>
+<h2 id="external-callback-type">External Callback Type</h2>
+<p>Use <code>External</code> when you want to call a named function that already exists in your site JavaScript.</p>
+<p>Example builder values:</p>
+<ul>
+<li><code>Callback Type</code>: <code>External</code></li>
+<li><code>Callback Name</code>: <code>myZoroLayerCallback</code></li>
+<li><code>Callback Args</code>: <code>"hello", 2, true, "#target-block"</code></li>
+</ul>
+<p>Then define the function on the page:</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="js"><code><span class="line"><span style="color:#F97583">function</span><span style="color:#B392F0"> myZoroLayerCallback</span><span style="color:#E1E4E8">(</span><span style="color:#FFAB70">message</span><span style="color:#E1E4E8">, </span><span style="color:#FFAB70">count</span><span style="color:#E1E4E8">, </span><span style="color:#FFAB70">enabled</span><span style="color:#E1E4E8">, </span><span style="color:#FFAB70">selector</span><span style="color:#E1E4E8">) {</span></span>
+<span class="line"><span style="color:#E1E4E8">  console.</span><span style="color:#B392F0">log</span><span style="color:#E1E4E8">(message, count, enabled, selector);</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#F97583">  const</span><span style="color:#79B8FF"> target</span><span style="color:#F97583"> =</span><span style="color:#E1E4E8"> document.</span><span style="color:#B392F0">querySelector</span><span style="color:#E1E4E8">(selector);</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#F97583">  if</span><span style="color:#E1E4E8"> (enabled </span><span style="color:#F97583">&#x26;&#x26;</span><span style="color:#E1E4E8"> target) {</span></span>
+<span class="line"><span style="color:#E1E4E8">    target.classList.</span><span style="color:#B392F0">add</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">'is-active'</span><span style="color:#E1E4E8">);</span></span>
+<span class="line"><span style="color:#E1E4E8">  }</span></span>
+<span class="line"><span style="color:#E1E4E8">}</span></span></code></pre>
+<h3 id="when-to-use-external-instead-of-inline">When to use External instead of Inline</h3>
+<p>Prefer <code>External</code> when:</p>
+<ul>
+<li>the same logic is used by multiple sliders</li>
+<li>the callback is longer than a few lines</li>
+<li>the code needs version control in your theme or plugin</li>
+<li>another developer needs to maintain the behavior later</li>
+</ul>
+<h2 id="runtime-access-patterns">Runtime Access Patterns</h2>
+<p>After a slider is embedded on a page, you may also add your own UI around it, such as custom buttons, page-level navigation, or helper scripts.</p>
+<p>Common examples include:</p>
+<ul>
+<li>open a modal or panel when a layer is clicked</li>
+<li>jump to a specific slide from a custom page button</li>
+<li>pause or resume slider behavior from external UI</li>
+<li>sync page elements with slider state</li>
+</ul>
+<p>The standard runtime handle is:</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="js"><code><span class="line"><span style="color:#B392F0">jQuery</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">'#my-slider'</span><span style="color:#E1E4E8">).</span><span style="color:#B392F0">data</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">'zorosliderapi'</span><span style="color:#E1E4E8">);</span></span></code></pre>
+<p>Even so, you should still verify the handle in the browser console before depending on it in production code, especially if the page has multiple sliders.</p>
+<h2 id="safe-runtime-testing-workflow">Safe Runtime Testing Workflow</h2>
+<p>Use this workflow before documenting or shipping a custom integration:</p>
+<ol>
+<li>embed the slider on a normal page using the shortcode or PHP snippet</li>
+<li>open browser developer tools</li>
+<li>confirm the target slider element and layer IDs exist</li>
+<li>test the custom event with a manual trigger</li>
+<li>test the callback output in the console</li>
+<li>only then connect external page controls</li>
+</ol>
+<h2 id="embedding-matters">Embedding Matters</h2>
+<p>Preview and frontend rendering can differ if you test unsaved builder changes or if your theme adds its own styling around slider elements.</p>
+<p>For final integration testing:</p>
+<ol>
+<li>save the slider first</li>
+<li>embed it on a normal WordPress page</li>
+<li>test both the visual result and the event or callback behavior there</li>
+</ol>
+<p>If you need help embedding the slider first, see <a href="/publishing-and-shortcodes/">Publishing and Shortcodes</a>.</p>
+<h2 id="related-pages">Related Pages</h2>
+<ul>
+<li><a href="/getting-started/">Getting Started</a></li>
+<li><a href="/builder-workspace/">Builder Workspace</a></li>
+<li><a href="/layer-options/">Layer Options</a></li>
+<li><a href="/publishing-and-shortcodes/">Publishing and Shortcodes</a></li>
+</ul> </div> </article>  <nav class="page-nav" aria-label="Previous and next page"><div style="flex:1"></div><a class="page-nav-btn next" href="../navigation-and-progress/"><div class="page-nav-label">Next</div><div class="page-nav-title">Navigation and Progress</div></a></nav> <footer class="docs-footer"> <div class="docs-footer-copy">&copy; 2026 ZoroSlider. All rights reserved.</div> <div class="docs-footer-socials" aria-label="ZoroSlider social links"> <a class="docs-social-link" href="https://github.com/themecrest" target="_blank" rel="noreferrer" aria-label="GitHub"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"> <path stroke="none" d="M0 0h24v24H0z" fill="none"></path> <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path> </svg> </a> <a class="docs-social-link" href="https://x.com/themecrest" target="_blank" rel="noreferrer" aria-label="X"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"> <path stroke="none" d="M0 0h24v24H0z" fill="none"></path> <path d="M4 4l11.733 16h4.267l-11.733 -16l-4.267 0"></path> <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path> </svg> </a> </div> </footer> </div> </main> <aside class="toc" data-docs-toc> <div class="toc-inner"> <div class="toc-label toc-label-prominent">Table of Contents</div> <a class="toc-link" href="#events-and-methods">Events and Methods</a><a class="toc-link" href="#frontend-runtime-events">Frontend Runtime Events</a><a class="toc-link" href="#lifecycle-events">Lifecycle events</a><a class="toc-link" href="#slide-navigation-events">Slide navigation events</a><a class="toc-link" href="#autoplay-events">Autoplay events</a><a class="toc-link" href="#interaction-events">Interaction events</a><a class="toc-link" href="#layer-events">Layer events</a><a class="toc-link" href="#transition-events">Transition events</a><a class="toc-link" href="#responsive-events">Responsive events</a><a class="toc-link" href="#carousel-events">Carousel events</a><a class="toc-link" href="#media-events">Media events</a><a class="toc-link" href="#video-specific-events">Video-specific events</a><a class="toc-link" href="#audio-specific-events">Audio-specific events</a><a class="toc-link" href="#listening-for-runtime-events">Listening for runtime events</a><a class="toc-link" href="#example-1-using-jquery">Example 1: Using jQuery</a><a class="toc-link" href="#example-1-using-vanilla-javascript">Example 1: Using Vanilla JavaScript</a><a class="toc-link" href="#example-2-using-jquery">Example 2: Using jQuery</a><a class="toc-link" href="#example-2-using-vanilla-javascript">Example 2: Using Vanilla JavaScript</a><a class="toc-link" href="#public-runtime-methods">Public Runtime Methods</a><a class="toc-link" href="#example-using-jquery">Example Using jQuery</a><a class="toc-link" href="#example-using-vanilla-javascript">Example Using Vanilla JavaScript</a><a class="toc-link" href="#navigation-methods">Navigation methods</a><a class="toc-link" href="#state-and-slide-information-methods">State and slide information methods</a><a class="toc-link" href="#autoplay-methods">Autoplay methods</a><a class="toc-link" href="#slider-lifecycle-and-layout-methods">Slider lifecycle and layout methods</a><a class="toc-link" href="#layer-methods">Layer methods</a><a class="toc-link" href="#media-methods">Media methods</a><a class="toc-link" href="#scrolling-methods">Scrolling methods</a><a class="toc-link" href="#options-and-api-access-methods">Options and API access methods</a><a class="toc-link" href="#public-method-example">Public method example</a><a class="toc-link" href="#example-using-jquery-1">Example Using jQuery</a><a class="toc-link" href="#example-using-vanilla-javascript-1">Example Using Vanilla JavaScript</a><a class="toc-link" href="#recommended-integration-order">Recommended Integration Order</a><a class="toc-link" href="#layer-custom-events">Layer Custom Events</a><a class="toc-link" href="#jquery-trigger-example">jQuery trigger example</a><a class="toc-link" href="#jquery-button-to-layer-example">jQuery button-to-layer example</a><a class="toc-link" href="#vanilla-javascript-trigger-example">Vanilla JavaScript trigger example</a><a class="toc-link" href="#vanilla-javascript-button-to-layer-example">Vanilla JavaScript button-to-layer example</a><a class="toc-link" href="#callback-function-actions">Callback Function Actions</a><a class="toc-link" href="#inline-callback-type">Inline Callback Type</a><a class="toc-link" href="#external-callback-type">External Callback Type</a><a class="toc-link" href="#when-to-use-external-instead-of-inline">When to use External instead of Inline</a><a class="toc-link" href="#runtime-access-patterns">Runtime Access Patterns</a><a class="toc-link" href="#safe-runtime-testing-workflow">Safe Runtime Testing Workflow</a><a class="toc-link" href="#embedding-matters">Embedding Matters</a><a class="toc-link" href="#related-pages">Related Pages</a> <div class="toc-divider"></div> <div class="toc-meta">
+These docs are written for plugin users.
+</div> </div> </aside> </div> </div> <div class="search-modal hidden" data-search-modal aria-hidden="true"> <div class="search-modal-backdrop" data-search-close></div> <div class="search-modal-panel" role="dialog" aria-modal="true" aria-labelledby="searchModalTitle"> <div class="search-modal-header"> <div class="search-modal-title-wrap"> <div class="search-modal-title" id="searchModalTitle">Search documentation</div> <div class="search-modal-meta">Type to search docs pages and jump directly to the result.</div> </div> <button class="search-modal-close" type="button" data-search-close aria-label="Close search">Esc</button> </div> <div class="search-modal-input-wrap"> <svg class="search-modal-icon" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"> <circle cx="11" cy="11" r="8"></circle> <path d="M21 21l-4.35-4.35"></path> </svg> <input class="search-modal-input" type="search" data-search-modal-input placeholder="Search docs..." autocomplete="off" spellcheck="false" aria-label="Search documentation"> </div> <div class="search-modal-results hidden" data-search-modal-results></div> </div> </div> <!-- Lightbox HTML --> <div id="lightbox" class="lightbox-overlay"> <span class="lightbox-close">&times;</span> <span class="lightbox-nav prev">&#10094;</span> <span class="lightbox-nav next">&#10095;</span> <img id="lightbox-img" src="" alt="Enlarged view"> </div> <script>(function(){const searchIndex = [{"slug":"events-methods","href": "../events-methods/","title":"Events and Methods","description":"Learn how to integrate Zoro Slider with frontend runtime events, public methods, custom events, and callback functions.","text":"Learn how to integrate Zoro Slider with frontend runtime events, public methods, custom events, and callback functions."},{"slug":"navigation-and-progress","href": "../navigation-and-progress/","title":"Navigation and Progress","description":"Configure controls, thumbnails, dots, numbers, keyboard navigation, swipe support, and progress indicators.","text":"Configure controls, thumbnails, dots, numbers, keyboard navigation, swipe support, and progress indicators."},{"slug":"overview","href": "../","title":"Overview","description":"Learn what Zoro Slider can build in WordPress and what features are available before you start creating sliders.","text":"Learn what Zoro Slider can build in WordPress and what features are available before you start creating sliders."},{"slug":"slider-options","href": "../slider-options/","title":"Slider Options","description":"Configure layout, size, transitions, autoplay, carousel mode, loader styles, and default timing settings.","text":"Configure layout, size, transitions, autoplay, carousel mode, loader styles, and default timing settings."},{"slug":"getting-started","href": "../getting-started/","title":"Getting Started","description":"Create your first slider, save its settings, open the builder, and follow the normal project workflow.","text":"Create your first slider, save its settings, open the builder, and follow the normal project workflow."},{"slug":"manual-builder-slides-source","href": "../manual-builder-slides-source/","title":"Manual / Builder Slides","description":"Build each slide manually in the builder without using a dynamic content source.","text":"Build each slide manually in the builder without using a dynamic content source."},{"slug":"publishing-and-shortcodes","href": "../publishing-and-shortcodes/","title":"Publishing and Shortcodes","description":"Publish sliders with WordPress shortcodes and preview the final output before placing it on a page.","text":"Publish sliders with WordPress shortcodes and preview the final output before placing it on a page."},{"slug":"import-and-export","href": "../import-and-export/","title":"Import and Export","description":"Move sliders between WordPress sites with the built-in export and import workflow.","text":"Move sliders between WordPress sites with the built-in export and import workflow."},{"slug":"installation","href": "../installation/","title":"Installation","description":"Install the Zoro Slider plugin in WordPress and open the dashboard and builder screens.","text":"Install the Zoro Slider plugin in WordPress and open the dashboard and builder screens."},{"slug":"posts-source","href": "../posts-source/","title":"Posts Source","description":"Use WordPress posts or custom post types as the content source for slides.","text":"Use WordPress posts or custom post types as the content source for slides."},{"slug":"builder-workspace","href": "../builder-workspace/","title":"Builder Workspace","description":"Understand the Zoro Slider builder layout, toolbar, canvas, side panels, and history workflow.","text":"Understand the Zoro Slider builder layout, toolbar, canvas, side panels, and history workflow."},{"slug":"json-import-source","href": "../json-import-source/","title":"JSON Import Source","description":"Use a JSON feed as the content source for slides.","text":"Use a JSON feed as the content source for slides."},{"slug":"templates-library","href": "../templates-library/","title":"Templates Library","description":"Browse local and remote templates, understand library badges, preview designs, and safely import or reuse templates.","text":"Browse local and remote templates, understand library badges, preview designs, and safely import or reuse templates."},{"slug":"updating","href": "../updating/","title":"Updating","description":"Update Zoro Slider safely without losing your saved sliders and settings.","text":"Update Zoro Slider safely without losing your saved sliders and settings."},{"slug":"addons-and-licensing","href": "../addons-and-licensing/","title":"Addons and Licensing","description":"Discover Zoro Slider addons, install protected packages, manage purchase codes, and understand Free and Pro addon access.","text":"Discover Zoro Slider addons, install protected packages, manage purchase codes, and understand Free and Pro addon access."},{"slug":"import-demo-sliders","href": "../import-demo-sliders/","title":"Import Demo Sliders","description":"Import packaged demo sliders so you can start from an existing Zoro Slider design.","text":"Import packaged demo sliders so you can start from an existing Zoro Slider design."},{"slug":"slides-and-layers","href": "../slides-and-layers/","title":"Slides and Layers","description":"Build slides with background media and text, caption, HTML, image, audio, video, shape, button, and icon layers.","text":"Build slides with background media and text, caption, HTML, image, audio, video, shape, button, and icon layers."},{"slug":"youtube-playlist-source","href": "../youtube-playlist-source/","title":"YouTube Playlist Source","description":"Use a YouTube playlist as the content source for slides.","text":"Use a YouTube playlist as the content source for slides."},{"slug":"manage-sliders","href": "../manage-sliders/","title":"Manage Sliders","description":"Manage existing sliders directly from the plugin dashboard before opening the builder.","text":"Manage existing sliders directly from the plugin dashboard before opening the builder."},{"slug":"slide-options","href": "../slide-options/","title":"Slide Options","description":"Review the slide-level settings available in the Slide Settings panel under the builder slide manager area.","text":"Review the slide-level settings available in the Slide Settings panel under the builder slide manager area."},{"slug":"create-new-slider","href": "../create-new-slider/","title":"Create New Slider","description":"Create a new slider from the dashboard or builder, including template and clone-based starting points.","text":"Create a new slider from the dashboard or builder, including template and clone-based starting points."},{"slug":"layer-options","href": "../layer-options/","title":"Layer Options","description":"Review the layer-level settings available in the Layer Settings panel, including basic, content, style, animation, and advanced tabs.","text":"Review the layer-level settings available in the Layer Settings panel, including basic, content, style, animation, and advanced tabs."},{"slug":"create-new-slide","href": "../create-new-slide/","title":"Create New Slide","description":"Add a new slide from the builder top menu or from the left slide manager panel.","text":"Add a new slide from the builder top menu or from the left slide manager panel."},{"slug":"media-and-integrations","href": "../media-and-integrations/","title":"Media and Integrations","description":"Use WordPress media, HTML5 sources, Google Fonts, YouTube, and Vimeo content in your sliders.","text":"Use WordPress media, HTML5 sources, Google Fonts, YouTube, and Vimeo content in your sliders."},{"slug":"clone-new-slide","href": "../clone-new-slide/","title":"Clone New Slide","description":"Duplicate an existing slide from the builder top menu or from the slide manager panel.","text":"Duplicate an existing slide from the builder top menu or from the slide manager panel."},{"slug":"add-layer-to-a-slide","href": "../add-layer-to-a-slide/","title":"Add Layer to a Slide","description":"Add content layers to the active slide and choose the right layer type for the job.","text":"Add content layers to the active slide and choose the right layer type for the job."},{"slug":"clone-layer","href": "../clone-layer/","title":"Clone Layer","description":"Duplicate an existing layer so you can reuse content structure and styling faster.","text":"Duplicate an existing layer so you can reuse content structure and styling faster."},{"slug":"faq","href": "../faq/","title":"FAQ","description":"Find quick answers about creating sliders, using media, layout modes, and reusing sliders on other sites.","text":"Find quick answers about creating sliders, using media, layout modes, and reusing sliders on other sites."},{"slug":"external-services","href": "../external-services/","title":"External Services","description":"Review the optional external services used by Google Fonts, YouTube Playlist, JSON import, and Vimeo-enabled media features in Zoro Slider.","text":"Review the optional external services used by Google Fonts, YouTube Playlist, JSON import, and Vimeo-enabled media features in Zoro Slider."},{"slug":"changelog","href": "../changelog/","title":"Changelog","description":"Review Zoro Slider release history, fixes, improvements, and compatibility notes.","text":"Review Zoro Slider release history, fixes, improvements, and compatibility notes."}];
+
+    window.__zoroDocsSearchIndex = searchIndex;
+  })();</script> <script type="module" src="../_astro/DocsLayout.astro_astro_type_script_index_0_lang.Cks1jAGg.js"></script> </body> </html>
